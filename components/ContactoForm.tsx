@@ -11,27 +11,20 @@ export default function ContactoForm() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    const formData = new FormData(e.currentTarget)
-
-    // PERSONALIZABLE: Pon tu Access Key de Web3Forms aquí
-    // Obtén uno gratis en https://web3forms.com
-    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || 'YOUR_ACCESS_KEY_HERE'
-
-    formData.append('access_key', accessKey)
-    formData.append('subject', 'Nuevo mensaje de contacto - OrientaciónMilitar.com')
-    formData.append('from_name', 'Formulario de Contacto')
+    const form = e.currentTarget
+    const formData = new FormData(form)
 
     try {
-      const response = await fetch('https://api.web3forms.com/submit', {
+      // Envío a Netlify Forms (nativo de Netlify, sin servicios externos)
+      const response = await fetch('/', {
         method: 'POST',
-        body: formData
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData as any).toString()
       })
 
-      const data = await response.json()
-
-      if (data.success) {
+      if (response.ok) {
         setSubmitted(true)
-        e.currentTarget.reset()
+        form.reset()
       } else {
         alert('Error al enviar el mensaje. Por favor, inténtalo de nuevo.')
       }
@@ -61,7 +54,24 @@ export default function ContactoForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form
+      onSubmit={handleSubmit}
+      className="space-y-6"
+      name="contacto"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      {/* Campo oculto requerido por Netlify */}
+      <input type="hidden" name="form-name" value="contacto" />
+
+      {/* Honeypot anti-spam (oculto) */}
+      <div style={{ display: 'none' }}>
+        <label>
+          No llenar si eres humano: <input name="bot-field" />
+        </label>
+      </div>
+
       <div>
         <label htmlFor="nombre" className="block text-sm font-medium text-military-dark mb-2">
           Nombre completo *
