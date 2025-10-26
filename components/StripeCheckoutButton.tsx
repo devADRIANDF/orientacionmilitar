@@ -9,42 +9,24 @@ export default function StripeCheckoutButton() {
   const handleCheckout = async () => {
     setLoading(true)
 
-    // IMPORTANTE: Aquí irá la integración real con Stripe
-    // Por ahora es un placeholder
-
     try {
-      // Opción 1: Stripe Payment Link (más fácil - sin backend)
-      // Simplemente redirige a un Payment Link de Stripe
-      // window.location.href = 'https://buy.stripe.com/test_XXXXXX' // Tu link de Stripe
+      // Crear sesión de Stripe Checkout
+      const response = await fetch('/api/create-checkout-session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      })
 
-      // Opción 2: Stripe Checkout Session (requiere backend)
-      // const response = await fetch('/api/create-checkout-session', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ priceId: 'price_XXXXXX' })
-      // })
-      // const { url } = await response.json()
-      // window.location.href = url
+      const data = await response.json()
 
-      // PLACEHOLDER: Muestra las instrucciones
-      alert(
-        '🔧 CONFIGURACIÓN NECESARIA:\n\n' +
-        '1. OPCIÓN FÁCIL (sin backend):\n' +
-        '   - Ve a stripe.com/payments/payment-links\n' +
-        '   - Crea un Payment Link de 75€\n' +
-        '   - Copia el link y descomenta la línea 17\n\n' +
-        '2. OPCIÓN PROFESIONAL (con backend):\n' +
-        '   - Crea /app/api/create-checkout-session/route.ts\n' +
-        '   - Integra Stripe SDK\n' +
-        '   - Descomenta líneas 21-26\n\n' +
-        '3. OPCIÓN CALENDLY:\n' +
-        '   - Configura Calendly con pago integrado\n' +
-        '   - Usa CalendlyEmbed component en reservar/page.tsx'
-      )
+      if (data.url) {
+        // Redirigir a Stripe Checkout
+        window.location.href = data.url
+      } else {
+        throw new Error('No se recibió URL de checkout')
+      }
     } catch (error) {
-      console.error('Error:', error)
-      alert('Error al procesar el pago. Inténtalo de nuevo.')
-    } finally {
+      console.error('Error al crear sesión de pago:', error)
+      alert('Error al procesar el pago. Por favor, inténtalo de nuevo o contacta con nosotros.')
       setLoading(false)
     }
   }
