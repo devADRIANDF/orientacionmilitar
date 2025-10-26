@@ -1,0 +1,12 @@
+# Robots.txt para OrientacionMilitar.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Páginas legales (opcionales)
+Allow: /politica-privacidad
+Allow: /aviso-legal
+
+# Sitemap
+Sitemap: https://orientacionmilitar.com/sitemap.xml
