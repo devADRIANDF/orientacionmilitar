@@ -26,9 +26,10 @@ const Navbar = () => {
               src="/images/logo.png"
               alt="OrientaciónMilitar.com Logo"
               width={200}
-              height={70}
-              className="h-14 w-auto object-contain transition-opacity group-hover:opacity-80"
+              height={60}
+              className="h-12 w-auto object-contain transition-opacity group-hover:opacity-80"
               priority
+              unoptimized
             />
           </Link>
 
