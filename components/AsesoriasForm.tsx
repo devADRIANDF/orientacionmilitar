@@ -15,8 +15,8 @@ export default function AsesoriasForm() {
     const formData = new FormData(form)
 
     try {
-      // Envío a Netlify Forms (nativo de Netlify, sin servicios externos)
-      const response = await fetch('/', {
+      // Envío directo a Netlify mediante fetch
+      const response = await fetch('/__forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData as any).toString()

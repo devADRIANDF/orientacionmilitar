@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formularios - OrientaciónMilitar.com</title>
+</head>
+<body>
+  <!-- Formulario de Contacto -->
+  <form name="contacto" netlify netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contacto" />
+    <input type="hidden" name="bot-field" />
+    <input type="text" name="nombre" />
+    <input type="email" name="email" />
+    <input type="tel" name="telefono" />
+    <input type="text" name="asunto" />
+    <textarea name="mensaje"></textarea>
+  </form>
+
+  <!-- Formulario de Asesorías -->
+  <form name="asesorias" netlify netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="asesorias" />
+    <input type="hidden" name="bot-field" />
+    <input type="text" name="nombre" />
+    <input type="email" name="email" />
+    <input type="tel" name="telefono" />
+    <input type="date" name="fecha" />
+    <select name="situacion">
+      <option value="aspirante">Aspirante</option>
+      <option value="preparando">Preparando pruebas</option>
+      <option value="aprobado">Aprobado</option>
+      <option value="recien-incorporado">Recién incorporado</option>
+      <option value="en-activo">En activo</option>
+      <option value="otro">Otro</option>
+    </select>
+    <textarea name="mensaje"></textarea>
+  </form>
+</body>
+</html>
