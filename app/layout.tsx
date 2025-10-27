@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Orientación Militar',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Orientación Militar | Asesorías personalizadas',
     description: 'Tu guía personalizada para elegir tu futuro militar',
-    images: ['/twitter-image.jpg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,

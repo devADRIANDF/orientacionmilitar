@@ -1,8 +1,9 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
-import { Menu, X, Shield } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,11 +21,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <Shield className="h-8 w-8 text-military-olive group-hover:text-military-gray transition-colors" />
-            <span className="text-xl font-bold text-military-olive">
-              Orientación<span className="text-military-gray">Militar</span>
-            </span>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <Image
+              src="/images/logo.png"
+              alt="OrientaciónMilitar.com Logo"
+              width={120}
+              height={40}
+              className="h-10 w-auto object-contain transition-opacity group-hover:opacity-80"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
