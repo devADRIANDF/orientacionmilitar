@@ -48,10 +48,10 @@ export default function ContactoPage() {
                 <div>
                   <h3 className="font-semibold text-military-dark mb-1">Email</h3>
                   <a
-                    href="mailto:info@orientacionmilitar.com"
+                    href="mailto:soporteorientacionmilitar@gmail.com"
                     className="text-military-olive hover:text-military-gray transition-colors"
                   >
-                    info@orientacionmilitar.com
+                    soporteorientacionmilitar@gmail.com
                   </a>
                 </div>
               </div>
@@ -63,10 +63,10 @@ export default function ContactoPage() {
                 <div>
                   <h3 className="font-semibold text-military-dark mb-1">Teléfono / WhatsApp</h3>
                   <a
-                    href="tel:+34600000000"
+                    href="tel:+34611738398"
                     className="text-military-olive hover:text-military-gray transition-colors"
                   >
-                    +34 600 000 000
+                    +34 611 738 398
                   </a>
                 </div>
               </div>
@@ -90,17 +90,6 @@ export default function ContactoPage() {
                   <p className="text-military-gray">Lunes a Viernes: 9:00 - 20:00</p>
                   <p className="text-military-gray">Sábados: 10:00 - 14:00</p>
                 </div>
-              </div>
-            </div>
-
-            {/* Mapa (placeholder) */}
-            <div className="mt-8 bg-military-light rounded-lg overflow-hidden h-64">
-              {/* PERSONALIZABLE: Añade aquí tu Google Maps embed */}
-              <div className="w-full h-full flex items-center justify-center text-military-gray">
-                <p className="text-center">
-                  [Google Maps Embed]<br />
-                  <span className="text-sm">Añade tu código de Google Maps aquí</span>
-                </p>
               </div>
             </div>
           </div>
