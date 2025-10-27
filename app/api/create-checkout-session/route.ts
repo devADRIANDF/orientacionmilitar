@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
             currency: 'eur',
             product_data: {
               name: 'Asesoría Militar Personalizada',
-              description: 'Sesión de 45 minutos con experto militar para elegir tu destino ideal',
+              description: 'Sesión de 60 minutos con experto militar para elegir tu destino ideal',
               images: [`${origin}/images/asesoria-og.jpg`],
             },
             unit_amount: 7500, // 75€ en centavos
