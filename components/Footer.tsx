@@ -15,9 +15,9 @@ const Footer = () => {
               <Image
                 src="/images/logo.png"
                 alt="OrientaciónMilitar.com Logo"
-                width={150}
-                height={50}
-                className="h-12 w-auto object-contain brightness-0 invert"
+                width={220}
+                height={80}
+                className="h-16 w-auto object-contain brightness-0 invert"
               />
             </div>
             <p className="text-military-cream/80 text-sm leading-relaxed max-w-md">
