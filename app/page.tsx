@@ -29,10 +29,10 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Link href="/reservar" className="btn-primary text-lg px-8 py-4">
+              <Link href="/reservar" className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto text-center">
                 Reserva tu asesoría (75 €)
               </Link>
-              <Link href="/sobre-nosotros" className="btn-secondary text-lg px-8 py-4">
+              <Link href="/sobre-nosotros" className="btn-secondary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto text-center">
                 Conoce al equipo
               </Link>
             </div>
@@ -57,16 +57,16 @@ export default function Home() {
       </section>
 
       {/* NUEVA SECCIÓN: Alerta - La importancia de la decisión */}
-      <section className="bg-red-50 border-y-4 border-red-200 py-12">
+      <section className="bg-red-50 border-y-4 border-red-200 py-8 md:py-12">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-start space-x-4">
-              <AlertTriangle className="h-12 w-12 text-red-600 flex-shrink-0 mt-1" />
+            <div className="flex flex-col sm:flex-row items-start space-y-3 sm:space-y-0 sm:space-x-4">
+              <AlertTriangle className="h-10 w-10 sm:h-12 sm:w-12 text-red-600 flex-shrink-0 mt-1" />
               <div>
-                <h2 className="text-3xl font-bold text-red-800 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-red-800 mb-4">
                   ⚠️ Una decisión que marcará años de tu vida
                 </h2>
-                <div className="space-y-3 text-lg text-red-900">
+                <div className="space-y-3 text-base sm:text-lg text-red-900">
                   <p className="leading-relaxed">
                     <strong>¿Sabías que una vez eliges tu destino y especialidad, NO puedes cambiarlo hasta que finalice tu contrato?</strong>
                   </p>
@@ -80,7 +80,7 @@ export default function Home() {
                     <li><strong>Salir y volver a entrar</strong> significa perder antigüedad y ventajas</li>
                     <li><strong>Años de tu vida</strong> en un lugar que tal vez no era para ti</li>
                   </ul>
-                  <p className="font-bold text-xl mt-6">
+                  <p className="font-bold text-lg sm:text-xl mt-6">
                     Por solo 75€, evita cometer un error que te costará años de tu carrera.
                   </p>
                 </div>
@@ -274,7 +274,7 @@ export default function Home() {
                   1
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-military-olive mb-3">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-military-olive mb-3">
                     Reserva y cuestionario inicial
                   </h3>
                   <p className="text-military-gray leading-relaxed mb-4">
@@ -297,7 +297,7 @@ export default function Home() {
                   2
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-military-olive mb-3">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-military-olive mb-3">
                     Sesión personalizada de 1 hora
                   </h3>
                   <p className="text-military-gray leading-relaxed mb-4">
@@ -350,7 +350,7 @@ export default function Home() {
                   3
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-military-olive mb-3">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-military-olive mb-3">
                     Informe personalizado post-sesión
                   </h3>
                   <p className="text-military-gray leading-relaxed mb-4">
@@ -391,13 +391,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* Ahorro 1 */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                  <span className="text-2xl">❌</span>
+            <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6">
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-red-100 rounded-full flex items-center justify-center">
+                  <span className="text-xl sm:text-2xl">❌</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-military-olive mb-2">
+                  <h3 className="text-lg sm:text-xl font-bold text-military-olive mb-2">
                     Sin asesoría
                   </h3>
                   <ul className="space-y-2 text-military-gray">
@@ -408,7 +408,7 @@ export default function Home() {
                     <li>• Salir del cuerpo y perder antigüedad</li>
                     <li>• Arrepentimiento y frustración</li>
                   </ul>
-                  <p className="mt-4 font-bold text-red-600 text-lg">
+                  <p className="mt-4 font-bold text-red-600 text-base sm:text-lg">
                     Coste real: Miles de € y años de tu vida
                   </p>
                 </div>
@@ -416,13 +416,13 @@ export default function Home() {
             </div>
 
             {/* Ahorro 2 */}
-            <div className="bg-military-olive text-white rounded-lg shadow-lg p-6">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-2xl">✅</span>
+            <div className="bg-military-olive text-white rounded-lg shadow-lg p-4 sm:p-6">
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-xl sm:text-2xl">✅</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">
+                  <h3 className="text-lg sm:text-xl font-bold mb-2">
                     Con nuestra asesoría
                   </h3>
                   <ul className="space-y-2 text-military-cream/90">
@@ -433,7 +433,7 @@ export default function Home() {
                     <li>• Carrera militar exitosa</li>
                     <li>• Tranquilidad y confianza</li>
                   </ul>
-                  <p className="mt-4 font-bold text-yellow-300 text-xl">
+                  <p className="mt-4 font-bold text-yellow-300 text-lg sm:text-xl">
                     Inversión: Solo 75€
                   </p>
                 </div>
@@ -442,10 +442,10 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12 max-w-3xl mx-auto">
-            <p className="text-2xl font-bold text-military-olive mb-4">
+            <p className="text-xl sm:text-2xl font-bold text-military-olive mb-4">
               75€ hoy = Ahorrarte años de arrepentimiento
             </p>
-            <p className="text-lg text-military-gray">
+            <p className="text-base sm:text-lg text-military-gray">
               Es menos de lo que cuesta una cena para dos, pero puede cambiar el rumbo
               de tu carrera militar y, por ende, de tu vida.
             </p>
@@ -647,27 +647,27 @@ export default function Home() {
       </section>
 
       {/* CTA Final - Mejorado */}
-      <section className="bg-military-olive text-white py-20">
+      <section className="bg-military-olive text-white py-16 md:py-20">
         <div className="section-container text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
             No dejes tu futuro al azar
           </h2>
-          <p className="text-xl md:text-2xl text-military-cream/90 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-military-cream/90 mb-4 max-w-3xl mx-auto">
             Una hora de tu tiempo hoy puede ahorrarte años de arrepentimiento mañana
           </p>
-          <p className="text-lg text-military-cream/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-military-cream/80 mb-8 max-w-2xl mx-auto">
             Reserva tu asesoría personalizada y toma la decisión más importante
             de tu carrera militar con información real y verificada
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="/reservar" className="inline-block bg-white text-military-olive px-10 py-5 rounded-lg font-bold text-xl hover:bg-military-cream transition-colors shadow-xl">
+            <Link href="/reservar" className="inline-block bg-white text-military-olive px-6 sm:px-10 py-4 sm:py-5 rounded-lg font-bold text-lg sm:text-xl hover:bg-military-cream transition-colors shadow-xl w-full sm:w-auto">
               Reservar Asesoría - 75€
             </Link>
-            <Link href="/contacto" className="inline-block border-2 border-white text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-white/10 transition-colors">
+            <Link href="/contacto" className="inline-block border-2 border-white text-white px-6 sm:px-10 py-4 sm:py-5 rounded-lg font-bold text-lg sm:text-xl hover:bg-white/10 transition-colors w-full sm:w-auto">
               Hacer una consulta
             </Link>
           </div>
-          <p className="mt-8 text-military-cream/70 text-sm">
+          <p className="mt-8 text-military-cream/70 text-xs sm:text-sm">
             📞 Respondemos en menos de 24 horas | 💯 Satisfacción garantizada
           </p>
         </div>
