@@ -5,27 +5,25 @@ export default function Home() {
   return (
     <>
       {/* Hero Section - Mejorado */}
-      <section className="bg-gradient-to-br from-military-cream to-military-light py-20 md:py-32">
-        <div className="section-container">
+      <section className="bg-gradient-to-br from-military-cream to-military-light py-12 sm:py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-flex items-center justify-center p-2 bg-military-olive/10 rounded-full mb-6">
               <Shield className="h-12 w-12 text-military-olive" />
             </div>
 
             {/* PERSONALIZABLE: Título principal del hero */}
-            <h1 className="heading-1 mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-military-olive leading-tight mb-4 sm:mb-6">
               Tu guía personalizada para elegir tu futuro militar
             </h1>
 
             {/* PERSONALIZABLE: Subtítulo del hero */}
-            <p className="text-xl md:text-2xl text-military-gray mb-4 leading-relaxed">
-              Te ayudamos a entender cada destino, especialidad y oportunidad
-              dentro del Ejército Español
+            <p className="text-lg sm:text-xl md:text-2xl text-military-gray mb-3 sm:mb-4 leading-relaxed px-2">
+              Te ayudamos a entender cada destino, especialidad y oportunidad dentro del Ejército Español
             </p>
 
-            <p className="text-lg md:text-xl text-military-dark font-semibold mb-8 max-w-3xl mx-auto">
-              Una decisión que no podrás cambiar sin salir del cuerpo.
-              Por solo 75€ evita años perdidos en un destino equivocado.
+            <p className="text-base sm:text-lg md:text-xl text-military-dark font-semibold mb-6 sm:mb-8 max-w-3xl mx-auto px-2">
+              Una decisión que no podrás cambiar sin salir del cuerpo. Por solo 75€ evita años perdidos en un destino equivocado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -38,18 +36,18 @@ export default function Home() {
             </div>
 
             {/* Indicadores de confianza mejorados */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12 max-w-3xl mx-auto">
-              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-4">
-                <CheckCircle2 className="h-6 w-6 text-military-olive flex-shrink-0" />
-                <p className="text-sm font-medium">+200 militares asesorados</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-8 sm:mt-12 max-w-3xl mx-auto">
+              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-3 sm:p-4">
+                <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-military-olive flex-shrink-0" />
+                <p className="text-xs sm:text-sm font-medium">+200 militares asesorados</p>
               </div>
-              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-4">
-                <CheckCircle2 className="h-6 w-6 text-military-olive flex-shrink-0" />
-                <p className="text-sm font-medium">Expertos militares activos</p>
+              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-3 sm:p-4">
+                <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-military-olive flex-shrink-0" />
+                <p className="text-xs sm:text-sm font-medium">Expertos militares activos</p>
               </div>
-              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-4">
-                <CheckCircle2 className="h-6 w-6 text-military-olive flex-shrink-0" />
-                <p className="text-sm font-medium">Satisfacción garantizada</p>
+              <div className="flex items-center justify-center space-x-2 text-military-gray bg-white/50 rounded-lg p-3 sm:p-4">
+                <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-military-olive flex-shrink-0" />
+                <p className="text-xs sm:text-sm font-medium">Satisfacción garantizada</p>
               </div>
             </div>
           </div>
@@ -71,10 +69,9 @@ export default function Home() {
                     <strong>¿Sabías que una vez eliges tu destino y especialidad, NO puedes cambiarlo hasta que finalice tu contrato?</strong>
                   </p>
                   <p className="leading-relaxed">
-                    Si te equivocas, tendrás que cumplir todo el periodo comprometido (normalmente 2-6 años)
-                    o salir del cuerpo completamente y volver a entrar desde cero.
+                    Si te equivocas, tendrás que cumplir todo el periodo comprometido (normalmente 2-6 años) o salir del cuerpo completamente y volver a entrar desde cero.
                   </p>
-                  <ul className="list-disc pl-6 space-y-2">
+                  <ul className="list-disc pl-5 sm:pl-6 space-y-1.5 sm:space-y-2 text-sm sm:text-base">
                     <li><strong>No hay cambios de destino inmediatos</strong> - Estarás donde elijas</li>
                     <li><strong>No puedes cambiar de especialidad</strong> sin finalizar contrato</li>
                     <li><strong>Salir y volver a entrar</strong> significa perder antigüedad y ventajas</li>
@@ -189,14 +186,13 @@ export default function Home() {
       </section>
 
       {/* NUEVA SECCIÓN: El equipo */}
-      <section className="bg-military-olive text-white py-16">
-        <div className="section-container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+      <section className="bg-military-olive text-white py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 px-2">
             Nuestro equipo de expertos
           </h2>
-          <p className="text-xl text-center text-military-cream/90 mb-12 max-w-3xl mx-auto">
-            Militares profesionales en activo o retirados con experiencia real
-            en diferentes cuerpos y especialidades
+          <p className="text-lg sm:text-xl text-center text-military-cream/90 mb-8 sm:mb-12 max-w-3xl mx-auto px-2">
+            Militares profesionales en activo o retirados con experiencia real en diferentes cuerpos y especialidades
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -257,17 +253,17 @@ export default function Home() {
       </section>
 
       {/* Proceso en 3 pasos - Expandido */}
-      <section className="bg-white py-16">
-        <div className="section-container">
-          <h2 className="heading-2 text-center mb-4">
+      <section className="bg-white py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-military-olive mb-3 sm:mb-4 text-center px-2">
             Cómo funciona la asesoría
           </h2>
-          <p className="text-xl text-center text-military-gray mb-12 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-center text-military-gray mb-8 sm:mb-12 max-w-3xl mx-auto px-2">
             Un proceso simple pero completo para darte toda la información que necesitas
           </p>
 
           <div className="max-w-5xl mx-auto">
-            <div className="space-y-12">
+            <div className="space-y-8 sm:space-y-12">
               {/* Paso 1 - PERSONALIZABLE */}
               <div className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-military-olive text-white rounded-full flex items-center justify-center font-bold text-2xl">
@@ -282,7 +278,7 @@ export default function Home() {
                     ¿Qué dudas tienes? ¿Qué destinos te interesan? Este cuestionario nos ayuda a preparar
                     la sesión y asignarte al experto más adecuado.
                   </p>
-                  <ul className="list-disc pl-6 text-military-gray space-y-1">
+                  <ul className="list-disc pl-5 sm:pl-6 text-military-gray space-y-1 text-sm sm:text-base">
                     <li>Te respondemos en menos de 24h</li>
                     <li>Coordinamos fecha y hora que te venga bien</li>
                     <li>Recibes enlace de videollamada (Google Meet, Zoom, etc.)</li>
@@ -356,7 +352,7 @@ export default function Home() {
                   <p className="text-military-gray leading-relaxed mb-4">
                     A las 48-72h de la sesión, recibes un documento detallado con:
                   </p>
-                  <ul className="list-disc pl-6 text-military-gray space-y-2">
+                  <ul className="list-disc pl-5 sm:pl-6 text-military-gray space-y-1.5 sm:space-y-2 text-sm sm:text-base">
                     <li><strong>Resumen de todo lo tratado</strong> - Para que no olvides ningún detalle</li>
                     <li><strong>Recomendaciones específicas</strong> - Según tu perfil y objetivos</li>
                     <li><strong>Ranking de destinos</strong> - Ordenados según tu situación personal</li>
@@ -383,9 +379,9 @@ export default function Home() {
       </section>
 
       {/* NUEVA SECCIÓN: Qué te ahorras */}
-      <section className="bg-military-cream py-16">
-        <div className="section-container">
-          <h2 className="heading-2 text-center mb-12">
+      <section className="bg-military-cream py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-military-olive mb-8 sm:mb-12 text-center px-2">
             ¿Qué te ahorras con esta asesoría?
           </h2>
 
@@ -400,7 +396,7 @@ export default function Home() {
                   <h3 className="text-lg sm:text-xl font-bold text-military-olive mb-2">
                     Sin asesoría
                   </h3>
-                  <ul className="space-y-2 text-military-gray">
+                  <ul className="space-y-1.5 sm:space-y-2 text-military-gray text-sm sm:text-base">
                     <li>• Información dispersa y contradictoria</li>
                     <li>• Decisión basada en mitos y rumores</li>
                     <li>• 2-6 años en un destino equivocado</li>
@@ -425,7 +421,7 @@ export default function Home() {
                   <h3 className="text-lg sm:text-xl font-bold mb-2">
                     Con nuestra asesoría
                   </h3>
-                  <ul className="space-y-2 text-military-cream/90">
+                  <ul className="space-y-1.5 sm:space-y-2 text-military-cream/90 text-sm sm:text-base">
                     <li>• Información real y verificada</li>
                     <li>• Decisión informada y consciente</li>
                     <li>• Elegir el destino correcto desde el inicio</li>
