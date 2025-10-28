@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Analytics from '@/components/Analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -68,6 +69,12 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <Analytics
+          gtmId={process.env.NEXT_PUBLIC_GTM_ID}
+          gtagId={process.env.NEXT_PUBLIC_GA_ID}
+          clarityId={process.env.NEXT_PUBLIC_CLARITY_ID}
+          googleAdsId={process.env.NEXT_PUBLIC_GOOGLE_ADS_ID}
+        />
       </body>
     </html>
   )
