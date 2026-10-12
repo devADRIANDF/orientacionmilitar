@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:"Archivo";src:url("/fonts/archivo.woff2") format("woff2");font-weight:400 900;font-stretch:62% 100%}
+html,body{margin:0}
+body{box-sizing:border-box;width:1200px;height:630px;padding:56px 64px;display:grid;grid-template-columns:600px 1fr;gap:48px;align-items:center;background:#E8EAE1;color:#1C2318;font-family:"Archivo",Arial,sans-serif}
+.texto{display:grid;gap:28px}
+.marca{display:flex;align-items:center;gap:12px;font-weight:800;font-stretch:82%;font-size:26px}
+.marca svg{width:40px;height:40px}
+h1{margin:0;font-size:68px;line-height:.98;font-stretch:66%;font-weight:800}
+.pie{display:flex;align-items:center;gap:14px;font-size:25px;font-weight:600;font-stretch:86%}
+.precio{padding:5px 14px;border-radius:4px;background:#F2CF3A;font-weight:800}
+.mapa{border:2px solid #1C2318;line-height:0}
+.mapa img{display:block;width:100%}
+</style>
+</head>
+<body>
+<div class="texto">
+  <div class="marca">
+    <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <h1>Antes de elegir destino, habla con alguien que ya ha estado dentro.</h1>
+  <div class="pie">Llamada 1:1 con un exmilitar <span class="precio">79 €</span></div>
+</div>
+<div class="mapa"><img src="map.png" alt=""></div>
+</body>
+</html>

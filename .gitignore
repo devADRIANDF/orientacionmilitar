@@ -1,0 +1,6 @@
+node_modules/
+.netlify/
+__pycache__/
+herramientas/pruebas/.datos/
+*.log
+.DS_Store

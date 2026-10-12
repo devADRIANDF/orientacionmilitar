@@ -1,0 +1,14 @@
+{
+  "name": "orientacionmilitar",
+  "private": true,
+  "type": "module",
+  "description": "Web, panel y blog de Orientación Militar",
+  "scripts": {
+    "construir": "python3 herramientas/construir.py",
+    "servidor": "node herramientas/pruebas/servidor.mjs",
+    "prueba": "node herramientas/pruebas/prueba-api.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4"
+  }
+}

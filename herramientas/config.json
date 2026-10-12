@@ -1,0 +1,23 @@
+{
+  "url": "https://orientacionmilitar.netlify.app",
+  "nombre": "Orientación Militar",
+  "email": "soporteorientacionmilitar@gmail.com",
+  "whatsapp": "34611738398",
+  "whatsapp_visible": "+34 611 738 398",
+  "whatsapp_mensaje": "Hola, tengo una duda sobre Orientación Militar: ",
+  "precios": {
+    "llamada": 79,
+    "acompanamiento": 149
+  },
+  "enlaces": {
+    "llamada": "",
+    "acompanamiento": ""
+  },
+  "titular": {
+    "nombre": "",
+    "nif": "",
+    "domicilio": ""
+  },
+  "google_verificacion": "",
+  "actualizado_legal": "12 de octubre de 2026"
+}
