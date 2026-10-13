@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Checklist para el día del examen | Orientación Militar</title>
+<title>Guía y checklist para el examen de Tropa y Marinería | Orientación Militar</title>
 <style>
 @font-face{font-family:"Archivo";src:url("/fonts/archivo.woff2") format("woff2");font-weight:400 900;font-stretch:62% 100%}
 @font-face{font-family:"Spectral";src:url("/fonts/spectral-italic.woff2") format("woff2");font-weight:400 500;font-style:italic}
@@ -34,19 +34,180 @@ th,td{border:1px solid var(--ink-2);padding:0 2mm;height:14mm;text-align:left;ve
 th{height:8mm;background:var(--paper);font-stretch:84%;font-weight:700}
 td:first-child,th:first-child{text-align:center;font-weight:700}
 .repaso{display:grid;grid-template-columns:5.5mm 1fr;gap:2.2mm;align-items:start;margin:0;padding:3.4mm 4mm;border:1px solid var(--ink);border-radius:2px}
+
+.portada{display:grid;gap:5mm}
+.portada h1{font-size:40pt}
+.indice{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin:0;padding:0;list-style:none}
+.indice li{border-top:2px solid var(--ink);padding-top:2mm;font-size:9.2pt}
+.indice b{display:block;font-stretch:76%;font-size:11pt}
+.fases{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border:1px solid var(--ink);border-radius:2px}
+.fase{padding:3.4mm 4mm;border-right:1px solid var(--ink)}
+.fase:last-child{border-right:0}
+.fase .n{font-size:8pt;text-transform:uppercase;letter-spacing:.08em;color:var(--water);font-weight:700}
+.fase h3{margin:.6mm 0 1.6mm;font-size:12pt;font-stretch:76%}
+.fase ul{font-size:9.2pt}
+.formula{display:grid;grid-template-columns:auto 1fr;gap:5mm;align-items:center;padding:4mm 5mm;background:var(--field);color:#F3F4EE;border-radius:2px}
+.formula .f{font-size:19pt;font-weight:800;font-stretch:70%;white-space:nowrap}
+.formula p{margin:0;font-size:9.4pt}
+.cifras{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}
+.cifra{border:1px solid var(--rule);padding:3mm;border-radius:2px;background:var(--paper)}
+.cifra b{display:block;font-size:20pt;font-stretch:68%;line-height:1}
+.cifra span{font-size:8.6pt;color:var(--ink-2)}
+.lista-c{list-style:none;margin:0;padding:0;display:grid;gap:2.2mm}
+.lista-c li{display:grid;grid-template-columns:5.5mm 1fr;gap:2.2mm;align-items:start}
+.lista-c small{display:block;color:var(--ink-2);font-size:8.6pt}
+.aviso{margin:0;padding:3mm 4mm;border-left:3px solid var(--water);background:var(--paper);font-size:9.2pt}
+.calc{display:grid;gap:2.4mm;padding:4mm 5mm;border:1px solid var(--ink);border-radius:2px}
+.calc .fila{display:flex;align-items:flex-end;gap:2.5mm;font-size:10pt;flex-wrap:wrap}
+.hueco{display:inline-block;min-width:18mm;border-bottom:1.4px solid var(--ink);height:6mm}
+table.plan td{height:9mm}
+table.plan th,table.plan td{text-align:center}
+table.plan td:first-child,table.plan th:first-child{text-align:left;font-weight:700}
+.tres{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5mm}
+h3.mini{font-size:11pt;font-stretch:78%;margin:0 0 1.6mm}
 </style>
 </head>
 <body>
-<section class="pagina">
+<section class="pagina portada">
   <div class="marca">
     <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
     Orientación Militar
   </div>
   <div class="cab">
     <h1>Checklist para el día del examen</h1>
-    <p class="sub">Tropa y Marinería: cómo llegar con tu lista de plazas decidida</p>
+    <p class="sub">Tropa y Marinería: qué llevar, cómo se calcula tu nota y cómo llegar con tu lista de plazas decidida</p>
   </div>
-  <p class="intro">El día de tu cita, en la primera fase, rellenas tu solicitud de plazas en orden de preferencia. En la convocatoria de 2026 se podían pedir hasta 10 plazas, de cualquiera de los tres ejércitos, y la solicitud no se podía modificar después. Por eso conviene llegar con la lista hecha y los códigos de las plazas apuntados.</p>
+  <p class="intro">El día de tu cita haces la prueba de aptitudes, te valoran los méritos y firmas tu solicitud de plazas. En la convocatoria de 2026 podías pedir hasta <strong>10 plazas</strong>, de cualquiera de los tres ejércitos, y el orden <strong>no se podía cambiar después</strong>. Esta guía te ayuda a llegar con todo hecho.</p>
+
+  <div>
+    <h2>El proceso en un vistazo</h2>
+    <div class="fases">
+      <div class="fase"><span class="n">Fase 1 · el día de tu cita</span><h3>Concurso y oposición</h3>
+        <ul><li>Comprueban tu identidad y tu documentación.</li><li>Registran tus méritos según el baremo.</li><li>Firmas tu solicitud de hasta 10 plazas.</li><li>Haces la prueba de aptitudes.</li></ul></div>
+      <div class="fase"><span class="n">Fase 2 · si te seleccionan</span><h3>Centro de selección</h3>
+        <ul><li>Pruebas psicológicas.</li><li>Reconocimiento médico.</li><li>Pruebas de aptitud física, solo si eres «Apto» en el médico.</li></ul></div>
+      <div class="fase"><span class="n">Después</span><h3>Asignación de plazas</h3>
+        <ul><li>Por nota y por el orden de preferencia de tu lista.</li><li>Si no entras, pasas a una lista de reserva para cubrir bajas.</li><li>Incorporación al centro de formación.</li></ul></div>
+    </div>
+  </div>
+
+  <div class="formula">
+    <span class="f">PF = (7 × NOp + 3 × NCo) / 10</span>
+    <p>Tu <strong>puntuación final</strong> sale de la prueba de aptitudes (NOp, de 0 a 10) y de tus méritos (NCo, de 0 a 10). La prueba pesa un 70 % y los méritos un 30 %. Se calcula para cada plaza que pides, con tres decimales.</p>
+  </div>
+
+  <div>
+    <h2>Qué hay en esta guía</h2>
+    <ol class="indice">
+      <li><b>2 · El día de tu cita</b>Qué llevar y cómo es la prueba de aptitudes.</li>
+      <li><b>3 · Calcula tu nota</b>Cuánto vale cada punto y dónde mejorar.</li>
+      <li><b>4 · Tu lista de plazas</b>Pasos, preguntas y errores que evitar.</li>
+      <li><b>5 · Mi lista de plazas</b>La plantilla para llevar ese día.</li>
+      <li><b>6 · Después del examen</b>Fase 2, asignación y lista de reserva.</li>
+      <li><b>7 · Mi plan de preparación</b>Seguimiento semanal hasta tu cita.</li>
+    </ol>
+  </div>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
+</section>
+<section class="pagina">
+  <div class="marca">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <div class="cab">
+    <h1>El día de tu cita</h1>
+    <p class="sub">Qué meter en la mochila y qué te vas a encontrar</p>
+  </div>
+  <div class="dos">
+    <div>
+      <h2>Qué llevar</h2>
+      <ul class="lista-c">
+        <li><span class="caja"></span><span><strong>DNI</strong> u otro documento equivalente en vigor.<small>Si no acreditas tu identidad, quedas excluido del proceso.</small></span></li>
+        <li><span class="caja"></span><span><strong>Bolígrafo azul o negro.</strong><small>Las bases lo piden para la fase 1 y la fase 2.</small></span></li>
+        <li><span class="caja"></span><span><strong>Los documentos que acreditan tus méritos.</strong><small>Títulos, cursos y lo que recoja el baremo de tu convocatoria. Lo que no acredites no puntúa.</small></span></li>
+        <li><span class="caja"></span><span><strong>Tu lista de plazas con los códigos</strong>, ya ordenada.<small>Usa la plantilla de la página 5.</small></span></li>
+        <li><span class="caja"></span><span><strong>La citación</strong> y los datos de tu cita a mano.</span></li>
+      </ul>
+      <p class="aviso" style="margin-top:3mm">Para la fase 2 guarda también tus <strong>gafas o lentillas</strong> con sus líquidos: las bases piden llevarlas al reconocimiento médico.</p>
+    </div>
+    <div>
+      <h2>La prueba de aptitudes</h2>
+      <ul class="lista-c">
+        <li><span class="caja"></span><span><strong>Por ordenador</strong>, preferentemente, e individual.</span></li>
+        <li><span class="caja"></span><span><strong>Sin apoyo:</strong> ni lápiz, ni papel, ni calculadora, ni móvil. Las cuentas, de cabeza.</span></li>
+        <li><span class="caja"></span><span><strong>Siete factores:</strong> verbal, numérico, espacial, mecánico, perceptivo, memoria y razonamiento abstracto.</span></li>
+        <li><span class="caja"></span><span><strong>Una sola nota</strong> que vale para todas las plazas que pidas.</span></li>
+        <li><span class="caja"></span><span>La puntuación directa es el <strong>número de aciertos</strong>, que se pasa a una escala de 0 a 10.</span></li>
+      </ul>
+      <p class="aviso" style="margin-top:3mm">No presentarte a una prueba sin motivo justificado supone la exclusión. Lee las instrucciones de la pantalla antes de empezar: las bases no fijan el número de preguntas ni el tiempo.</p>
+    </div>
+  </div>
+  <div>
+    <h2>La víspera</h2>
+    <div class="tres">
+      <ul class="lista-c"><li><span class="caja"></span><span>Mira la dirección y cuánto tardas en llegar.</span></li><li><span class="caja"></span><span>Deja la mochila hecha con esta lista.</span></li></ul>
+      <ul class="lista-c"><li><span class="caja"></span><span>Repasa tu lista de plazas una última vez.</span></li><li><span class="caja"></span><span>Comprueba que todos los códigos están bien copiados.</span></li></ul>
+      <ul class="lista-c"><li><span class="caja"></span><span>Haz una tanda corta de cálculo mental, sin agotarte.</span></li><li><span class="caja"></span><span>Duerme. La prueba es de atención y rapidez.</span></li></ul>
+    </div>
+  </div>
+  <p class="cta"><strong>¿Primera vez que te presentas?</strong> En una llamada de 30 minutos un exmilitar te cuenta cómo es por dentro cada destino que dudas. Reserva en {{DOMINIO}}</p>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
+</section>
+<section class="pagina">
+  <div class="marca">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <div class="cab">
+    <h1>Calcula tu nota</h1>
+    <p class="sub">Dónde está de verdad tu margen de mejora</p>
+  </div>
+  <div class="cifras">
+    <div class="cifra"><b>70 %</b><span>lo que pesa la prueba de aptitudes en tu nota final</span></div>
+    <div class="cifra"><b>30 %</b><span>lo que pesan tus méritos (concurso)</span></div>
+    <div class="cifra"><b>+0,7</b><span>sube tu nota final por cada punto más en la prueba</span></div>
+    <div class="cifra"><b>+0,075</b><span>sube por cada punto directo del baremo de méritos (de 0 a 40)</span></div>
+  </div>
+  <div>
+    <h2>Haz tus cuentas</h2>
+    <div class="calc">
+      <div class="fila">1. Puntos directos de mis méritos (de 0 a 40): <span class="hueco"></span> ÷ 4 = <span class="hueco"></span> = <strong>NCo</strong></div>
+      <div class="fila">2. Nota que espero en la prueba de aptitudes (de 0 a 10): <span class="hueco"></span> = <strong>NOp</strong></div>
+      <div class="fila">3. 7 × NOp = <span class="hueco"></span> &nbsp; 3 × NCo = <span class="hueco"></span> &nbsp; suma ÷ 10 = <span class="hueco"></span> = <strong>mi PF</strong></div>
+    </div>
+    <p class="aviso" style="margin-top:3mm"><strong>Ejemplo:</strong> con un 6 en la prueba y un 5 en méritos, (7 × 6 + 3 × 5) / 10 = (42 + 15) / 10 = <strong>5,7</strong>. Subir la prueba de 6 a 7 te lleva a 6,4. Para ganar lo mismo con los méritos necesitarías más de 9 puntos directos del baremo.</p>
+  </div>
+  <div class="dos">
+    <div>
+      <h2>Cómo se ordena a los aspirantes</h2>
+      <ul>
+        <li>Para cada código de plaza, de mayor a menor puntuación final.</li>
+        <li>Si hay empate: primero el orden de preferencia que marcaste, después la puntuación de méritos más alta y después la mayor edad. Si persiste, sorteo.</li>
+        <li>Si hay más de 2,5 aspirantes por plaza, se puede hacer una selección previa: pasan a la fase 2 entre 2,5 y 3,5 aspirantes por plaza, más los empatados con el último.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Qué significa para ti</h2>
+      <ul>
+        <li>Tu nota decide si entras <strong>y a qué plaza</strong> entras.</li>
+        <li>Entrena la prueba como la vas a hacer: en pantalla, sin papel y sin calculadora.</li>
+        <li>Haz primero una ronda de cada factor y dedica más tiempo a los que peor llevas.</li>
+        <li>No regales méritos: acredita todo lo que puntúe. En plazas muy pedidas decide una milésima.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
+</section>
+<section class="pagina">
+  <div class="marca">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <div class="cab">
+    <h1>Tu lista de plazas, paso a paso</h1>
+    <p class="sub">Lo que firmas ese día te acompaña durante años</p>
+  </div>
+  
 
   <div>
     <h2>Antes de tu cita</h2>
@@ -57,7 +218,7 @@ td:first-child,th:first-child{text-align:center;font-weight:700}
       <li><span class="caja"></span><span>Infórmate de cada una: unidad, localidad, especialidad y cómo es el día a día.</span></li>
       <li><span class="caja"></span><span>Tacha las que no aceptarías nunca. Renunciar sin causa justificada a una plaza asignada, o no presentarte al centro de formación, te impide presentarte al ciclo siguiente.</span></li>
       <li><span class="caja"></span><span>Ordena la lista de la que más quieres a la que menos. Pon arriba la que de verdad quieres.</span></li>
-      <li><span class="caja"></span><span>Pásala a limpio en la plantilla de la página siguiente y llévala el día del examen.</span></li>
+      <li><span class="caja"></span><span>Pásala a limpio en la plantilla de la página 5 y llévala el día del examen.</span></li>
     </ol>
   </div>
 
@@ -87,7 +248,7 @@ td:first-child,th:first-child{text-align:center;font-weight:700}
   </div>
 
   <p class="cta"><strong>¿Dudas con tu lista?</strong> Habla con un exmilitar antes del examen. Reserva tu llamada en {{DOMINIO}}</p>
-  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Comprueba siempre la información oficial de tu convocatoria.</p>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
 </section>
 
 <section class="pagina">
@@ -116,7 +277,84 @@ td:first-child,th:first-child{text-align:center;font-weight:700}
     </tbody>
   </table>
   <p class="repaso"><span class="caja"></span><span>Antes de firmar, repasa la lista entera. ¿Aceptarías cualquiera de estas plazas si te la asignan? Si alguna no, táchala.</span></p>
-  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Comprueba siempre la información oficial de tu convocatoria.</p>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
+</section>
+
+<section class="pagina">
+  <div class="marca">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <div class="cab">
+    <h1>Después del examen</h1>
+    <p class="sub">Lo que pasa entre tu cita y el centro de formación</p>
+  </div>
+  <ol class="pasos">
+    <li><span class="caja"></span><span><strong>Te notifican tu puntuación final</strong> para cada plaza que pediste, ajustada a la milésima. El documento lo firmáis el gestor y tú: guarda tu copia.</span></li>
+    <li><span class="caja"></span><span><strong>Mira si estás en la relación de seleccionados.</strong> Se publica en las Subdelegaciones de Defensa y en reclutamiento.defensa.gob.es. La citación para la fase 2 llega por correo electrónico: revisa también la carpeta de spam.</span></li>
+    <li><span class="caja"></span><span><strong>Fase 2 en el centro de selección:</strong> pruebas psicológicas, reconocimiento médico y pruebas físicas.</span></li>
+    <li><span class="caja"></span><span><strong>Asignación de plazas</strong> por nota y por el orden de tu lista. Si no te asignan plaza, pasas a la relación complementaria de aspirantes aptos, ordenada por nota, que cubre renuncias y bajas de los primeros 14 días de formación.</span></li>
+    <li><span class="caja"></span><span><strong>Incorporación al centro de formación</strong> en la fecha de tu ciclo. Renunciar sin causa justificada a una plaza asignada, o no presentarte, te impide presentarte al ciclo siguiente.</span></li>
+  </ol>
+  <div class="dos">
+    <div>
+      <h2>Reconocimiento médico</h2>
+      <ul>
+        <li>Se aplica el cuadro médico de exclusiones de la Orden PCM/444/2023.</li>
+        <li>Resultado: «Apto», «No Apto» o «No Apto Permanente en la presente convocatoria». Con «No Apto» causas baja.</li>
+        <li>Puedes pedir revisión en <strong>3 días hábiles</strong> desde que te lo comunican. Lo que salga de la revisión es definitivo.</li>
+        <li>Si fuiste «Apto» en el primer ciclo, en el segundo normalmente solo rellenas el cuestionario de salud y haces una analítica de orina.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Pruebas físicas</h2>
+      <ul>
+        <li>Solo las haces si eres «Apto» en el médico.</li>
+        <li>Son eliminatorias: con «No Apto» causas baja.</li>
+        <li>En 2026 fueron cuatro: flexo-extensiones de brazos, plancha isométrica, carrera de 2.000 metros y circuito de agilidad y velocidad.</li>
+        <li>Las marcas por edad y sexo están en el apéndice 4 de las bases. Consúltalas en el BOE de tu ciclo y entrena con ellas delante.</li>
+        <li>Si estás embarazada o en parto o posparto, con certificado médico oficial puedes hacerlas en un ciclo de los dos años siguientes, con la plaza condicionada.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="cta"><strong>¿Te han asignado una plaza y no sabes qué esperar?</strong> Pregúntaselo a quien ha pasado por ahí. Reserva tu llamada en {{DOMINIO}}</p>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
+</section>
+<section class="pagina">
+  <div class="marca">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="#1C2318" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="#1C2318" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="#1C2318"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="#1C2318" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    Orientación Militar
+  </div>
+  <div class="cab">
+    <h1>Mi plan de preparación</h1>
+    <p class="sub">Apunta cada semana tu práctica o tu marca. Lo que se mide, mejora.</p>
+  </div>
+  <table class="plan">
+    <colgroup><col style="width:48mm"><col><col><col><col><col><col><col><col></colgroup>
+    <thead><tr><th>Semana</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead>
+    <tbody><tr><td>Verbal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Numérico (cálculo mental)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Espacial</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mecánico</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Perceptivo</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Memoria</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Razonamiento abstracto</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Flexo-extensiones</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plancha isométrica</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Carrera 2.000 m</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Circuito de agilidad</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody>
+  </table>
+  <div class="dos">
+    <div>
+      <h2>Mis fechas</h2>
+      <ul class="lista-c">
+        <li><span class="caja"></span><span>Publicación de la oferta de mi ciclo: <span class="hueco" style="min-width:32mm"></span></span></li>
+        <li><span class="caja"></span><span>Fin del plazo para pedir cita: <span class="hueco" style="min-width:40mm"></span></span></li>
+        <li><span class="caja"></span><span>Mi cita (día, hora y lugar): <span class="hueco" style="min-width:42mm"></span></span></li>
+        <li><span class="caja"></span><span>Incorporación al centro de formación: <span class="hueco" style="min-width:28mm"></span></span></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Dónde está lo oficial</h2>
+      <ul>
+        <li>Bases y oferta de plazas: BOE del día de la convocatoria.</li>
+        <li>Cita previa, plazas y resultados: reclutamiento.defensa.gob.es.</li>
+        <li>Información presencial: la Subdelegación de Defensa de tu provincia.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="cta"><strong>Siguiente paso:</strong> haz el test gratuito de {{DOMINIO}} para ver qué tipo de destino encaja contigo, y lee las guías del blog sobre plazas, calendario y prueba de aptitudes.</p>
+  <p class="legal">Orientación Militar es un servicio privado e independiente, sin relación con el Ministerio de Defensa ni con las Fuerzas Armadas. Datos de la convocatoria de 2026 (BOE-A-2026-436, de 8 de enero). Comprueba siempre las bases de tu ciclo en el BOE y en reclutamiento.defensa.gob.es.</p>
 </section>
 </body>
 </html>
