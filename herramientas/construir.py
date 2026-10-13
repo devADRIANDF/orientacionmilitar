@@ -332,7 +332,18 @@ def pagina_post(post, todos):
     extra = (f'<meta property="article:published_time" content="{post["fecha"].isoformat()}">\n'
              f'<meta property="article:modified_time" content="{post["actualizado"].isoformat()}">\n'
              f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')
-    contenido = f'''    <article class="articulo">
+    lateral = ''
+    if toc:
+        lateral = ('<aside class="art-lateral" aria-label="Navegación de la guía"><div class="lateral-pegado">'
+                   + toc.replace('class="indice"', 'class="indice-lat"', 1).replace('aria-label="Índice"', 'aria-label="Índice lateral"', 1)
+                   + '<div class="lateral-cta"><p class="lateral-tit">Checklist gratis para el examen</p>'
+                   '<p>Qué llevar, cómo se calcula tu nota y la plantilla para tus 10 plazas. 7 páginas en PDF.</p>'
+                   '<a class="btn btn-sm" href="/#precios">Descargar gratis</a>'
+                   '<a class="lateral-link" href="/#test">O haz el test de destino en 2 minutos</a></div>'
+                   '</div></aside>')
+    contenido = f'''    <div class="progreso" aria-hidden="true"><span></span></div>
+    <div class="art-rejilla">
+    <article class="articulo">
       <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li><a href="/blog/">Blog</a></li><li>{e(post["categoria"])}</li></ol></nav>
       <h1>{e(post["titulo"])}</h1>
       <p class="art-meta"><span>{meta}</span><span>{minutos} min de lectura</span></p>
@@ -349,7 +360,41 @@ def pagina_post(post, todos):
       {fuentes}
       <p class="aviso-art">Esta guía es orientativa y se basa en las fuentes oficiales citadas. Las convocatorias cambian: comprueba siempre las bases de tu ciclo en el BOE y en el portal de reclutamiento de Defensa.</p>
       {rel_html}
-    </article>'''
+    </article>
+    {lateral}
+    </div>
+    <script>
+    (function () {{
+      var barra = document.querySelector('.progreso span');
+      var art = document.querySelector('.articulo');
+      function pintar() {{
+        var r = art.getBoundingClientRect();
+        var total = r.height - window.innerHeight;
+        var k = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
+        barra.style.transform = 'scaleX(' + k + ')';
+      }}
+      window.addEventListener('scroll', pintar, {{ passive: true }});
+      window.addEventListener('resize', pintar);
+      pintar();
+      var enlaces = [].slice.call(document.querySelectorAll('.indice-lat a'));
+      var titulos = [].slice.call(document.querySelectorAll('.art-cuerpo h2[id]'));
+      var actual = null;
+      function marcar() {{
+        var linea = window.innerHeight * 0.3, id = null;
+        titulos.forEach(function (h) {{ if (h.getBoundingClientRect().top < linea) id = h.id; }});
+        if (id === actual) return;
+        actual = id;
+        enlaces.forEach(function (a) {{
+          if (id && a.getAttribute('href') === '#' + id) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        }});
+      }}
+      if (enlaces.length) {{
+        window.addEventListener('scroll', marcar, {{ passive: true }});
+        marcar();
+      }}
+    }})();
+    </script>'''
     return pagina(f'{post["titulo"]} | Orientación Militar', post['descripcion'], f'/blog/{post["slug"]}/', contenido,
                   cabeza_extra=extra, og_tipo='article', actual='blog')
 
@@ -385,19 +430,37 @@ def construir_blog():
     for p in posts:
         escribir(salida / p['slug'] / 'index.html', pagina_post(p, posts))
 
-    filas = '\n'.join(f'''        <li class="post-fila">
+    cats = [c for c in ['Convocatorias', 'Pruebas', 'Plazas y destinos', 'Unidades', 'Carrera y salidas', 'Vida militar'] if any(p['categoria'] == c for p in posts)]
+    filtro = ''
+    if len(cats) > 1:
+        filtro = ('<div class="filtro" role="group" aria-label="Filtrar por tema"><button type="button" aria-pressed="true" data-cat="">Todas</button>'
+                  + ''.join(f'<button type="button" aria-pressed="false" data-cat="{e(c)}">{e(c)}</button>' for c in cats) + '</div>')
+    filas = '\n'.join(f'''        <li class="post-fila" data-cat="{e(p["categoria"])}">
           <span class="post-fecha">{fecha_larga(p["fecha"])}</span>
           <div class="post-cuerpo"><span class="post-cat">{e(p["categoria"])}</span><h2><a href="/blog/{p["slug"]}/">{e(p["titulo"])}</a></h2><p>{e(p["descripcion"])}</p></div>
         </li>''' for p in posts) or '        <li class="post-fila"><p>Pronto publicaremos la primera guía.</p></li>'
     indice = f'''    <header class="blog-cab">
-      <h1>Guías para elegir plaza y destino</h1>
-      <p>Cómo funciona el proceso de Tropa y Marinería, qué cambia de un destino a otro y qué preguntar antes de firmar tu lista de plazas. Con las fuentes oficiales de cada dato.</p>
+      <h1>Guías de Tropa y Marinería</h1>
+      <p>Requisitos, cita previa, pruebas, plazas y destinos: cómo funciona el proceso para entrar en el Ejército como soldado o marinero y qué preguntar antes de firmar tu lista de plazas. Con las fuentes oficiales de cada dato.</p>
+      {filtro}
     </header>
     <ol class="blog-lista" reversed>
 {filas}
-    </ol>'''
-    escribir(salida / 'index.html', pagina('Blog: guías para elegir plaza y destino militar | Orientación Militar',
-                                           'Guías claras para elegir plazas y destino en Tropa y Marinería: proceso, calendario, destinos y salidas, con fuentes oficiales.',
+    </ol>
+    <script>
+    (function () {{
+      var botones = document.querySelectorAll('.filtro button');
+      botones.forEach(function (b) {{
+        b.addEventListener('click', function () {{
+          botones.forEach(function (x) {{ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }});
+          var c = b.dataset.cat;
+          document.querySelectorAll('.post-fila').forEach(function (f) {{ f.hidden = !!c && f.dataset.cat !== c; }});
+        }});
+      }});
+    }})();
+    </script>'''
+    escribir(salida / 'index.html', pagina('Guías de Tropa y Marinería: requisitos, plazas y pruebas | Orientación Militar',
+                                           'Guías para entrar en el Ejército como soldado o marinero: requisitos, cita previa, prueba de aptitudes, plazas y destinos, con fuentes oficiales.',
                                            '/blog/', indice, actual='blog'))
 
     escribir(salida / 'posts.json', json.dumps([

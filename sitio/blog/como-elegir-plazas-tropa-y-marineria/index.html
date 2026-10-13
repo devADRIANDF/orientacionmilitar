@@ -43,6 +43,8 @@
     <a class="btn btn-sm" href="/#precios"><span>Reservar<span class="solo-ancho"> llamada</span></span></a>
   </header>
   <main id="contenido">
+    <div class="progreso" aria-hidden="true"><span></span></div>
+    <div class="art-rejilla">
     <article class="articulo">
       <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li><a href="/blog/">Blog</a></li><li>Plazas y destinos</li></ol></nav>
       <h1>Cómo elegir plazas en Tropa y Marinería y ordenar tu solicitud</h1>
@@ -122,6 +124,40 @@
       <p class="aviso-art">Esta guía es orientativa y se basa en las fuentes oficiales citadas. Las convocatorias cambian: comprueba siempre las bases de tu ciclo en el BOE y en el portal de reclutamiento de Defensa.</p>
       <section class="relacionados"><h2>Sigue leyendo</h2><ul><li><a href="/blog/requisitos-tropa-y-marineria/">Requisitos para entrar en el Ejército como soldado o marinero</a></li><li><a href="/blog/prueba-de-aptitudes-tropa-y-marineria/">Prueba de aptitudes de Tropa y Marinería: qué mide y cómo puntúa</a></li><li><a href="/blog/cita-previa-tropa-y-marineria/">Cita previa de Tropa y Marinería: cómo pedirla y qué llevar</a></li></ul></section>
     </article>
+    <aside class="art-lateral" aria-label="Navegación de la guía"><div class="lateral-pegado"><nav class="indice-lat" aria-label="Índice lateral"><p>En esta guía</p><ol><li><a href="#como-funciona-la-solicitud-de-plazas">Cómo funciona la solicitud de plazas</a></li><li><a href="#como-se-asignan-las-plazas">Cómo se asignan las plazas</a></li><li><a href="#como-preparar-tu-lista-antes-de-la-cita">Cómo preparar tu lista antes de la cita</a></li><li><a href="#errores-que-mas-se-repiten">Errores que más se repiten</a></li><li><a href="#que-pasa-si-te-asignan-una-plaza-que-no-quieres">Qué pasa si te asignan una plaza que no quieres</a></li><li><a href="#que-preguntar-antes-de-cerrar-tu-lista">Qué preguntar antes de cerrar tu lista</a></li></ol></nav><div class="lateral-cta"><p class="lateral-tit">Checklist gratis para el examen</p><p>Qué llevar, cómo se calcula tu nota y la plantilla para tus 10 plazas. 7 páginas en PDF.</p><a class="btn btn-sm" href="/#precios">Descargar gratis</a><a class="lateral-link" href="/#test">O haz el test de destino en 2 minutos</a></div></div></aside>
+    </div>
+    <script>
+    (function () {
+      var barra = document.querySelector('.progreso span');
+      var art = document.querySelector('.articulo');
+      function pintar() {
+        var r = art.getBoundingClientRect();
+        var total = r.height - window.innerHeight;
+        var k = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
+        barra.style.transform = 'scaleX(' + k + ')';
+      }
+      window.addEventListener('scroll', pintar, { passive: true });
+      window.addEventListener('resize', pintar);
+      pintar();
+      var enlaces = [].slice.call(document.querySelectorAll('.indice-lat a'));
+      var titulos = [].slice.call(document.querySelectorAll('.art-cuerpo h2[id]'));
+      var actual = null;
+      function marcar() {
+        var linea = window.innerHeight * 0.3, id = null;
+        titulos.forEach(function (h) { if (h.getBoundingClientRect().top < linea) id = h.id; });
+        if (id === actual) return;
+        actual = id;
+        enlaces.forEach(function (a) {
+          if (id && a.getAttribute('href') === '#' + id) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        });
+      }
+      if (enlaces.length) {
+        window.addEventListener('scroll', marcar, { passive: true });
+        marcar();
+      }
+    })();
+    </script>
   </main>
   <footer class="pie">
     <p>Orientación Militar es un servicio privado e independiente. No tiene relación con el Ministerio de Defensa ni con las Fuerzas Armadas. La información oficial sobre convocatorias, requisitos y plazos está en el <a href="https://reclutamiento.defensa.gob.es/" rel="noopener">portal de reclutamiento de Defensa</a>.</p>
