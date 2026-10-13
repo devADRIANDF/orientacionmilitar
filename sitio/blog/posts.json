@@ -1,5 +1,14 @@
 [
  {
+  "slug": "requisitos-tropa-y-marineria",
+  "titulo": "Requisitos para entrar en el Ejército como soldado o marinero",
+  "descripcion": "Edad, estudios, nacionalidad, antecedentes, tatuajes y demás requisitos para entrar en Tropa y Marinería, según las bases de la convocatoria de 2026.",
+  "categoria": "Convocatorias",
+  "fecha": "2026-10-13",
+  "actualizado": "2026-10-13",
+  "palabras": 1194
+ },
+ {
   "slug": "prueba-de-aptitudes-tropa-y-marineria",
   "titulo": "Prueba de aptitudes de Tropa y Marinería: qué mide y cómo puntúa",
   "descripcion": "Qué mide el psicotécnico de Tropa y Marinería, cómo se convierte en tu nota final y cuánto pesa frente a los méritos, según la convocatoria de 2026.",
@@ -7,6 +16,15 @@
   "fecha": "2026-10-13",
   "actualizado": "2026-10-13",
   "palabras": 1343
+ },
+ {
+  "slug": "cita-previa-tropa-y-marineria",
+  "titulo": "Cita previa de Tropa y Marinería: cómo pedirla y qué llevar",
+  "descripcion": "Dónde se pide la cita previa de Tropa y Marinería, qué datos necesitas, qué te envían después y qué documentación llevar el día del examen (convocatoria 2026).",
+  "categoria": "Convocatorias",
+  "fecha": "2026-10-13",
+  "actualizado": "2026-10-13",
+  "palabras": 993
  },
  {
   "slug": "plazas-reservadas-militares-guardia-civil-policia",
