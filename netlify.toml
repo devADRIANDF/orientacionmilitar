@@ -36,3 +36,10 @@
   from = "/panel"
   to = "/panel/"
   status = 301
+
+# Dominio principal: lo que llegue al subdominio de Netlify va a orientacionmilitar.com
+[[redirects]]
+  from = "https://orientacionmilitar.netlify.app/*"
+  to = "https://orientacionmilitar.com/:splat"
+  status = 301
+  force = true

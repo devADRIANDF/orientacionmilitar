@@ -3,4 +3,4 @@ Allow: /
 Disallow: /panel/
 Disallow: /api/
 
-Sitemap: https://orientacionmilitar.netlify.app/sitemap.xml
+Sitemap: https://orientacionmilitar.com/sitemap.xml
