@@ -4,7 +4,6 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 
 ## Pendientes (por orden de prioridad)
 
-- Cómo entrar en el Ejército en España: guía completa de los caminos de acceso (tropa, suboficial, oficial, reservista) con enlaces a las guías del blog. Página pilar para «cómo entrar en el ejército».
 - Edad máxima para entrar en el Ejército: límites de tropa y de las demás vías de acceso (verificar cada convocatoria en el BOE).
 - Tatuajes en el Ejército: qué dice la norma oficial (Orden o instrucción vigente) y qué se comprueba en el proceso.
 - Plazas de Tropa y Marinería por provincias y unidades: dónde salen más plazas (usar los anexos de plazas del BOE).
@@ -30,6 +29,7 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 
 ## Hechos
 
+- 2026-10-16 · Cómo entrar en el Ejército en España: las cuatro vías de acceso · `como-entrar-en-el-ejercito`
 - 2026-10-13 · Requisitos para entrar en el Ejército como soldado o marinero · `requisitos-tropa-y-marineria`
 - 2026-10-13 · Cita previa de Tropa y Marinería: cómo pedirla y qué llevar · `cita-previa-tropa-y-marineria`
 - 2026-10-13 · Prueba de aptitudes de Tropa y Marinería: qué mide y cómo puntúa · `prueba-de-aptitudes-tropa-y-marineria`
@@ -45,3 +45,4 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 - `cita-previa-tropa-y-marineria`: sede, NAF, plazos y documentación (bases 4 y 5).
 - `prueba-de-aptitudes-tropa-y-marineria`: factores evaluados, fórmula de la puntuación final y selección previa.
 - `plazas-reservadas-militares-guardia-civil-policia`: cupos de las nuevas convocatorias de Guardia Civil y Policía Nacional.
+- `como-entrar-en-el-ejercito`: edades, estudios y plazas de cada vía (provisión de plazas del año y convocatorias de oficiales, suboficiales y reservistas). La de reservistas de 2026 cierra hacia el 25 de octubre de 2026.
