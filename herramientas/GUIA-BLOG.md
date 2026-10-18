@@ -60,3 +60,12 @@ Después va el cuerpo en HTML sencillo. Etiquetas permitidas: `p`, `h2`, `h3`, `
 ## Actualizar artículos
 
 Cuando salga una convocatoria nueva o cambie algo oficial (plazas, fechas, pruebas, requisitos), revisa los artículos afectados, cambia los datos, añade la fuente nueva y pon `actualizado:` con la fecha del día. Actualizar un artículo bueno vale más que publicar uno nuevo.
+
+## Usar las métricas
+
+Si existe `herramientas/metricas/RESUMEN.md` (lo genera dos veces por semana la GitHub Action con los datos de Google Search Console), léelo antes de elegir tema:
+
+- **Elegir tema.** Si una consulta con impresiones no tiene un artículo que la responda de verdad, y se puede escribir con fuentes oficiales, tiene prioridad sobre el orden de temas.md. Añádela a temas.md como tema con una nota («Nota AAAA-MM-DD: N impresiones en Search Console para "consulta"») y escríbela. Si no, sigue el orden de temas.md.
+- **Reforzar un artículo.** Si un artículo sale entre las posiciones 4 y 30 para una consulta, puedes mejorarlo en lugar de (o además de) publicar uno nuevo: que el título y la descripción contengan esa consulta, que los dos primeros párrafos la respondan, añadir una sección que falte o enlazarlo desde otros artículos. Pon `actualizado:` con la fecha.
+- **Pocas impresiones.** Con menos de unas 100 impresiones en total los datos aún no dicen mucho: úsalos como pista, no como regla.
+- Las reglas de veracidad siguen mandando: una consulta muy buscada no justifica poner datos que no puedas verificar.
