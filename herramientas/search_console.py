@@ -86,7 +86,7 @@ def tabla(filas, columnas):
 
 def resumen(d):
     corta = lambda u: u.split(DOMINIO, 1)[-1] or '/'
-    paginas = [dict(p, page=corta(p['page'])) for p in d['paginas']]
+    paginas = sorted((dict(p, page=corta(p['page'])) for p in d['paginas']), key=lambda p: -p['impresiones'])
     por_impr = sorted(d['consultas'], key=lambda f: -f['impresiones'])
     # Consultas que ya enseñan la web pero lejos de arriba: candidatas a artículo propio o a reforzar uno.
     oportunidades = [f for f in por_impr if f['posicion'] > 10][:40]
