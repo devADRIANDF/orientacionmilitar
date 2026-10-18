@@ -27,6 +27,7 @@ CONTENIDO = RAIZ / 'contenido' / 'blog'
 CONFIG = json.loads((RAIZ / 'herramientas' / 'config.json').read_text('utf-8'))
 URL = CONFIG['url'].rstrip('/')
 HOY = date.today()
+NOMBRES_ALT = ['OrientacionMilitar', 'orientacionmilitar.com']
 MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
 errores, avisos = [], []
 
@@ -158,13 +159,21 @@ def ajustar_portada(posts):
     doc = re.sub(r'<meta name="google-site-verification"[^>]*>\n?', '', doc)
     if verif:
         doc = doc.replace('<link rel="canonical"', f'<meta name="google-site-verification" content="{e(verif)}">\n<link rel="canonical"', 1)
+    bing = CONFIG.get('bing_verificacion', '').strip()
+    doc = re.sub(r'<meta name="msvalidate.01"[^>]*>\n?', '', doc)
+    if bing:
+        doc = doc.replace('<link rel="canonical"', f'<meta name="msvalidate.01" content="{e(bing)}">\n<link rel="canonical"', 1)
 
     limpiar = lambda s: html.unescape(re.sub(r'<[^>]+>', '', s)).strip()
     faq = [{'@type': 'Question', 'name': limpiar(q), 'acceptedAnswer': {'@type': 'Answer', 'text': limpiar(a)}}
            for q, a in re.findall(r'<details>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>', doc, re.S)]
     precios = CONFIG['precios']
+    perfiles = [u for u in CONFIG.get('perfiles', []) if u.strip()]
     ld = {'@context': 'https://schema.org', '@graph': [
-        {'@type': 'ProfessionalService', 'name': 'Orientación Militar', 'url': f'{URL}/', 'areaServed': 'ES',
+        {'@type': 'WebSite', '@id': f'{URL}/#web', 'name': 'Orientación Militar', 'alternateName': NOMBRES_ALT,
+         'url': f'{URL}/', 'inLanguage': 'es-ES', 'publisher': {'@id': f'{URL}/#org'}},
+        {'@type': 'ProfessionalService', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'alternateName': NOMBRES_ALT,
+         'url': f'{URL}/', 'areaServed': 'ES', 'logo': f'{URL}/apple-touch-icon.png', 'sameAs': perfiles or None,
          'image': f'{URL}/og.png', 'email': CONFIG.get('email') or None,
          'description': 'Llamadas 1:1 con exmilitares para elegir plazas y destino en las Fuerzas Armadas.',
          'makesOffer': [
@@ -172,7 +181,7 @@ def ajustar_portada(posts):
              {'@type': 'Offer', 'name': 'Acompañamiento', 'price': str(precios['acompanamiento']), 'priceCurrency': 'EUR'},
              {'@type': 'Offer', 'name': 'Checklist para el examen', 'price': '0', 'priceCurrency': 'EUR'}]},
         {'@type': 'FAQPage', 'mainEntity': faq}]}
-    ld['@graph'][0] = {k: v for k, v in ld['@graph'][0].items() if v is not None}
+    ld['@graph'][1] = {k: v for k, v in ld['@graph'][1].items() if v is not None}
     bloque = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>'
     doc, n = re.subn(r'<script type="application/ld\+json">.*?</script>', lambda _: bloque, doc, count=1, flags=re.S)
     if n != 1:
@@ -323,8 +332,8 @@ def pagina_post(post, todos):
         {'@type': 'Article', 'headline': post['titulo'], 'description': post['descripcion'],
          'datePublished': post['fecha'].isoformat(), 'dateModified': post['actualizado'].isoformat(),
          'inLanguage': 'es-ES', 'mainEntityOfPage': url_post, 'image': f'{URL}/og.png',
-         'author': {'@type': 'Organization', 'name': 'Orientación Militar', 'url': f'{URL}/'},
-         'publisher': {'@type': 'Organization', 'name': 'Orientación Militar', 'logo': {'@type': 'ImageObject', 'url': f'{URL}/apple-touch-icon.png'}}},
+         'author': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'url': f'{URL}/'},
+         'publisher': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'logo': {'@type': 'ImageObject', 'url': f'{URL}/apple-touch-icon.png'}}},
         {'@type': 'BreadcrumbList', 'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': f'{URL}/'},
             {'@type': 'ListItem', 'position': 2, 'name': 'Blog', 'item': f'{URL}/blog/'},
@@ -619,7 +628,38 @@ def construir_sitemap(posts):
     urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima)] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
     filas = ''.join(f'\n  <url>\n    <loc>{e(u)}</loc>\n    <lastmod>{d}</lastmod>\n  </url>' for u, d in urls)
     escribir(SITIO / 'sitemap.xml', f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{filas}\n</urlset>\n')
+    construir_llms(posts)
     escribir(SITIO / 'robots.txt', f'User-agent: *\nAllow: /\nDisallow: /panel/\nDisallow: /api/\n\nSitemap: {URL}/sitemap.xml\n')
+
+
+def construir_llms(posts):
+    """llms.txt: resumen en texto plano para asistentes y buscadores con IA (ChatGPT, Gemini, Perplexity...)."""
+    precios = CONFIG['precios']
+    guias = '\n'.join(f'- [{p["titulo"]}]({URL}/blog/{p["slug"]}/): {p["descripcion"]}' for p in posts)
+    escribir(SITIO / 'llms.txt', f"""# Orientación Militar
+
+> Orientación Militar ({URL}) es un servicio privado e independiente de España que ofrece llamadas 1:1 con exmilitares a quienes se presentan a Tropa y Marinería de las Fuerzas Armadas, para ayudarles a elegir plazas y destino antes del examen. No tiene relación con el Ministerio de Defensa.
+
+## Servicios
+
+- Llamada 1:1 con un exmilitar ({precios['llamada']} €, IVA incluido): por videollamada o teléfono, para resolver dudas sobre destinos y dejar decidida la lista de plazas.
+- Acompañamiento ({precios['acompanamiento']} €, IVA incluido).
+- Checklist gratuita para el examen (PDF): qué llevar el día de la cita, cómo es la prueba de aptitudes y plantilla para las plazas.
+- Test gratuito de siete preguntas sobre qué tipo de destino encaja con cada persona.
+
+Reservas y más información: {URL}/
+
+## Guías del blog
+
+Guías gratuitas sobre Tropa y Marinería basadas en fuentes oficiales (BOE y portal de reclutamiento de Defensa):
+
+{guias}
+
+## Contacto
+
+- Email: {CONFIG.get('email', '')}
+- Web: {URL}/
+""")
 
 
 if __name__ == '__main__':
