@@ -43,3 +43,57 @@
   to = "https://orientacionmilitar.com/:splat"
   status = 301
   force = true
+
+# URLs de la web anterior (Next.js) que Google aún tiene guardadas: las mandamos a su equivalente.
+[[redirects]]
+  from = "/aviso-legal"
+  to = "/aviso-legal.html"
+  status = 301
+[[redirects]]
+  from = "/politica-privacidad"
+  to = "/privacidad.html"
+  status = 301
+[[redirects]]
+  from = "/asesorias"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/reservar"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/confirmacion"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/contacto"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/sobre-nosotros"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/blog/requisitos-ejercito-espanol-2024"
+  to = "/blog/requisitos-tropa-y-marineria/"
+  status = 301
+[[redirects]]
+  from = "/blog/como-elegir-destino-militar"
+  to = "/blog/como-elegir-plazas-tropa-y-marineria/"
+  status = 301
+[[redirects]]
+  from = "/blog/mejores-destinos-militares-espana-2024"
+  to = "/blog/como-elegir-plazas-tropa-y-marineria/"
+  status = 301
+[[redirects]]
+  from = "/blog/diferencias-tropa-marineria-suboficial"
+  to = "/blog/como-entrar-en-el-ejercito/"
+  status = 301
+[[redirects]]
+  from = "/blog/preparacion-oposiciones-militares"
+  to = "/blog/prueba-de-aptitudes-tropa-y-marineria/"
+  status = 301
+[[redirects]]
+  from = "/blog/vida-militar-expectativas-vs-realidad"
+  to = "/blog/"
+  status = 301
