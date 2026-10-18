@@ -1,0 +1,37 @@
+# Descarga las métricas de Google Search Console y las guarda en la rama web
+# (herramientas/metricas/), para que la tarea semanal del blog elija temas con datos.
+# Necesita el secreto GSC_CREDENCIALES: el JSON de una cuenta de servicio de Google Cloud
+# con la API de Search Console activada y añadida como usuario en Search Console.
+name: Métricas de Search Console
+
+on:
+  schedule:
+    - cron: '0 5 * * 1,4'   # lunes y jueves, antes de la tarea del blog (martes y viernes)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: web
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install google-auth requests
+      - name: Descargar métricas
+        env:
+          GSC_CREDENCIALES: ${{ secrets.GSC_CREDENCIALES }}
+        run: python3 herramientas/search_console.py
+      - name: Guardar en la rama web
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add herramientas/metricas
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Métricas de Search Console $(date -u +%F) [skip netlify]"
+          git push origin web
