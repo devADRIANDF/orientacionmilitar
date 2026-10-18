@@ -1,0 +1,297 @@
+{
+ "generado": "2026-10-18",
+ "propiedad": "sc-domain:orientacionmilitar.com",
+ "desde": "2026-07-19",
+ "hasta": "2026-10-16",
+ "totales": {
+  "clics": 0,
+  "impresiones": 78
+ },
+ "consultas": [
+  {
+   "query": "apuntarse al ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 96
+  },
+  {
+   "query": "cita previa ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 20
+  },
+  {
+   "query": "convocatorias tropa y marineria",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 95
+  },
+  {
+   "query": "ley de tropa y marineria",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 26
+  },
+  {
+   "query": "oposiciones tropa y marineria",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 91
+  },
+  {
+   "query": "plazas reservadas para militares",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 59
+  },
+  {
+   "query": "requisitos ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 73
+  },
+  {
+   "query": "requisitos para el servicio militar",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 67
+  },
+  {
+   "query": "requisitos para entrar al ejercito de españa",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 76
+  },
+  {
+   "query": "requisitos para entrar en el ejercito",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 78.5
+  },
+  {
+   "query": "requisitos para ingresar al ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 76
+  },
+  {
+   "query": "requisitos para ser soldado profesional",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 60
+  },
+  {
+   "query": "requisitos tropa y marinería",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 95.3
+  }
+ ],
+ "paginas": [
+  {
+   "page": "https://orientacionmilitar.com/blog/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 58.5
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 35,
+   "ctr": 0,
+   "posicion": 8.8
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 8,
+   "ctr": 0,
+   "posicion": 12.2
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/como-elegir-plazas-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 7,
+   "ctr": 0,
+   "posicion": 8
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 7
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
+   "clics": 0,
+   "impresiones": 11,
+   "ctr": 0,
+   "posicion": 26
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 14,
+   "ctr": 0,
+   "posicion": 66
+  }
+ ],
+ "consulta_pagina": [
+  {
+   "query": "apuntarse al ejercito",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 96
+  },
+  {
+   "query": "cita previa ejercito",
+   "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 20
+  },
+  {
+   "query": "convocatorias tropa y marineria",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 95
+  },
+  {
+   "query": "ley de tropa y marineria",
+   "page": "https://orientacionmilitar.com/blog/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 26
+  },
+  {
+   "query": "oposiciones tropa y marineria",
+   "page": "https://orientacionmilitar.com/blog/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 91
+  },
+  {
+   "query": "plazas reservadas para militares",
+   "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 59
+  },
+  {
+   "query": "requisitos ejercito",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 73
+  },
+  {
+   "query": "requisitos para el servicio militar",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 67
+  },
+  {
+   "query": "requisitos para entrar al ejercito de españa",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 76
+  },
+  {
+   "query": "requisitos para entrar en el ejercito",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 78.5
+  },
+  {
+   "query": "requisitos para ingresar al ejercito",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 76
+  },
+  {
+   "query": "requisitos para ser soldado profesional",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 60
+  },
+  {
+   "query": "requisitos tropa y marinería",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 95.3
+  }
+ ],
+ "dias": [
+  {
+   "date": "2026-10-12",
+   "clics": 0,
+   "impresiones": 0,
+   "ctr": 0,
+   "posicion": 0
+  },
+  {
+   "date": "2026-10-13",
+   "clics": 0,
+   "impresiones": 0,
+   "ctr": 0,
+   "posicion": 0
+  },
+  {
+   "date": "2026-10-14",
+   "clics": 0,
+   "impresiones": 25,
+   "ctr": 0,
+   "posicion": 26.5
+  },
+  {
+   "date": "2026-10-15",
+   "clics": 0,
+   "impresiones": 30,
+   "ctr": 0,
+   "posicion": 17.6
+  },
+  {
+   "date": "2026-10-16",
+   "clics": 0,
+   "impresiones": 23,
+   "ctr": 0,
+   "posicion": 26.3
+  }
+ ]
+}
