@@ -4,7 +4,6 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 
 ## Pendientes (por orden de prioridad)
 
-- Tatuajes en el Ejército: qué dice la norma oficial (Orden o instrucción vigente) y qué se comprueba en el proceso.
 - Plazas de Tropa y Marinería por provincias y unidades: dónde salen más plazas (usar los anexos de plazas del BOE).
 - Sueldo de un soldado de Tropa y Marinería: cuánto se cobra en el primer destino y qué complementos hay (retribuciones oficiales del año).
   - Nota 2026-10-13: aplazado. Verificados en BOE la estructura (RD 1314/2005: C2 temporal, C1 permanente), el componente general de 382,48 €/mes para soldado (RD 248/2025, cuantías de 2025) y las subidas de 2,5 % (2025) y 1,5 % (2026) del RDL 14/2025. Falta una fuente oficial legible con el sueldo base C1/C2 de 2026 y el complemento de empleo de soldado (la tabla de Hacienda en sepg.pap.hacienda.gob.es no se pudo leer).
@@ -28,6 +27,7 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 
 ## Hechos
 
+- 2026-10-23 · Tatuajes en el Ejército: qué dice la norma para entrar · `tatuajes-ejercito` (además, reforzado `cita-previa-tropa-y-marineria` para «cita previa ejército», posiciones 18-23 en Search Console)
 - 2026-10-20 · Edad máxima para entrar en el Ejército: los límites de cada vía · `edad-maxima-ejercito`
 - 2026-10-16 · Cómo entrar en el Ejército en España: las cuatro vías de acceso · `como-entrar-en-el-ejercito`
 - 2026-10-13 · Requisitos para entrar en el Ejército como soldado o marinero · `requisitos-tropa-y-marineria`
@@ -46,4 +46,5 @@ La tarea semanal coge el primer tema pendiente, salvo que haya una novedad ofici
 - `prueba-de-aptitudes-tropa-y-marineria`: factores evaluados, fórmula de la puntuación final y selección previa.
 - `plazas-reservadas-militares-guardia-civil-policia`: cupos de las nuevas convocatorias de Guardia Civil y Policía Nacional.
 - `edad-maxima-ejercito`: edades y fechas de cómputo de tropa (base 3.1), suboficiales, oficiales y reservistas; edad máxima de Guardia Civil y Policía Nacional.
-- `como-entrar-en-el-ejercito`: edades, estudios y plazas de cada vía (provisión de plazas del año y convocatorias de oficiales, suboficiales y reservistas). La de reservistas de 2026 cierra hacia el 25 de octubre de 2026.
+- `tatuajes-ejercito`: texto de la base sobre tatuajes e inserciones (3.3 g en 2026) y cuándo se comprueba (base 4.4).
+- `como-entrar-en-el-ejercito`: edades, estudios y plazas de cada vía (provisión de plazas del año y convocatorias de oficiales, suboficiales y reservistas). La cita previa de reservistas de 2026 va del 6 al 26 de octubre de 2026 (reclutamiento.defensa.gob.es).

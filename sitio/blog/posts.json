@@ -1,5 +1,14 @@
 [
  {
+  "slug": "tatuajes-ejercito",
+  "titulo": "Tatuajes en el Ejército: qué dice la norma para entrar",
+  "descripcion": "Qué tatuajes impiden entrar en el Ejército según el reglamento y la convocatoria de Tropa y Marinería de 2026, cuándo se comprueban y qué pasa si te excluyen.",
+  "categoria": "Convocatorias",
+  "fecha": "2026-10-23",
+  "actualizado": "2026-10-23",
+  "palabras": 1337
+ },
+ {
   "slug": "edad-maxima-ejercito",
   "titulo": "Edad máxima para entrar en el Ejército: los límites de cada vía",
   "descripcion": "Hasta qué edad puedes entrar en el Ejército como soldado, suboficial, oficial o reservista, y en qué fecha se cuenta, según las convocatorias de 2026.",
@@ -24,7 +33,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-13",
   "actualizado": "2026-10-13",
-  "palabras": 1194
+  "palabras": 1206
  },
  {
   "slug": "prueba-de-aptitudes-tropa-y-marineria",
@@ -37,12 +46,12 @@
  },
  {
   "slug": "cita-previa-tropa-y-marineria",
-  "titulo": "Cita previa de Tropa y Marinería: cómo pedirla y qué llevar",
-  "descripcion": "Dónde se pide la cita previa de Tropa y Marinería, qué datos necesitas, qué te envían después y qué documentación llevar el día del examen (convocatoria 2026).",
+  "titulo": "Cita previa en el Ejército (Tropa y Marinería): cómo pedirla",
+  "descripcion": "Cómo pedir cita previa en el Ejército para entrar como soldado o marinero: dónde se pide, qué datos necesitas y qué llevar el día del examen (convocatoria 2026).",
   "categoria": "Convocatorias",
   "fecha": "2026-10-13",
-  "actualizado": "2026-10-13",
-  "palabras": 993
+  "actualizado": "2026-10-23",
+  "palabras": 1002
  },
  {
   "slug": "plazas-reservadas-militares-guardia-civil-policia",
