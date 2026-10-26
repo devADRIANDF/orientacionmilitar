@@ -4,7 +4,6 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Pendientes (por orden de prioridad)
 
-- Qué llevar al centro de formación (CEFOT) el día de la incorporación: lo que piden y lo que no conviene llevar (buscar la información oficial de reclutamiento o de cada centro).
 - Qué es un CEFOT y cuáles hay: los centros de formación de tropa de Tierra, Armada y Aire y dónde están.
 - Cuánto dura la formación de tropa: formación militar general y específica, y qué pasa al terminarla.
 - Qué pasa después de la cita: plazos hasta la lista de seleccionados y la incorporación, y cómo consultar los resultados.
@@ -60,6 +59,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Hechos
 
+- 2026-10-26 · Qué llevar al CEFOT: documentos y equipaje para la incorporación · `que-llevar-al-cefot` (guías de bienvenida del 2º ciclo de 2026 de CEFOT 1, CEFOT 2, ESENGRA y EIMGAF; enlazado desde `calendario-tropa-y-marineria` y `tatuajes-ejercito`)
 - 2026-10-23 · Tatuajes en el Ejército: qué dice la norma para entrar · `tatuajes-ejercito` (además, reforzado `cita-previa-tropa-y-marineria` para «cita previa ejército», posiciones 18-23 en Search Console)
 - 2026-10-20 · Edad máxima para entrar en el Ejército: los límites de cada vía · `edad-maxima-ejercito`
 - 2026-10-16 · Cómo entrar en el Ejército en España: las cuatro vías de acceso · `como-entrar-en-el-ejercito`
@@ -81,3 +81,4 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 - `edad-maxima-ejercito`: edades y fechas de cómputo de tropa (base 3.1), suboficiales, oficiales y reservistas; edad máxima de Guardia Civil y Policía Nacional.
 - `tatuajes-ejercito`: texto de la base sobre tatuajes e inserciones (3.3 g en 2026) y cuándo se comprueba (base 4.4).
 - `como-entrar-en-el-ejercito`: edades, estudios y plazas de cada vía (provisión de plazas del año y convocatorias de oficiales, suboficiales y reservistas). La cita previa de reservistas de 2026 va del 6 al 26 de octubre de 2026 (reclutamiento.defensa.gob.es).
+- `que-llevar-al-cefot`: documentos, material, horas de llegada y fechas de jura según las guías de bienvenida de cada ciclo (reclutamiento.defensa.gob.es, página del ciclo). Para el 1.er ciclo de 2027, revisar también la guía del Ejército del Aire y del Espacio si se publica.

@@ -1,12 +1,21 @@
 [
  {
+  "slug": "que-llevar-al-cefot",
+  "titulo": "Qué llevar al CEFOT: documentos y equipaje para la incorporación",
+  "descripcion": "Qué documentos, ropa y material piden llevar el CEFOT 1, el CEFOT 2 y las escuelas de la Armada el día de la incorporación del segundo ciclo de 2026.",
+  "categoria": "Vida militar",
+  "fecha": "2026-10-26",
+  "actualizado": "2026-10-26",
+  "palabras": 1496
+ },
+ {
   "slug": "tatuajes-ejercito",
   "titulo": "Tatuajes en el Ejército: qué dice la norma para entrar",
   "descripcion": "Qué tatuajes impiden entrar en el Ejército según el reglamento y la convocatoria de Tropa y Marinería de 2026, cuándo se comprueban y qué pasa si te excluyen.",
   "categoria": "Convocatorias",
   "fecha": "2026-10-23",
   "actualizado": "2026-10-23",
-  "palabras": 1337
+  "palabras": 1360
  },
  {
   "slug": "edad-maxima-ejercito",
@@ -78,6 +87,6 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-12",
   "actualizado": "2026-10-12",
-  "palabras": 757
+  "palabras": 782
  }
 ]
