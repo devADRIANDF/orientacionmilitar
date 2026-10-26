@@ -1,7 +1,7 @@
 # Métricas de Search Console
 
-Generado el 2026-10-22 con datos del 2026-07-23 al 2026-10-20 (sc-domain:orientacionmilitar.com).
-Totales: 3 clics y 197 impresiones.
+Generado el 2026-10-26 con datos del 2026-07-27 al 2026-10-24 (sc-domain:orientacionmilitar.com).
+Totales: 3 clics y 315 impresiones.
 
 Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.md.
 
@@ -9,11 +9,11 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 
 | Consulta | Impr. | Clics | CTR % | Posición |
 |---|---|---|---|---|
-| requisitos tropa y marinería | 7 | 0 | 0 | 94.1 |
-| requisitos para entrar en el ejercito | 6 | 0 | 0 | 78.2 |
-| oposiciones ejercito | 5 | 0 | 0 | 61 |
-| oposiciones al ejército | 4 | 0 | 0 | 66.8 |
-| orientacion militar | 3 | 1 | 33.3 | 3 |
+| oposiciones ejercito | 13 | 0 | 0 | 65.2 |
+| requisitos tropa y marinería | 11 | 0 | 0 | 94.6 |
+| requisitos para entrar en el ejercito | 10 | 0 | 0 | 79.4 |
+| oposiciones al ejército | 8 | 0 | 0 | 67.6 |
+| orientacion militar | 4 | 1 | 25.0 | 11.5 |
 | inscripciones para el ejercito | 3 | 0 | 0 | 97.3 |
 | plazas reservadas para militares | 3 | 0 | 0 | 59 |
 | entrar como oficial en el ejército español | 2 | 0 | 0 | 68.5 |
@@ -27,8 +27,12 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | como alistarse en el ejercito español | 1 | 0 | 0 | 47 |
 | convocatorias tropa y marineria | 1 | 0 | 0 | 95 |
 | cómo entrar a suboficial del ejército | 1 | 0 | 0 | 56 |
+| edad maxima para entrar al ejercito | 1 | 0 | 0 | 80 |
 | ejercito del aire requisitos | 1 | 0 | 0 | 81 |
+| entrar a la fuerza | 1 | 0 | 0 | 58 |
 | estudiar una fp en el ejército | 1 | 0 | 0 | 62 |
+| foro del guardia civil vacantes | 1 | 0 | 0 | 50 |
+| ingreso en el ejercito español | 1 | 0 | 0 | 55 |
 | ingreso fuerzas armadas | 1 | 0 | 0 | 99 |
 | ley de tropa y marineria | 1 | 0 | 0 | 26 |
 | marina española requisitos | 1 | 0 | 0 | 78 |
@@ -36,6 +40,8 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | oposiciones tropa y marineria | 1 | 0 | 0 | 91 |
 | pedir cita ejercito | 1 | 0 | 0 | 23 |
 | plaza guardia civil | 1 | 0 | 0 | 96 |
+| plazas guardia civil | 1 | 0 | 0 | 99 |
+| que hay que estudiar para ser militar español | 1 | 0 | 0 | 72 |
 | reclutamiento militar | 1 | 0 | 0 | 98 |
 | requisitos ejercito | 1 | 0 | 0 | 73 |
 | requisitos para el servicio militar | 1 | 0 | 0 | 67 |
@@ -48,10 +54,11 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 
 | Consulta | Impr. | Posición |
 |---|---|---|
-| requisitos tropa y marinería | 7 | 94.1 |
-| requisitos para entrar en el ejercito | 6 | 78.2 |
-| oposiciones ejercito | 5 | 61 |
-| oposiciones al ejército | 4 | 66.8 |
+| oposiciones ejercito | 13 | 65.2 |
+| requisitos tropa y marinería | 11 | 94.6 |
+| requisitos para entrar en el ejercito | 10 | 79.4 |
+| oposiciones al ejército | 8 | 67.6 |
+| orientacion militar | 4 | 11.5 |
 | inscripciones para el ejercito | 3 | 97.3 |
 | plazas reservadas para militares | 3 | 59 |
 | entrar como oficial en el ejército español | 2 | 68.5 |
@@ -65,8 +72,12 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | como alistarse en el ejercito español | 1 | 47 |
 | convocatorias tropa y marineria | 1 | 95 |
 | cómo entrar a suboficial del ejército | 1 | 56 |
+| edad maxima para entrar al ejercito | 1 | 80 |
 | ejercito del aire requisitos | 1 | 81 |
+| entrar a la fuerza | 1 | 58 |
 | estudiar una fp en el ejército | 1 | 62 |
+| foro del guardia civil vacantes | 1 | 50 |
+| ingreso en el ejercito español | 1 | 55 |
 | ingreso fuerzas armadas | 1 | 99 |
 | ley de tropa y marineria | 1 | 26 |
 | marina española requisitos | 1 | 78 |
@@ -74,6 +85,8 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | oposiciones tropa y marineria | 1 | 91 |
 | pedir cita ejercito | 1 | 23 |
 | plaza guardia civil | 1 | 96 |
+| plazas guardia civil | 1 | 99 |
+| que hay que estudiar para ser militar español | 1 | 72 |
 | reclutamiento militar | 1 | 98 |
 | requisitos ejercito | 1 | 73 |
 | requisitos para el servicio militar | 1 | 67 |
@@ -86,37 +99,40 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 
 | Página | Impr. | Clics | CTR % | Posición |
 |---|---|---|---|---|
-| /blog/calendario-tropa-y-marineria/ | 83 | 0 | 0 | 7.4 |
-| /blog/como-entrar-en-el-ejercito/ | 38 | 1 | 2.6 | 62.4 |
-| /blog/requisitos-tropa-y-marineria/ | 26 | 0 | 0 | 71.1 |
-| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 20 | 0 | 0 | 24.2 |
-| /blog/cita-previa-tropa-y-marineria/ | 17 | 0 | 0 | 18.4 |
-| /blog/como-elegir-plazas-tropa-y-marineria/ | 11 | 0 | 0 | 7.7 |
-| / | 5 | 2 | 40.0 | 4.2 |
+| /blog/calendario-tropa-y-marineria/ | 130 | 0 | 0 | 7.2 |
+| /blog/como-entrar-en-el-ejercito/ | 63 | 1 | 1.6 | 57.3 |
+| /blog/requisitos-tropa-y-marineria/ | 40 | 0 | 0 | 64.7 |
+| /blog/como-elegir-plazas-tropa-y-marineria/ | 25 | 0 | 0 | 8 |
+| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 23 | 0 | 0 | 31.1 |
+| /blog/cita-previa-tropa-y-marineria/ | 22 | 0 | 0 | 16.4 |
+| /blog/edad-maxima-ejercito/ | 7 | 0 | 0 | 6.1 |
+| / | 6 | 2 | 33.3 | 9.7 |
+| /blog/tatuajes-ejercito/ | 3 | 0 | 0 | 4.3 |
 | /blog/ | 2 | 0 | 0 | 58.5 |
 
 ## Páginas que conviene reforzar (posición 4 a 30)
 
 | Página | Impr. | CTR % | Posición |
 |---|---|---|---|
-| /blog/calendario-tropa-y-marineria/ | 83 | 0 | 7.4 |
-| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 20 | 0 | 24.2 |
-| /blog/cita-previa-tropa-y-marineria/ | 17 | 0 | 18.4 |
-| /blog/como-elegir-plazas-tropa-y-marineria/ | 11 | 0 | 7.7 |
-| / | 5 | 40.0 | 4.2 |
+| /blog/calendario-tropa-y-marineria/ | 130 | 0 | 7.2 |
+| /blog/como-elegir-plazas-tropa-y-marineria/ | 25 | 0 | 8 |
+| /blog/cita-previa-tropa-y-marineria/ | 22 | 0 | 16.4 |
+| /blog/edad-maxima-ejercito/ | 7 | 0 | 6.1 |
+| / | 6 | 33.3 | 9.7 |
+| /blog/tatuajes-ejercito/ | 3 | 0 | 4.3 |
 
 ## Qué consulta lleva a qué página
 
 | Consulta | Página | Impr. | Posición |
 |---|---|---|---|
-| requisitos tropa y marinería | /blog/requisitos-tropa-y-marineria/ | 7 | 94.1 |
-| requisitos para entrar en el ejercito | /blog/requisitos-tropa-y-marineria/ | 6 | 78.2 |
-| oposiciones ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 61 |
-| oposiciones al ejército | /blog/como-entrar-en-el-ejercito/ | 4 | 66.8 |
-| orientacion militar | / | 3 | 3 |
+| oposiciones ejercito | /blog/como-entrar-en-el-ejercito/ | 13 | 65.2 |
+| requisitos tropa y marinería | /blog/requisitos-tropa-y-marineria/ | 11 | 94.6 |
+| requisitos para entrar en el ejercito | /blog/requisitos-tropa-y-marineria/ | 10 | 79.4 |
+| oposiciones al ejército | /blog/como-entrar-en-el-ejercito/ | 8 | 67.6 |
+| orientacion militar | / | 4 | 11.5 |
+| requisitos para entrar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 4 | 92.8 |
 | inscripciones para el ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 97.3 |
 | plazas reservadas para militares | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 3 | 59 |
-| requisitos para entrar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 91.7 |
 | entrar como oficial en el ejército español | /blog/como-entrar-en-el-ejercito/ | 2 | 68.5 |
 | incorporacion ejercito | /blog/como-entrar-en-el-ejercito/ | 2 | 45.5 |
 | apuntarse al ejercito | /blog/requisitos-tropa-y-marineria/ | 1 | 96 |
@@ -126,8 +142,12 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | como alistarse en el ejercito español | /blog/como-entrar-en-el-ejercito/ | 1 | 47 |
 | convocatorias tropa y marineria | /blog/calendario-tropa-y-marineria/ | 1 | 95 |
 | cómo entrar a suboficial del ejército | /blog/como-entrar-en-el-ejercito/ | 1 | 56 |
+| edad maxima para entrar al ejercito | /blog/como-entrar-en-el-ejercito/ | 1 | 80 |
 | ejercito del aire requisitos | /blog/como-entrar-en-el-ejercito/ | 1 | 81 |
+| entrar a la fuerza | /blog/como-entrar-en-el-ejercito/ | 1 | 58 |
 | estudiar una fp en el ejército | /blog/como-entrar-en-el-ejercito/ | 1 | 62 |
+| foro del guardia civil vacantes | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 1 | 50 |
+| ingreso en el ejercito español | /blog/como-entrar-en-el-ejercito/ | 1 | 55 |
 | ingreso fuerzas armadas | /blog/como-entrar-en-el-ejercito/ | 1 | 99 |
 | ley de tropa y marineria | /blog/ | 1 | 26 |
 | marina española requisitos | /blog/como-entrar-en-el-ejercito/ | 1 | 78 |
@@ -135,6 +155,8 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 | oposiciones tropa y marineria | /blog/ | 1 | 91 |
 | pedir cita ejercito | /blog/cita-previa-tropa-y-marineria/ | 1 | 23 |
 | plaza guardia civil | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 1 | 96 |
+| plazas guardia civil | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 1 | 99 |
+| que hay que estudiar para ser militar español | /blog/como-entrar-en-el-ejercito/ | 1 | 72 |
 | reclutamiento militar | /blog/como-entrar-en-el-ejercito/ | 1 | 98 |
 | requisitos ejercito | /blog/requisitos-tropa-y-marineria/ | 1 | 73 |
 | requisitos para el servicio militar | /blog/requisitos-tropa-y-marineria/ | 1 | 67 |
