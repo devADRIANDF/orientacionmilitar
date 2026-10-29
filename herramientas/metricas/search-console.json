@@ -1,19 +1,19 @@
 {
- "generado": "2026-10-26",
+ "generado": "2026-10-29",
  "propiedad": "sc-domain:orientacionmilitar.com",
- "desde": "2026-07-27",
- "hasta": "2026-10-24",
+ "desde": "2026-07-30",
+ "hasta": "2026-10-27",
  "totales": {
   "clics": 3,
-  "impresiones": 315
+  "impresiones": 426
  },
  "consultas": [
   {
    "query": "orientacion militar",
    "clics": 1,
-   "impresiones": 4,
-   "ctr": 25.0,
-   "posicion": 11.5
+   "impresiones": 5,
+   "ctr": 20.0,
+   "posicion": 10
   },
   {
    "query": "apuntarse al ejercito",
@@ -42,6 +42,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 33
+  },
+  {
+   "query": "cita previa tropa y marinería",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 51
   },
   {
    "query": "como alistarse en el ejercito español",
@@ -107,11 +114,25 @@
    "posicion": 50
   },
   {
+   "query": "incorporacion al ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 99
+  },
+  {
    "query": "incorporacion ejercito",
    "clics": 0,
    "impresiones": 2,
    "ctr": 0,
    "posicion": 45.5
+  },
+  {
+   "query": "ingreso ejercito español",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 94
   },
   {
    "query": "ingreso en el ejercito español",
@@ -151,16 +172,16 @@
   {
    "query": "oposiciones al ejército",
    "clics": 0,
-   "impresiones": 8,
+   "impresiones": 10,
    "ctr": 0,
-   "posicion": 67.6
+   "posicion": 67.7
   },
   {
    "query": "oposiciones ejercito",
    "clics": 0,
-   "impresiones": 13,
+   "impresiones": 17,
    "ctr": 0,
-   "posicion": 65.2
+   "posicion": 66.6
   },
   {
    "query": "oposiciones oficial ejercito",
@@ -210,6 +231,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 72
+  },
+  {
+   "query": "que hay que hacer para entrar en el ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 94
   },
   {
    "query": "reclutamiento militar",
@@ -256,9 +284,9 @@
   {
    "query": "requisitos para entrar en el ejercito",
    "clics": 0,
-   "impresiones": 10,
+   "impresiones": 11,
    "ctr": 0,
-   "posicion": 79.4
+   "posicion": 80.6
   },
   {
    "query": "requisitos para entrar en el ejército",
@@ -282,27 +310,48 @@
    "posicion": 60
   },
   {
+   "query": "requisitos para soldado",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 93
+  },
+  {
+   "query": "requisitos para soldado profesional",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 83.5
+  },
+  {
    "query": "requisitos tropa y marinería",
    "clics": 0,
-   "impresiones": 11,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 94.6
+   "posicion": 94
+  },
+  {
+   "query": "solicitar cita previa tropa y marineria",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 27
   }
  ],
  "paginas": [
   {
    "page": "https://orientacionmilitar.com/",
    "clics": 2,
-   "impresiones": 6,
-   "ctr": 33.3,
-   "posicion": 9.7
+   "impresiones": 8,
+   "ctr": 25.0,
+   "posicion": 8.4
   },
   {
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 1,
-   "impresiones": 63,
-   "ctr": 1.6,
-   "posicion": 57.3
+   "impresiones": 81,
+   "ctr": 1.2,
+   "posicion": 57.6
   },
   {
    "page": "https://orientacionmilitar.com/blog/",
@@ -314,51 +363,51 @@
   {
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 130,
+   "impresiones": 152,
    "ctr": 0,
-   "posicion": 7.2
+   "posicion": 7.0
   },
   {
    "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 22,
+   "impresiones": 32,
    "ctr": 0,
-   "posicion": 16.4
+   "posicion": 16.3
   },
   {
    "page": "https://orientacionmilitar.com/blog/como-elegir-plazas-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 25,
+   "impresiones": 33,
    "ctr": 0,
-   "posicion": 8
+   "posicion": 7.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/edad-maxima-ejercito/",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 27,
    "ctr": 0,
-   "posicion": 6.1
+   "posicion": 11.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
    "clics": 0,
-   "impresiones": 23,
+   "impresiones": 34,
    "ctr": 0,
-   "posicion": 31.1
+   "posicion": 25.2
   },
   {
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 40,
+   "impresiones": 49,
    "ctr": 0,
-   "posicion": 64.7
+   "posicion": 65.8
   },
   {
    "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 15,
    "ctr": 0,
-   "posicion": 4.3
+   "posicion": 7.4
   }
  ],
  "consulta_pagina": [
@@ -366,9 +415,9 @@
    "query": "orientacion militar",
    "page": "https://orientacionmilitar.com/",
    "clics": 1,
-   "impresiones": 4,
-   "ctr": 25.0,
-   "posicion": 11.5
+   "impresiones": 5,
+   "ctr": 20.0,
+   "posicion": 10
   },
   {
    "query": "apuntarse al ejercito",
@@ -401,6 +450,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 33
+  },
+  {
+   "query": "cita previa tropa y marinería",
+   "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 51
   },
   {
    "query": "como alistarse en el ejercito español",
@@ -475,12 +532,28 @@
    "posicion": 50
   },
   {
+   "query": "incorporacion al ejercito",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 99
+  },
+  {
    "query": "incorporacion ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
    "impresiones": 2,
    "ctr": 0,
    "posicion": 45.5
+  },
+  {
+   "query": "ingreso ejercito español",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 94
   },
   {
    "query": "ingreso en el ejercito español",
@@ -526,17 +599,17 @@
    "query": "oposiciones al ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 8,
+   "impresiones": 10,
    "ctr": 0,
-   "posicion": 67.6
+   "posicion": 67.7
   },
   {
    "query": "oposiciones ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 13,
+   "impresiones": 17,
    "ctr": 0,
-   "posicion": 65.2
+   "posicion": 66.6
   },
   {
    "query": "oposiciones oficial ejercito",
@@ -593,6 +666,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 72
+  },
+  {
+   "query": "que hay que hacer para entrar en el ejercito",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 94
   },
   {
    "query": "reclutamiento militar",
@@ -662,17 +743,17 @@
    "query": "requisitos para entrar en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 92.8
+   "posicion": 94.2
   },
   {
    "query": "requisitos para entrar en el ejercito",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 10,
+   "impresiones": 11,
    "ctr": 0,
-   "posicion": 79.4
+   "posicion": 80.6
   },
   {
    "query": "requisitos para entrar en el ejército",
@@ -707,6 +788,22 @@
    "posicion": 60
   },
   {
+   "query": "requisitos para soldado",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 93
+  },
+  {
+   "query": "requisitos para soldado profesional",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 83.5
+  },
+  {
    "query": "requisitos tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
@@ -718,9 +815,17 @@
    "query": "requisitos tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 11,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 94.6
+   "posicion": 94
+  },
+  {
+   "query": "solicitar cita previa tropa y marineria",
+   "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 27
   }
  ],
  "dias": [
@@ -814,6 +919,27 @@
    "impresiones": 26,
    "ctr": 0,
    "posicion": 27.8
+  },
+  {
+   "date": "2026-10-25",
+   "clics": 0,
+   "impresiones": 37,
+   "ctr": 0,
+   "posicion": 21.9
+  },
+  {
+   "date": "2026-10-26",
+   "clics": 0,
+   "impresiones": 39,
+   "ctr": 0,
+   "posicion": 31.1
+  },
+  {
+   "date": "2026-10-27",
+   "clics": 0,
+   "impresiones": 35,
+   "ctr": 0,
+   "posicion": 12.2
   }
  ]
 }
