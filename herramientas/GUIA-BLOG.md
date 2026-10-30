@@ -70,3 +70,14 @@ Si existe `herramientas/metricas/RESUMEN.md` (lo genera dos veces por semana la 
 - **Reforzar un artículo.** Si un artículo sale entre las posiciones 4 y 30 para una consulta, puedes mejorarlo en lugar de (o además de) publicar uno nuevo: que el título y la descripción contengan esa consulta, que los dos primeros párrafos la respondan, añadir una sección que falte o enlazarlo desde otros artículos. Pon `actualizado:` con la fecha.
 - **Pocas impresiones.** Con menos de unas 100 impresiones en total los datos aún no dicen mucho: úsalos como pista, no como regla.
 - Las reglas de veracidad siguen mandando: una consulta muy buscada no justifica poner datos que no puedas verificar.
+
+## Mejorar el posicionamiento en cada ejecución
+
+Además de publicar el artículo, en cada ejecución revisa las métricas y aplica las mejoras que más ayuden a posicionar, sin esperar a que te lo pidan:
+
+- Compara `herramientas/metricas/RESUMEN.md` con sus versiones anteriores (`git log -- herramientas/metricas/RESUMEN.md`) para ver si suben o bajan impresiones, clics y posiciones.
+- Si una página tiene muchas impresiones y ningún clic, reescribe su título y su descripción para que respondan a lo que se busca (con el año si la búsqueda lo lleva, por ejemplo «2027»).
+- Refuerza los artículos entre las posiciones 4 y 30 como dice «Usar las métricas», y mejora el enlazado interno entre guías relacionadas.
+- Mantén con `destacado: si` las 3 o 4 guías que más tráfico pueden traer, para que salgan en la portada.
+- Pocos cambios y con criterio: no reescribas por reescribir, no repitas el refuerzo de una página para la misma consulta antes de 14 días y apunta en «Hechos» de temas.md qué has cambiado y por qué.
+- Cuenta en el informe final cómo van las métricas respecto a la vez anterior.
