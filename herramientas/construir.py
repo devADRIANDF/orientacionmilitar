@@ -190,7 +190,7 @@ def ajustar_portada(posts):
     if posts:
         tarjetas = '\n'.join(
             f'        <li class="guia"><span class="guia-cat">{e(p["categoria"])}</span><a href="/blog/{p["slug"]}/">{e(p["titulo"])}</a><p>{e(p["descripcion"])}</p></li>'
-            for p in posts[:3])
+            for p in ([p for p in posts if p['destacado']] + [p for p in posts if not p['destacado']])[:6])
         seccion = f'''<!--BLOG:INICIO-->
     <section class="seccion" id="guias" aria-labelledby="t-guias">
       <div class="sec-cab">
@@ -239,7 +239,8 @@ def leer_post(ruta):
     slug = ruta.stem
     post = {'slug': slug, 'archivo': nombre, 'cuerpo': m.group(2).strip(), 'fuentes': fuentes,
             'titulo': meta.get('titulo', ''), 'descripcion': meta.get('descripcion', ''),
-            'categoria': meta.get('categoria', 'Guías'), 'borrador': meta.get('borrador', '').lower() in ('si', 'sí', 'true')}
+            'categoria': meta.get('categoria', 'Guías'), 'borrador': meta.get('borrador', '').lower() in ('si', 'sí', 'true'),
+            'destacado': meta.get('destacado', '').lower() in ('si', 'sí', 'true')}
     if not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', slug):
         errores.append(f'{nombre}: el nombre del archivo debe ir en minúsculas y con guiones (ej. como-elegir-plazas.html)')
     try:
@@ -404,7 +405,9 @@ def pagina_post(post, todos):
       }}
     }})();
     </script>'''
-    return pagina(f'{post["titulo"]} | Orientación Militar', post['descripcion'], f'/blog/{post["slug"]}/', contenido,
+    # Google corta los títulos largos: la marca solo se añade si cabe.
+    titulo_pagina = post['titulo'] if len(post['titulo']) > 40 else f'{post["titulo"]} | Orientación Militar'
+    return pagina(titulo_pagina, post['descripcion'], f'/blog/{post["slug"]}/', contenido,
                   cabeza_extra=extra, og_tipo='article', actual='blog')
 
 

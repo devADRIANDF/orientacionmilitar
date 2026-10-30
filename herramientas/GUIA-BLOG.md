@@ -32,12 +32,13 @@ fuentes:
 -->
 ```
 
-- `titulo`: 65 caracteres como máximo, con la búsqueda principal al principio.
+- `titulo`: 65 caracteres como máximo, con la búsqueda principal al principio. Si pasa de 40 caracteres, la página no añade « | Orientación Militar» para que Google no lo corte.
 - `descripcion`: entre 120 y 160 caracteres. Dice qué va a encontrar el lector.
 - `fecha`: el día de publicación (AAAA-MM-DD). Una fecha futura deja el artículo programado.
 - `actualizado`: opcional. Ponlo cuando revises un artículo ya publicado.
 - `categoria`: una de: Convocatorias, Plazas y destinos, Pruebas, Unidades, Carrera y salidas, Vida militar.
 - `borrador: si` para que no se publique.
+- `destacado: si`: opcional. Las guías destacadas salen siempre en la portada (hasta 6 tarjetas, primero las destacadas y luego las más recientes). Úsalo solo para las 3 o 4 guías principales, las que más tráfico pueden traer.
 
 Después va el cuerpo en HTML sencillo. Etiquetas permitidas: `p`, `h2`, `h3`, `ul`, `ol`, `li`, `strong`, `em`, `a`, `table`, `thead`, `tbody`, `tr`, `th`, `td`, `blockquote` y `<div class="nota">` para un aviso destacado. Nada de `h1` (lo pone la plantilla), imágenes, estilos ni scripts.
 

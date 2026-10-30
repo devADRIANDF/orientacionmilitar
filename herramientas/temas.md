@@ -58,6 +58,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Hechos
 
+- 2026-10-30 · Mejoras SEO (sin artículo nuevo): reforzado `calendario-tropa-y-marineria` para búsquedas de la convocatoria 2027 (posición 7 con 152 impresiones y 0 clics: título, descripción y primer párrafo) y `como-entrar-en-el-ejercito` para «oposiciones ejército» (27 impresiones, posición 67). Guías destacadas en portada (`destacado: si`) y títulos de página sin la marca cuando son largos.
 - 2026-10-30 · Qué es el CEFOT y qué centros de formación de tropa hay · `que-es-el-cefot` (anexo III de plazas del 2º ciclo de 2026, columna CFOR; enlazado desde `que-llevar-al-cefot` y `como-elegir-plazas-tropa-y-marineria`)
 - 2026-10-26 · Qué llevar al CEFOT: documentos y equipaje para la incorporación · `que-llevar-al-cefot` (guías de bienvenida del 2º ciclo de 2026 de CEFOT 1, CEFOT 2, ESENGRA y EIMGAF; enlazado desde `calendario-tropa-y-marineria` y `tatuajes-ejercito`)
 - 2026-10-23 · Tatuajes en el Ejército: qué dice la norma para entrar · `tatuajes-ejercito` (además, reforzado `cita-previa-tropa-y-marineria` para «cita previa ejército», posiciones 18-23 en Search Console)
