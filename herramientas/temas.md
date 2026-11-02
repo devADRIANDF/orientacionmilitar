@@ -5,7 +5,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 ## Pendientes (por orden de prioridad)
 
 - Cuánto dura la formación de tropa: formación militar general y específica, y qué pasa al terminarla.
-- Qué pasa después de la cita: plazos hasta la lista de seleccionados y la incorporación, y cómo consultar los resultados.
+  - Nota 2026-11-02: se solapa mucho con `que-es-el-cefot` (fases de la base 10.2, jura y compromiso). Si se escribe, centrarlo en lo que no cubre: módulos y evaluación de cada fase, repetición y bajas (base 10.5) y qué pasa al terminar la formación específica (incorporación a la unidad).
 - Me he quedado sin plaza en Tropa y Marinería: qué opciones hay (siguiente ciclo, reservas, otras vías).
 - Plazas de Tropa y Marinería por provincias y unidades: dónde salen más plazas (usar los anexos de plazas del BOE).
 - Sueldo de un soldado de Tropa y Marinería: cuánto se cobra en el primer destino y qué complementos hay (retribuciones oficiales del año).
@@ -58,6 +58,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Hechos
 
+- 2026-11-02 · Qué pasa después de la cita: lista de seleccionados, médico, pruebas físicas, complementaria e incorporación · `lista-seleccionados-tropa-y-marineria` (bases 8 y 9 de BOE-A-2026-436 y fechas del 2.º ciclo de 2026; enlazado desde `cita-previa-tropa-y-marineria` y `prueba-de-aptitudes-tropa-y-marineria`). Sin métricas nuevas desde el 2026-10-29 y sin convocatoria de 2027 publicada todavía, así que no se reforzó ningún artículo.
 - 2026-10-30 · Mejoras SEO (sin artículo nuevo): reforzado `calendario-tropa-y-marineria` para búsquedas de la convocatoria 2027 (posición 7 con 152 impresiones y 0 clics: título, descripción y primer párrafo) y `como-entrar-en-el-ejercito` para «oposiciones ejército» (27 impresiones, posición 67). Guías destacadas en portada (`destacado: si`) y títulos de página sin la marca cuando son largos.
 - 2026-10-30 · Qué es el CEFOT y qué centros de formación de tropa hay · `que-es-el-cefot` (anexo III de plazas del 2º ciclo de 2026, columna CFOR; enlazado desde `que-llevar-al-cefot` y `como-elegir-plazas-tropa-y-marineria`)
 - 2026-10-26 · Qué llevar al CEFOT: documentos y equipaje para la incorporación · `que-llevar-al-cefot` (guías de bienvenida del 2º ciclo de 2026 de CEFOT 1, CEFOT 2, ESENGRA y EIMGAF; enlazado desde `calendario-tropa-y-marineria` y `tatuajes-ejercito`)

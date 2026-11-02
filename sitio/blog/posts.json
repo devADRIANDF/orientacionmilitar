@@ -1,5 +1,14 @@
 [
  {
+  "slug": "lista-seleccionados-tropa-y-marineria",
+  "titulo": "Seleccionados de Tropa y Marinería: qué pasa tras la cita",
+  "descripcion": "Qué pasa después de la cita de Tropa y Marinería: tu nota, la lista de seleccionados, el médico y las pruebas físicas, la complementaria y la incorporación.",
+  "categoria": "Convocatorias",
+  "fecha": "2026-11-02",
+  "actualizado": "2026-11-02",
+  "palabras": 1497
+ },
+ {
   "slug": "que-es-el-cefot",
   "titulo": "Qué es el CEFOT y qué centros de formación de tropa hay",
   "descripcion": "Qué es un CEFOT, qué centros forman a soldados y marineros en Tierra, Armada y Aire, dónde está cada uno y cómo saber a cuál vas según tu plaza.",
@@ -60,7 +69,7 @@
   "categoria": "Pruebas",
   "fecha": "2026-10-13",
   "actualizado": "2026-10-13",
-  "palabras": 1343
+  "palabras": 1357
  },
  {
   "slug": "cita-previa-tropa-y-marineria",
@@ -69,7 +78,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-13",
   "actualizado": "2026-10-23",
-  "palabras": 1002
+  "palabras": 1042
  },
  {
   "slug": "plazas-reservadas-militares-guardia-civil-policia",
