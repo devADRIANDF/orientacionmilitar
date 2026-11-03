@@ -1,5 +1,14 @@
 [
  {
+  "slug": "compromiso-inicial-larga-duracion-ejercito",
+  "titulo": "Compromiso en el Ejército: cuántos años firmas como soldado",
+  "descripcion": "Cuántos años firmas al entrar en el Ejército: compromiso inicial, renovaciones, compromiso de larga duración hasta los 45 y cómo llegar a permanente.",
+  "categoria": "Carrera y salidas",
+  "fecha": "2026-11-03",
+  "actualizado": "2026-11-03",
+  "palabras": 1486
+ },
+ {
   "slug": "lista-seleccionados-tropa-y-marineria",
   "titulo": "Seleccionados de Tropa y Marinería: qué pasa tras la cita",
   "descripcion": "Qué pasa después de la cita de Tropa y Marinería: tu nota, la lista de seleccionados, el médico y las pruebas físicas, la complementaria y la incorporación.",
@@ -37,12 +46,12 @@
  },
  {
   "slug": "edad-maxima-ejercito",
-  "titulo": "Edad máxima para entrar en el Ejército: los límites de cada vía",
-  "descripcion": "Hasta qué edad puedes entrar en el Ejército como soldado, suboficial, oficial o reservista, y en qué fecha se cuenta, según las convocatorias de 2026.",
+  "titulo": "Edad máxima para entrar en el Ejército en 2026: hasta qué edad",
+  "descripcion": "Como soldado, hasta no haber cumplido 29 años el día de ingreso. Los límites de suboficial, oficial y reservista y cuándo se cuenta la edad (BOE de 2026).",
   "categoria": "Convocatorias",
   "fecha": "2026-10-20",
-  "actualizado": "2026-10-20",
-  "palabras": 1321
+  "actualizado": "2026-11-03",
+  "palabras": 1338
  },
  {
   "slug": "como-entrar-en-el-ejercito",
@@ -51,7 +60,7 @@
   "categoria": "Carrera y salidas",
   "fecha": "2026-10-16",
   "actualizado": "2026-10-30",
-  "palabras": 1451
+  "palabras": 1483
  },
  {
   "slug": "requisitos-tropa-y-marineria",

@@ -7,15 +7,17 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 - Cuánto dura la formación de tropa: formación militar general y específica, y qué pasa al terminarla.
   - Nota 2026-11-02: se solapa mucho con `que-es-el-cefot` (fases de la base 10.2, jura y compromiso). Si se escribe, centrarlo en lo que no cubre: módulos y evaluación de cada fase, repetición y bajas (base 10.5) y qué pasa al terminar la formación específica (incorporación a la unidad).
 - Me he quedado sin plaza en Tropa y Marinería: qué opciones hay (siguiente ciclo, reservas, otras vías).
+  - Nota 2026-11-03: saltado. La relación complementaria (bases 9.4 y 9.5) ya está en `lista-seleccionados-tropa-y-marineria` y las otras vías en `como-entrar-en-el-ejercito`. Escribirlo cuando salga la convocatoria de 2027, centrado en el ciclo siguiente (fechas nuevas) y en qué se conserva de un ciclo a otro.
 - Plazas de Tropa y Marinería por provincias y unidades: dónde salen más plazas (usar los anexos de plazas del BOE).
+  - Nota 2026-11-03: saltado. Mejor con el anexo de plazas del 1.er ciclo de 2027 (el del 2.º ciclo de 2026 ya está cerrado); el PDF del anexo III en reclutamiento.defensa.gob.es no se pudo abrir hoy.
 - Sueldo de un soldado de Tropa y Marinería: cuánto se cobra en el primer destino y qué complementos hay (retribuciones oficiales del año).
   - Nota 2026-10-13: aplazado. Verificados en BOE la estructura (RD 1314/2005: C2 temporal, C1 permanente), el componente general de 382,48 €/mes para soldado (RD 248/2025, cuantías de 2025) y las subidas de 2,5 % (2025) y 1,5 % (2026) del RDL 14/2025. Falta una fuente oficial legible con el sueldo base C1/C2 de 2026 y el complemento de empleo de soldado (la tabla de Hacienda en sepg.pap.hacienda.gob.es no se pudo leer).
 - Pruebas físicas de Tropa y Marinería: las cuatro pruebas, las marcas por edad y sexo y cómo prepararlas.
   - Nota 2026-10-13: aplazado. Las marcas están en el apéndice 4 de BOE-A-2026-436, pero no se pudo leer (la versión txt del BOE bloqueada y el PDF se corta antes de los apéndices). Probar con otra versión del BOE o la nota de reclutamiento.defensa.gob.es.
+  - Nota 2026-11-03: sigue aplazado. El PDF de BOE-A-2026-436 leído por la herramienta se corta en la base 13 (76.791 caracteres) y la versión txt.php no se pudo abrir. Solo hay marcas en academias, que no valen como única fuente.
 - Baremo de méritos de Tropa y Marinería: qué puntúa en el concurso y cómo acreditarlo.
 - Ejército de Tierra, Armada o Ejército del Aire y del Espacio: diferencias en el día a día para tropa.
 - Cómo es la formación inicial en el centro de formación: las primeras semanas y la jura de bandera.
-- Compromiso inicial y compromiso de larga duración: cuántos años firmas y qué pasa después.
 - La UME: qué hace y cómo se puede acceder a ella como soldado.
 - La Legión: qué es, dónde está y qué saber antes de pedir plaza.
 - Infantería de Marina: qué es, dónde está y cómo es el ritmo.
@@ -58,6 +60,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Hechos
 
+- 2026-11-03 · Compromiso inicial y compromiso de larga duración: cuántos años firmas y qué pasa después · `compromiso-inicial-larga-duracion-ejercito` (Ley 8/2006 arts. 6-12, 17 y 19; Orden DEF/3316/2006; bases 10 y 11 de BOE-A-2026-436; convocatoria de permanentes del BOD de 17-06-2026; enlazado desde `como-entrar-en-el-ejercito` y `edad-maxima-ejercito`). Se saltaron los temas de formación, «sin plaza» y plazas por provincias por solaparse o por falta de anexo (notas arriba). Refuerzo de `edad-maxima-ejercito` (posición 9,7 con 47 impresiones y 0 clics): título con «2026» y descripción que responde la edad de tropa. Sin convocatoria de Tropa y Marinería 2027 publicada todavía. Métricas del 2026-11-02: 552 impresiones y 3 clics (antes 426 y 3).
 - 2026-11-02 · Qué pasa después de la cita: lista de seleccionados, médico, pruebas físicas, complementaria e incorporación · `lista-seleccionados-tropa-y-marineria` (bases 8 y 9 de BOE-A-2026-436 y fechas del 2.º ciclo de 2026; enlazado desde `cita-previa-tropa-y-marineria` y `prueba-de-aptitudes-tropa-y-marineria`). Sin métricas nuevas desde el 2026-10-29 y sin convocatoria de 2027 publicada todavía, así que no se reforzó ningún artículo.
 - 2026-10-30 · Mejoras SEO (sin artículo nuevo): reforzado `calendario-tropa-y-marineria` para búsquedas de la convocatoria 2027 (posición 7 con 152 impresiones y 0 clics: título, descripción y primer párrafo) y `como-entrar-en-el-ejercito` para «oposiciones ejército» (27 impresiones, posición 67). Guías destacadas en portada (`destacado: si`) y títulos de página sin la marca cuando son largos.
 - 2026-10-30 · Qué es el CEFOT y qué centros de formación de tropa hay · `que-es-el-cefot` (anexo III de plazas del 2º ciclo de 2026, columna CFOR; enlazado desde `que-llevar-al-cefot` y `como-elegir-plazas-tropa-y-marineria`)
@@ -84,4 +87,5 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 - `tatuajes-ejercito`: texto de la base sobre tatuajes e inserciones (3.3 g en 2026) y cuándo se comprueba (base 4.4).
 - `como-entrar-en-el-ejercito`: edades, estudios y plazas de cada vía (provisión de plazas del año y convocatorias de oficiales, suboficiales y reservistas). La cita previa de reservistas de 2026 va del 6 al 26 de octubre de 2026 (reclutamiento.defensa.gob.es).
 - `que-es-el-cefot`: centros de formación (CFOR) de cada tipo de plaza en el anexo de plazas de cada ciclo, duración de las fases (base 10.2) y fechas de ingreso.
+- `compromiso-inicial-larga-duracion-ejercito`: duración del compromiso inicial en la oferta de plazas y plazas y requisitos de la convocatoria anual de acceso a permanente. Vigilar si se aprueba alguna reforma de la Ley 8/2006 (límite de los 45 años).
 - `que-llevar-al-cefot`: documentos, material, horas de llegada y fechas de jura según las guías de bienvenida de cada ciclo (reclutamiento.defensa.gob.es, página del ciclo). Para el 1.er ciclo de 2027, revisar también la guía del Ejército del Aire y del Espacio si se publica.
