@@ -9,6 +9,7 @@ Qué hace (sin dependencias externas, solo Python 3):
   - Genera las páginas legales y la 404 con los datos de herramientas/config.json.
   - Genera el blog a partir de contenido/blog/*.html: artículos, índice, posts.json y feed RSS.
   - Pinta las últimas guías en la portada.
+  - Genera la calculadora de edad (/calculadora-edad-ejercito/).
   - Genera sitemap.xml y robots.txt.
 Si encuentra un error (por ejemplo, un artículo sin fuentes), lo dice y termina con código 1.
 """
@@ -82,6 +83,7 @@ def pie():
     <p class="pie-contacto"><span>Contacto: <span class="sel" data-dato="email" hidden></span></span><a data-wa="Hola, tengo una duda sobre Orientación Militar: " hidden>WhatsApp <span data-dato="whatsapp_visible"></span></a></p>
     <nav class="pie-legal" aria-label="Enlaces">
       <a href="/blog/">Blog</a>
+      <a href="/calculadora-edad-ejercito/">Calculadora de edad</a>
       <a href="/aviso-legal.html">Aviso legal</a>
       <a href="/privacidad.html">Política de privacidad</a>
       <a href="/cookies.html">Cookies</a>
@@ -624,11 +626,117 @@ def construir_legal():
     </div>''', robots='noindex'))
 
 
+# ---------------------------------------------------------------- Calculadora de edad
+
+CALCULADORA_RUTA = '/calculadora-edad-ejercito/'
+CALCULADORA_FECHA = date(2026, 11, 4)  # Cámbiala al revisar los datos con una convocatoria nueva.
+
+CALCULADORA_ESTILO = '''<style>
+.calc{margin-top:24px;padding:20px;border:1px solid var(--rule);border-radius:var(--radius);background:var(--paper-2);display:grid;gap:16px}
+.calc label{display:grid;gap:6px;font-weight:600}
+.calc input{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);padding:10px 12px;max-width:100%;min-height:44px}
+.calc small{font-weight:400;color:var(--ink-2)}
+.calc .btn{justify-self:start}
+.calc-res{padding:16px;border-left:4px solid var(--marker);background:var(--paper)}
+.calc-res p+p{margin-top:8px}
+.calc-res.si{border-left-color:var(--field)}
+.calc-res.no{border-left-color:var(--water)}
+</style>
+'''
+
+CALCULADORA_SCRIPT = '''    <script>
+    (function () {
+      var f = document.getElementById('calc'), res = document.getElementById('res');
+      var meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+      function leer(v) { var p = (v || '').split('-'); return p.length === 3 ? new Date(+p[0], +p[1] - 1, +p[2]) : null; }
+      function cumple(n, anos) {
+        var d = new Date(n.getFullYear() + anos, n.getMonth(), n.getDate());
+        if (d.getMonth() !== n.getMonth()) d = new Date(n.getFullYear() + anos, n.getMonth() + 1, 1);
+        return d;
+      }
+      function txt(d) { return d.getDate() + ' de ' + meses[d.getMonth()] + ' de ' + d.getFullYear(); }
+      function edad(n, d) { var a = d.getFullYear() - n.getFullYear(); if (cumple(n, a) > d) a--; return a; }
+      function pintar(clase, html) { res.className = 'calc-res ' + clase; res.innerHTML = html; res.hidden = false; }
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var n = leer(document.getElementById('nac').value), i = leer(document.getElementById('inc').value);
+        if (!n || !i || isNaN(n) || isNaN(i)) { pintar('', '<p>Pon las dos fechas para calcular.</p>'); return; }
+        var c18 = cumple(n, 18), c29 = cumple(n, 29);
+        var limite = '<p>Te vale cualquier ciclo con ingreso entre el <strong>' + txt(c18) + '</strong> y el <strong>' + txt(c29) + '</strong>, ambos incluidos.</p>';
+        if (i < c18) {
+          pintar('no', '<p><strong>Todavía no.</strong> Ese día tendrías ' + edad(n, i) + ' años y hacen falta 18 cumplidos.</p>' + limite);
+        } else if (i > c29) {
+          pintar('no', '<p><strong>Por edad no entrarías en ese ciclo.</strong> Cumples 29 años el ' + txt(c29) + ', antes del día de incorporación.</p><p>Mira otras vías, como la de reservista voluntario, en la guía de <a href="/blog/edad-maxima-ejercito/">edad máxima</a>.</p>');
+        } else {
+          pintar('si', '<p><strong>Sí, cumples la edad.</strong> El día de incorporación tendrías ' + edad(n, i) + ' años' + (+i === +c29 ? ' (cumples 29 justo ese día, y la base solo excluye a quien los haya cumplido antes)' : '') + '.</p>' + limite + '<p>Ahora repasa el resto de <a href="/blog/requisitos-tropa-y-marineria/">requisitos</a>.</p>');
+        }
+      });
+    })();
+    </script>'''
+
+
+def construir_calculadora():
+    titulo = 'Calculadora de edad para entrar en el Ejército como soldado'
+    descripcion = ('Pon tu fecha de nacimiento y la de incorporación y comprueba si cumples la edad para '
+                   'entrar en Tropa y Marinería: 18 años cumplidos y no haber cumplido 29.')
+    url_pag = f'{URL}{CALCULADORA_RUTA}'
+    ld = {'@context': 'https://schema.org', '@graph': [
+        {'@type': 'WebApplication', 'name': titulo, 'description': descripcion, 'url': url_pag,
+         'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Web', 'inLanguage': 'es-ES',
+         'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'EUR'},
+         'publisher': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'url': f'{URL}/'}},
+        {'@type': 'BreadcrumbList', 'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': f'{URL}/'},
+            {'@type': 'ListItem', 'position': 2, 'name': 'Calculadora de edad', 'item': url_pag}]}]}
+    extra = CALCULADORA_ESTILO + f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+    cuerpo = f'''    <div class="art-rejilla">
+    <article class="articulo">
+      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li>Calculadora de edad</li></ol></nav>
+      <h1>{e(titulo)}</h1>
+      <p class="art-meta"><span>Datos revisados el {fecha_larga(CALCULADORA_FECHA)}</span><span>Gratis y sin registro</span></p>
+      <p class="art-entradilla">Para entrar como soldado o marinero, la convocatoria de 2026 pedía tener 18 años cumplidos y no haber cumplido los 29 antes del día en que te incorporas al centro de formación. Pon tus fechas y te decimos si entras y hasta qué día te vale.</p>
+      <form class="calc" id="calc" novalidate>
+        <label>Tu fecha de nacimiento
+          <input type="date" id="nac" required min="1960-01-01" max="2015-12-31">
+        </label>
+        <label>Fecha de incorporación al centro de formación
+          <input type="date" id="inc" value="2026-11-03" required>
+          <small>Viene puesta la del 2.º ciclo de 2026 (3 de noviembre). Las fechas de 2027 se sabrán cuando salga la convocatoria; mientras, prueba con una fecha aproximada.</small>
+        </label>
+        <button class="btn" type="submit">Calcular</button>
+        <div class="calc-res" id="res" aria-live="polite" hidden></div>
+      </form>
+      <div class="art-cuerpo">
+        <h2 id="como-se-calcula">Cómo se calcula la edad para entrar en Tropa y Marinería</h2>
+        <p>La base 3.1 b) de la convocatoria de 2026 (BOE-A-2026-436) fija la edad en un día concreto: el de incorporación al centro docente militar de formación. Ese día tienes que cumplir o haber cumplido los 18 años y no haber cumplido los 29 con anterioridad.</p>
+        <p>No cuenta el día en que pides la cita ni el del examen. Por eso puedes presentarte con 28 años y entrar, siempre que el día de ingreso de tu ciclo llegue antes de tu cumpleaños número 29.</p>
+        <h2 id="ejemplo">Un ejemplo con el segundo ciclo de 2026</h2>
+        <p>En el segundo ciclo de 2026 el ingreso en los centros de formación fue el 3 de noviembre de 2026, según La Moncloa. Con la regla de la base 3.1 b), entraba quien hubiera nacido entre el 3 de noviembre de 1997 y el 3 de noviembre de 2008, ambos incluidos.</p>
+        <h2 id="otras-vias">Y si te pasas de edad</h2>
+        <p>Otras vías tienen límites distintos. Por ejemplo, la convocatoria de reservistas voluntarios de 2026 pedía en tropa y marinería no llegar a los 55 años en 2027. Tienes todas las edades, vía a vía, en la guía de <a href="/blog/edad-maxima-ejercito/">edad máxima para entrar en el Ejército</a>, y el resto de condiciones en los <a href="/blog/requisitos-tropa-y-marineria/">requisitos de Tropa y Marinería</a>.</p>
+      </div>
+      <aside class="cta-art">
+        <h2>¿Entras por edad? El siguiente paso es elegir bien tus plazas</h2>
+        <p>Media hora con un exmilitar para resolver tus dudas sobre destinos y llegar al examen con la lista decidida.</p>
+        <div class="acciones"><a class="btn" href="/#precios">Reservar llamada</a><a class="btn btn-sec" href="/#test">Hacer el test gratis</a></div>
+      </aside>
+      <section class="fuentes"><h2>Fuentes</h2><ul>
+        <li><a href="https://www.boe.es/boe/dias/2026/01/08/pdfs/BOE-A-2026-436.pdf" rel="noopener">BOE-A-2026-436: convocatoria de Tropa y Marinería de 2026, base 3.1 b)</a></li>
+        <li><a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/defensa/paginas/2026/010626-segunda-convocatoria-tropa-marineria.aspx" rel="noopener">La Moncloa: segunda convocatoria de Tropa y Marinería de 2026 (ingreso el 3 de noviembre)</a></li>
+        <li><a href="https://www.boe.es/boe/dias/2026/10/05/pdfs/BOE-A-2026-20614.pdf" rel="noopener">BOE-A-2026-20614: reservistas voluntarios (2026)</a></li>
+      </ul></section>
+      <p class="aviso-art">Esta calculadora es orientativa y aplica la regla de edad de la convocatoria de 2026. Cada convocatoria puede cambiarla: comprueba siempre las bases de tu ciclo en el BOE y en el portal de reclutamiento de Defensa.</p>
+    </article>
+    </div>
+''' + CALCULADORA_SCRIPT
+    escribir(SITIO / CALCULADORA_RUTA.strip('/') / 'index.html', pagina(titulo, descripcion, CALCULADORA_RUTA, cuerpo, cabeza_extra=extra))
+
+
 # ---------------------------------------------------------------- Sitemap y robots
 
 def construir_sitemap(posts):
     ultima = max([p['actualizado'] for p in posts], default=HOY).isoformat()
-    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima)] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
+    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima), (f'{URL}{CALCULADORA_RUTA}', CALCULADORA_FECHA.isoformat())] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
     filas = ''.join(f'\n  <url>\n    <loc>{e(u)}</loc>\n    <lastmod>{d}</lastmod>\n  </url>' for u, d in urls)
     escribir(SITIO / 'sitemap.xml', f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{filas}\n</urlset>\n')
     construir_llms(posts)
@@ -649,6 +757,7 @@ def construir_llms(posts):
 - Acompañamiento ({precios['acompanamiento']} €, IVA incluido).
 - Checklist gratuita para el examen (PDF): qué llevar el día de la cita, cómo es la prueba de aptitudes y plantilla para las plazas.
 - Test gratuito de siete preguntas sobre qué tipo de destino encaja con cada persona.
+- Calculadora gratuita de edad para entrar en Tropa y Marinería: {URL}{CALCULADORA_RUTA}
 
 Reservas y más información: {URL}/
 
@@ -670,6 +779,7 @@ if __name__ == '__main__':
     posts = construir_blog()
     ajustar_portada(posts)
     construir_legal()
+    construir_calculadora()
     construir_sitemap(posts)
     for a in avisos:
         print(f'Aviso: {a}')

@@ -60,6 +60,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Hechos
 
+- 2026-11-04 · Calculadora de edad para entrar como soldado · `/calculadora-edad-ejercito/` (página nueva para atraer búsquedas y enlaces; base 3.1 b) de BOE-A-2026-436). Enlazada desde el pie de todas las páginas, `edad-maxima-ejercito` y `requisitos-tropa-y-marineria`; incluida en sitemap y llms.txt.
 - 2026-11-03 · Compromiso inicial y compromiso de larga duración: cuántos años firmas y qué pasa después · `compromiso-inicial-larga-duracion-ejercito` (Ley 8/2006 arts. 6-12, 17 y 19; Orden DEF/3316/2006; bases 10 y 11 de BOE-A-2026-436; convocatoria de permanentes del BOD de 17-06-2026; enlazado desde `como-entrar-en-el-ejercito` y `edad-maxima-ejercito`). Se saltaron los temas de formación, «sin plaza» y plazas por provincias por solaparse o por falta de anexo (notas arriba). Refuerzo de `edad-maxima-ejercito` (posición 9,7 con 47 impresiones y 0 clics): título con «2026» y descripción que responde la edad de tropa. Sin convocatoria de Tropa y Marinería 2027 publicada todavía. Métricas del 2026-11-02: 552 impresiones y 3 clics (antes 426 y 3).
 - 2026-11-02 · Qué pasa después de la cita: lista de seleccionados, médico, pruebas físicas, complementaria e incorporación · `lista-seleccionados-tropa-y-marineria` (bases 8 y 9 de BOE-A-2026-436 y fechas del 2.º ciclo de 2026; enlazado desde `cita-previa-tropa-y-marineria` y `prueba-de-aptitudes-tropa-y-marineria`). Sin métricas nuevas desde el 2026-10-29 y sin convocatoria de 2027 publicada todavía, así que no se reforzó ningún artículo.
 - 2026-10-30 · Mejoras SEO (sin artículo nuevo): reforzado `calendario-tropa-y-marineria` para búsquedas de la convocatoria 2027 (posición 7 con 152 impresiones y 0 clics: título, descripción y primer párrafo) y `como-entrar-en-el-ejercito` para «oposiciones ejército» (27 impresiones, posición 67). Guías destacadas en portada (`destacado: si`) y títulos de página sin la marca cuando son largos.
@@ -77,6 +78,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Revisar cuando salga la convocatoria de 2027
 
+- Calculadora de edad (`/calculadora-edad-ejercito/`, función `construir_calculadora` de herramientas/construir.py): regla de la base 3.1 b), fecha de incorporación que viene puesta, ejemplo del ciclo, edad de reservistas y `CALCULADORA_FECHA`.
 - `calendario-tropa-y-marineria`: fechas, plazas y requisitos del nuevo año.
 - `como-elegir-plazas-tropa-y-marineria`: número máximo de plazas y reglas de asignación.
 - `requisitos-tropa-y-marineria`: edad, estudios, nacionalidad y situaciones que impiden presentarse (base 3).
