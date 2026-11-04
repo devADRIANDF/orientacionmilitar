@@ -58,6 +58,17 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 - Inglés en el Ejército: si hace falta para entrar y para qué destinos cuenta.
 - Cambiar de destino siendo soldado: vacantes, plazos y criterios.
 
+## Ideas para mejorar el negocio
+
+Cada ejecución revisa esta lista, añade ideas nuevas que salgan de las métricas o de lo que busca la gente y marca las hechas. Las que necesitan una decisión de Adrián (precios, servicios, dinero, cuentas externas) se le cuentan en el aviso final, no se hacen.
+
+- [ ] Glosario de siglas militares (CEFOT, NAF, CLD, SELCON…) como página de referencia enlazable.
+- [ ] Calendario descargable de la convocatoria de 2027 en cuanto salga en el BOE (y avisar a prensa local y ayuntamientos, ver el plan de enlaces).
+- [ ] Decisión de Adrián: crear el perfil de empresa en Google y poner el enlace de la web y de la calculadora en las bios de redes.
+- [ ] Decisión de Adrián: correo con el dominio (por ejemplo, adrian@orientacionmilitar.com) para escribir a otras webs.
+- [x] 2026-11-04: calculadora de edad (`/calculadora-edad-ejercito/`).
+- [x] 2026-11-04: plan de enlaces con webs objetivo y plantillas (documento en Claude: https://claude.ai/artifact/3QxhuME9nfSoh6Up552VEy).
+
 ## Hechos
 
 - 2026-11-04 · Calculadora de edad para entrar como soldado · `/calculadora-edad-ejercito/` (página nueva para atraer búsquedas y enlaces; base 3.1 b) de BOE-A-2026-436). Enlazada desde el pie de todas las páginas, `edad-maxima-ejercito` y `requisitos-tropa-y-marineria`; incluida en sitemap y llms.txt.
