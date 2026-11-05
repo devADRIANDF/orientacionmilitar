@@ -1,5 +1,14 @@
 [
  {
+  "slug": "ume-unidad-militar-de-emergencias",
+  "titulo": "La UME: qué hace y cómo entrar como soldado",
+  "descripcion": "Qué es la Unidad Militar de Emergencias, dónde están sus batallones, qué formación reciben quienes llegan y si se puede pedir plaza en la UME como soldado.",
+  "categoria": "Unidades",
+  "fecha": "2026-11-05",
+  "actualizado": "2026-11-05",
+  "palabras": 1140
+ },
+ {
   "slug": "compromiso-inicial-larga-duracion-ejercito",
   "titulo": "Compromiso en el Ejército: cuántos años firmas como soldado",
   "descripcion": "Cuántos años firmas al entrar en el Ejército: compromiso inicial, renovaciones, compromiso de larga duración hasta los 45 y cómo llegar a permanente.",
@@ -105,7 +114,7 @@
   "categoria": "Plazas y destinos",
   "fecha": "2026-10-12",
   "actualizado": "2026-10-12",
-  "palabras": 1065
+  "palabras": 1090
  },
  {
   "slug": "calendario-tropa-y-marineria",
