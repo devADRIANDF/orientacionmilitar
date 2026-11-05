@@ -16,6 +16,7 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
   - Nota 2026-10-13: aplazado. Las marcas están en el apéndice 4 de BOE-A-2026-436, pero no se pudo leer (la versión txt del BOE bloqueada y el PDF se corta antes de los apéndices). Probar con otra versión del BOE o la nota de reclutamiento.defensa.gob.es.
   - Nota 2026-11-03: sigue aplazado. El PDF de BOE-A-2026-436 leído por la herramienta se corta en la base 13 (76.791 caracteres) y la versión txt.php no se pudo abrir. Solo hay marcas en academias, que no valen como única fuente.
 - Baremo de méritos de Tropa y Marinería: qué puntúa en el concurso y cómo acreditarlo.
+  - Nota 2026-11-05: no se pudo escribir. En esta ejecución no se pudo abrir ninguna página web (la lectura de páginas quedó bloqueada esperando un permiso que nadie podía aprobar). El baremo es el apéndice «Baremo de concurso» de la convocatoria (apéndice 8 en la de 2024); hay que leerlo en BOE-A-2026-436.
 - Ejército de Tierra, Armada o Ejército del Aire y del Espacio: diferencias en el día a día para tropa.
 - Cómo es la formación inicial en el centro de formación: las primeras semanas y la jura de bandera.
 - La UME: qué hace y cómo se puede acceder a ella como soldado.
@@ -66,11 +67,14 @@ Cada ejecución revisa esta lista, añade ideas nuevas que salgan de las métric
 - [ ] Calendario descargable de la convocatoria de 2027 en cuanto salga en el BOE (y avisar a prensa local y ayuntamientos, ver el plan de enlaces).
 - [ ] Decisión de Adrián: crear el perfil de empresa en Google y poner el enlace de la web y de la calculadora en las bios de redes.
 - [ ] Decisión de Adrián: correo con el dominio (por ejemplo, adrian@orientacionmilitar.com) para escribir a otras webs.
+- [ ] Calculadora de nota final: prueba de aptitudes + concurso (PF = (7 × NOp + 3 × NCo) / 10) para ver qué nota necesitas; hacerla solo tras releer la fórmula y el baremo en la convocatoria vigente.
+- [ ] Decisión de Adrián: permitir que la tarea programada lea páginas web sin pedir permiso (aprobación automática en los ajustes de la tarea), porque el 2026-11-05 la lectura quedó bloqueada y no se pudo publicar.
 - [x] 2026-11-04: calculadora de edad (`/calculadora-edad-ejercito/`).
 - [x] 2026-11-04: plan de enlaces con webs objetivo y plantillas (documento en Claude: https://claude.ai/artifact/3QxhuME9nfSoh6Up552VEy).
 
 ## Hechos
 
+- 2026-11-05 · Sin artículo nuevo: la lectura de páginas web quedó bloqueada por un permiso sin aprobar, así que no se pudo verificar ningún dato (se intentaron el baremo de méritos y la UME). Refuerzo de `tatuajes-ejercito` (posición 7,6 con 31 impresiones y 0 clics; consulta «que pasa si tengo tatuajes y quiero entrar al ejercito» en posición 11): título en forma de pregunta con «2026» y descripción que responde. Sin convocatoria de Tropa y Marinería 2027 en las búsquedas. Métricas del 2026-11-05: 652 impresiones y 4 clics (antes 552 y 3).
 - 2026-11-04 · Calculadora de edad para entrar como soldado · `/calculadora-edad-ejercito/` (página nueva para atraer búsquedas y enlaces; base 3.1 b) de BOE-A-2026-436). Enlazada desde el pie de todas las páginas, `edad-maxima-ejercito` y `requisitos-tropa-y-marineria`; incluida en sitemap y llms.txt.
 - 2026-11-03 · Compromiso inicial y compromiso de larga duración: cuántos años firmas y qué pasa después · `compromiso-inicial-larga-duracion-ejercito` (Ley 8/2006 arts. 6-12, 17 y 19; Orden DEF/3316/2006; bases 10 y 11 de BOE-A-2026-436; convocatoria de permanentes del BOD de 17-06-2026; enlazado desde `como-entrar-en-el-ejercito` y `edad-maxima-ejercito`). Se saltaron los temas de formación, «sin plaza» y plazas por provincias por solaparse o por falta de anexo (notas arriba). Refuerzo de `edad-maxima-ejercito` (posición 9,7 con 47 impresiones y 0 clics): título con «2026» y descripción que responde la edad de tropa. Sin convocatoria de Tropa y Marinería 2027 publicada todavía. Métricas del 2026-11-02: 552 impresiones y 3 clics (antes 426 y 3).
 - 2026-11-02 · Qué pasa después de la cita: lista de seleccionados, médico, pruebas físicas, complementaria e incorporación · `lista-seleccionados-tropa-y-marineria` (bases 8 y 9 de BOE-A-2026-436 y fechas del 2.º ciclo de 2026; enlazado desde `cita-previa-tropa-y-marineria` y `prueba-de-aptitudes-tropa-y-marineria`). Sin métricas nuevas desde el 2026-10-29 y sin convocatoria de 2027 publicada todavía, así que no se reforzó ningún artículo.
