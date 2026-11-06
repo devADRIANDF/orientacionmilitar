@@ -1,5 +1,14 @@
 [
  {
+  "slug": "la-legion-ejercito-como-entrar",
+  "titulo": "La Legión: qué es, dónde está y cómo entrar como soldado",
+  "descripcion": "Qué es la Legión, dónde están sus cuatro tercios y la Brigada de Viator, cuántas plazas de soldado ofreció en 2026 y qué mirar antes de pedirlas.",
+  "categoria": "Unidades",
+  "fecha": "2026-11-06",
+  "actualizado": "2026-11-06",
+  "palabras": 1345
+ },
+ {
   "slug": "ume-unidad-militar-de-emergencias",
   "titulo": "La UME: qué hace y cómo entrar como soldado",
   "descripcion": "Qué es la Unidad Militar de Emergencias, dónde están sus batallones, qué formación reciben quienes llegan y si se puede pedir plaza en la UME como soldado.",
@@ -114,7 +123,7 @@
   "categoria": "Plazas y destinos",
   "fecha": "2026-10-12",
   "actualizado": "2026-10-12",
-  "palabras": 1090
+  "palabras": 1100
  },
  {
   "slug": "calendario-tropa-y-marineria",
