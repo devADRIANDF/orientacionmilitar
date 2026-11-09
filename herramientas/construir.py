@@ -335,6 +335,8 @@ def pagina_post(post, todos):
         {'@type': 'Article', 'headline': post['titulo'], 'description': post['descripcion'],
          'datePublished': post['fecha'].isoformat(), 'dateModified': post['actualizado'].isoformat(),
          'inLanguage': 'es-ES', 'mainEntityOfPage': url_post, 'image': f'{URL}/og.png',
+         'articleSection': post['categoria'],
+         'citation': [{'@type': 'CreativeWork', 'name': t, 'url': u} for t, u in post['fuentes']],
          'author': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'url': f'{URL}/'},
          'publisher': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'logo': {'@type': 'ImageObject', 'url': f'{URL}/apple-touch-icon.png'}}},
         {'@type': 'BreadcrumbList', 'itemListElement': [
