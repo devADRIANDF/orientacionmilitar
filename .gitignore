@@ -4,3 +4,4 @@ __pycache__/
 herramientas/pruebas/.datos/
 *.log
 .DS_Store
+herramientas/redes/salida/

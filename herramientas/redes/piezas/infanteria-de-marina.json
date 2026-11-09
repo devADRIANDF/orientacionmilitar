@@ -1,0 +1,13 @@
+{
+  "slug": "infanteria-de-marina-como-entrar",
+  "fuente_blog": "contenido/blog/infanteria-de-marina-como-entrar.html",
+  "diapositivas": [
+    {"tipo": "portada", "antetitulo": "Unidades de la Armada", "titulo": "Infantería de Marina: qué es y cómo entrar como tropa", "pie": "Desliza →"},
+    {"tipo": "texto", "num": "01", "titulo": "Qué es", "texto": "La fuerza anfibia de la Armada: opera en tierra llegando desde el mar. La Armada la presenta como la infantería de marina más antigua del mundo, creada el 27 de febrero de 1537."},
+    {"tipo": "lista", "num": "02", "titulo": "Sus 4 partes", "items": ["Cuartel General · San Fernando", "Tercio de Armada (TEAR) · San Fernando", "Fuerza de Protección (FUPRO)", "Fuerza de Guerra Naval Especial"]},
+    {"tipo": "texto", "num": "03", "titulo": "Tercio de Armada", "texto": "La fuerza de desembarco. Está en San Fernando (Cádiz). Solo su Primer Batallón de Desembarco tiene 735 infantes de marina, 669 de ellos de tropa."},
+    {"tipo": "lista", "num": "04", "titulo": "Fuerza de Protección", "items": ["Tercio del Norte · Ferrol", "Tercio del Sur · San Fernando", "Tercio de Levante · Cartagena", "Agrupación de Madrid", "Unidad de Seguridad · Las Palmas"]},
+    {"tipo": "texto", "num": "05", "titulo": "Cómo se entra", "texto": "No hay oposición propia. Entras por Tropa y Marinería y eliges plazas de la Armada de Infantería de Marina. En el 2.º ciclo de 2026, la Armada ofertó 693 plazas."},
+    {"tipo": "cierre", "titulo": "¿Dudas con tu lista de plazas?", "texto": "Guía completa con fuentes oficiales en orientacionmilitar.com/blog", "pie": "Guárdalo y compártelo con quien se presenta"}
+  ]
+}
