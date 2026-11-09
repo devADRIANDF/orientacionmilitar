@@ -4,6 +4,8 @@ La tarea programada (de lunes a viernes) coge el primer tema pendiente, salvo qu
 
 ## Pendientes (por orden de prioridad)
 
+- EZAPAC (Escuadrón de Zapadores Paracaidistas): qué es, dónde está y cómo se llega desde tropa del Ejército del Aire y del Espacio (solo fuentes oficiales: ejercitodelaire.defensa.gob.es, anexo de plazas, BOE).
+  - Nota 2026-11-10: prioridad alta. Un lead orgánico llegó por el botón de WhatsApp de la web preguntando por orientación concreta sobre el EZAPAC.
 - Cuánto dura la formación de tropa: formación militar general y específica, y qué pasa al terminarla.
   - Nota 2026-11-06: saltado otra vez por el mismo solape; solo merece la pena con el texto literal de la base 10.5 (bajas y repetición) en la mano.
   - Nota 2026-11-02: se solapa mucho con `que-es-el-cefot` (fases de la base 10.2, jura y compromiso). Si se escribe, centrarlo en lo que no cubre: módulos y evaluación de cada fase, repetición y bajas (base 10.5) y qué pasa al terminar la formación específica (incorporación a la unidad).
