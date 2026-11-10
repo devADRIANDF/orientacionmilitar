@@ -370,6 +370,7 @@ def pagina_post(post, todos):
         <h2>Antes de firmar tu lista de plazas, habla con alguien que ha estado dentro</h2>
         <p>Media hora con un exmilitar para resolver tus dudas sobre destinos y llegar al examen con la lista decidida.</p>
         <div class="acciones"><a class="btn" href="/#precios">Reservar llamada</a><a class="btn btn-sec" href="/#test">Hacer el test gratis</a></div>
+        <p class="cta-wa" data-si-whatsapp hidden>¿Una duda rápida sobre esta guía? <a data-wa="{e('Hola, he leído la guía «' + post['titulo'] + '» y quería preguntaros: ')}" hidden>Escríbenos por WhatsApp</a></p>
       </aside>
       {fuentes}
       <p class="aviso-art">Esta guía es orientativa y se basa en las fuentes oficiales citadas. Las convocatorias cambian: comprueba siempre las bases de tu ciclo en el BOE y en el portal de reclutamiento de Defensa.</p>

@@ -1,5 +1,14 @@
 [
  {
+  "slug": "ezapac-zapadores-paracaidistas",
+  "titulo": "EZAPAC: qué es, dónde está y cómo se llega a zapador paracaidista",
+  "descripcion": "Qué es el EZAPAC, la unidad de operaciones especiales del Ejército del Aire en Alcantarilla (Murcia), qué hace y cómo se llega a zapador paracaidista.",
+  "categoria": "Unidades",
+  "fecha": "2026-11-10",
+  "actualizado": "2026-11-10",
+  "palabras": 1369
+ },
+ {
   "slug": "infanteria-de-marina-como-entrar",
   "titulo": "Infantería de Marina: qué es, dónde está y cómo entrar",
   "descripcion": "Qué es la Infantería de Marina, dónde están el Tercio de Armada y los tercios de la Fuerza de Protección y cómo pedir sus plazas siendo marinero.",
@@ -87,7 +96,7 @@
   "categoria": "Carrera y salidas",
   "fecha": "2026-10-16",
   "actualizado": "2026-10-30",
-  "palabras": 1483
+  "palabras": 1511
  },
  {
   "slug": "requisitos-tropa-y-marineria",
@@ -118,11 +127,11 @@
  },
  {
   "slug": "plazas-reservadas-militares-guardia-civil-policia",
-  "titulo": "Plazas reservadas para militares en Guardia Civil y Policía Nacional",
+  "titulo": "Plazas reservadas para militares en Guardia Civil y Policía 2026",
   "descripcion": "Plazas reservadas para militares en Guardia Civil (1.296) y Policía Nacional (541) en 2026: años de servicio, requisitos y cómo planificarlo desde tu destino.",
   "categoria": "Carrera y salidas",
   "fecha": "2026-10-12",
-  "actualizado": "2026-10-20",
+  "actualizado": "2026-11-10",
   "palabras": 845
  },
  {
@@ -132,7 +141,7 @@
   "categoria": "Plazas y destinos",
   "fecha": "2026-10-12",
   "actualizado": "2026-10-12",
-  "palabras": 1117
+  "palabras": 1136
  },
  {
   "slug": "calendario-tropa-y-marineria",
