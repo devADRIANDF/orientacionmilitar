@@ -1,12 +1,21 @@
 [
  {
+  "slug": "bripac-brigada-paracaidista",
+  "titulo": "BRIPAC: qué es la Brigada Paracaidista y cómo entrar",
+  "descripcion": "Qué es la BRIPAC, dónde están sus bases (Paracuellos, Marines y Javalí Nuevo), cómo se organiza y cómo pedir plaza de soldado paracaidista.",
+  "categoria": "Unidades",
+  "fecha": "2026-11-13",
+  "actualizado": "2026-11-13",
+  "palabras": 1241
+ },
+ {
   "slug": "ezapac-zapadores-paracaidistas",
   "titulo": "EZAPAC: qué es, dónde está y cómo se llega a zapador paracaidista",
   "descripcion": "Qué es el EZAPAC, la unidad de operaciones especiales del Ejército del Aire en Alcantarilla (Murcia), qué hace y cómo se llega a zapador paracaidista.",
   "categoria": "Unidades",
   "fecha": "2026-11-10",
   "actualizado": "2026-11-10",
-  "palabras": 1369
+  "palabras": 1386
  },
  {
   "slug": "infanteria-de-marina-como-entrar",
@@ -19,12 +28,12 @@
  },
  {
   "slug": "la-legion-ejercito-como-entrar",
-  "titulo": "La Legión: qué es, dónde está y cómo entrar como soldado",
-  "descripcion": "Qué es la Legión, dónde están sus cuatro tercios y la Brigada de Viator, cuántas plazas de soldado ofreció en 2026 y qué mirar antes de pedirlas.",
+  "titulo": "La Legión: dónde está, qué es y cómo entrar como soldado",
+  "descripcion": "Dónde está la Legión: Melilla, Ceuta, Viator (Almería) y Ronda (Málaga). Qué es, cuántas plazas de soldado ofreció en 2026 y cómo pedirlas.",
   "categoria": "Unidades",
   "fecha": "2026-11-06",
-  "actualizado": "2026-11-06",
-  "palabras": 1369
+  "actualizado": "2026-11-13",
+  "palabras": 1383
  },
  {
   "slug": "ume-unidad-militar-de-emergencias",

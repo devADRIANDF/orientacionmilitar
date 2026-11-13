@@ -9,6 +9,7 @@
 - Checklist gratuita para el examen (PDF): qué llevar el día de la cita, cómo es la prueba de aptitudes y plantilla para las plazas.
 - Test gratuito de siete preguntas sobre qué tipo de destino encaja con cada persona.
 - Calculadora gratuita de edad para entrar en Tropa y Marinería: https://orientacionmilitar.com/calculadora-edad-ejercito/
+- Índice de guías de las unidades a las que se puede pedir plaza como tropa (Legión, UME, Infantería de Marina, paracaidistas...): https://orientacionmilitar.com/unidades/
 
 Reservas y más información: https://orientacionmilitar.com/
 
@@ -16,9 +17,10 @@ Reservas y más información: https://orientacionmilitar.com/
 
 Guías gratuitas sobre Tropa y Marinería basadas en fuentes oficiales (BOE y portal de reclutamiento de Defensa):
 
+- [BRIPAC: qué es la Brigada Paracaidista y cómo entrar](https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/): Qué es la BRIPAC, dónde están sus bases (Paracuellos, Marines y Javalí Nuevo), cómo se organiza y cómo pedir plaza de soldado paracaidista.
 - [EZAPAC: qué es, dónde está y cómo se llega a zapador paracaidista](https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/): Qué es el EZAPAC, la unidad de operaciones especiales del Ejército del Aire en Alcantarilla (Murcia), qué hace y cómo se llega a zapador paracaidista.
 - [Infantería de Marina: qué es, dónde está y cómo entrar](https://orientacionmilitar.com/blog/infanteria-de-marina-como-entrar/): Qué es la Infantería de Marina, dónde están el Tercio de Armada y los tercios de la Fuerza de Protección y cómo pedir sus plazas siendo marinero.
-- [La Legión: qué es, dónde está y cómo entrar como soldado](https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/): Qué es la Legión, dónde están sus cuatro tercios y la Brigada de Viator, cuántas plazas de soldado ofreció en 2026 y qué mirar antes de pedirlas.
+- [La Legión: dónde está, qué es y cómo entrar como soldado](https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/): Dónde está la Legión: Melilla, Ceuta, Viator (Almería) y Ronda (Málaga). Qué es, cuántas plazas de soldado ofreció en 2026 y cómo pedirlas.
 - [La UME: qué hace y cómo entrar como soldado](https://orientacionmilitar.com/blog/ume-unidad-militar-de-emergencias/): Qué es la Unidad Militar de Emergencias, dónde están sus batallones, qué formación reciben quienes llegan y si se puede pedir plaza en la UME como soldado.
 - [Compromiso en el Ejército: cuántos años firmas como soldado](https://orientacionmilitar.com/blog/compromiso-inicial-larga-duracion-ejercito/): Cuántos años firmas al entrar en el Ejército: compromiso inicial, renovaciones, compromiso de larga duración hasta los 45 y cómo llegar a permanente.
 - [Seleccionados de Tropa y Marinería: qué pasa tras la cita](https://orientacionmilitar.com/blog/lista-seleccionados-tropa-y-marineria/): Qué pasa después de la cita de Tropa y Marinería: tu nota, la lista de seleccionados, el médico y las pruebas físicas, la complementaria y la incorporación.

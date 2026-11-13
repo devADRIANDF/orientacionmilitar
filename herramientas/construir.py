@@ -10,6 +10,7 @@ Qué hace (sin dependencias externas, solo Python 3):
   - Genera el blog a partir de contenido/blog/*.html: artículos, índice, posts.json y feed RSS.
   - Pinta las últimas guías en la portada.
   - Genera la calculadora de edad (/calculadora-edad-ejercito/).
+  - Genera el índice de guías de unidades (/unidades/).
   - Genera sitemap.xml y robots.txt.
 Si encuentra un error (por ejemplo, un artículo sin fuentes), lo dice y termina con código 1.
 """
@@ -84,6 +85,7 @@ def pie():
     <nav class="pie-legal" aria-label="Enlaces">
       <a href="/blog/">Blog</a>
       <a href="/calculadora-edad-ejercito/">Calculadora de edad</a>
+      <a href="/unidades/">Unidades</a>
       <a href="/aviso-legal.html">Aviso legal</a>
       <a href="/privacidad.html">Política de privacidad</a>
       <a href="/cookies.html">Cookies</a>
@@ -735,11 +737,57 @@ def construir_calculadora():
     escribir(SITIO / CALCULADORA_RUTA.strip('/') / 'index.html', pagina(titulo, descripcion, CALCULADORA_RUTA, cuerpo, cabeza_extra=extra))
 
 
+# ---------------------------------------------------------------- Unidades de tropa
+
+UNIDADES_RUTA = '/unidades/'
+
+
+def construir_unidades(posts):
+    """Índice de las guías de la categoría Unidades: se rellena solo con cada guía nueva."""
+    guias = sorted([p for p in posts if p['categoria'] == 'Unidades'], key=lambda p: p['titulo'].lower())
+    titulo = 'Unidades del Ejército para tropa: guías de cada unidad'
+    descripcion = ('Guías de las unidades a las que puedes pedir plaza como soldado o marinero: qué hace cada una, '
+                   'dónde está y cómo se entra, con fuentes oficiales.')
+    url_pag = f'{URL}{UNIDADES_RUTA}'
+    ld = {'@context': 'https://schema.org', '@graph': [
+        {'@type': 'CollectionPage', 'name': titulo, 'description': descripcion, 'url': url_pag, 'inLanguage': 'es-ES',
+         'publisher': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'url': f'{URL}/'},
+         'mainEntity': {'@type': 'ItemList', 'numberOfItems': len(guias), 'itemListElement': [
+             {'@type': 'ListItem', 'position': i + 1, 'name': p['titulo'], 'url': f'{URL}/blog/{p["slug"]}/'}
+             for i, p in enumerate(guias)]}},
+        {'@type': 'BreadcrumbList', 'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': f'{URL}/'},
+            {'@type': 'ListItem', 'position': 2, 'name': 'Unidades', 'item': url_pag}]}]}
+    extra = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+    revisado = max([p['actualizado'] for p in guias], default=HOY)
+    filas = '\n'.join(
+        '        <li class="post-fila">\n'
+        f'          <span class="post-fecha">{fecha_larga(p["actualizado"])}</span>\n'
+        f'          <div class="post-cuerpo"><span class="post-cat">Unidades</span><h2><a href="/blog/{p["slug"]}/">{e(p["titulo"])}</a></h2><p>{e(p["descripcion"])}</p></div>\n'
+        '        </li>' for p in guias) or '        <li class="post-fila"><p>Pronto publicaremos la primera guía de unidades.</p></li>'
+    cuerpo = f'''    <header class="blog-cab">
+      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li>Unidades</li></ol></nav>
+      <h1>{e(titulo)}</h1>
+      <p>Para entrar como soldado o marinero en una unidad concreta no hay una oposición aparte: te presentas a Tropa y Marinería y pides sus plazas en el anexo de tu ciclo. Aquí tienes una guía por unidad, con qué hace, dónde está y qué mirar antes de ponerla en tu lista. Antes de nada, repasa los <a href="/blog/requisitos-tropa-y-marineria/">requisitos</a> y cómo <a href="/blog/como-elegir-plazas-tropa-y-marineria/">elegir plazas</a>.</p>
+      <p class="art-meta"><span>{len(guias)} guías</span><span>Última revisión: {fecha_larga(revisado)}</span></p>
+    </header>
+    <ol class="blog-lista">
+{filas}
+    </ol>
+    <aside class="cta-art">
+      <h2>¿Dudas entre varias unidades?</h2>
+      <p>Media hora con un exmilitar para comparar destinos y llegar al examen con la lista de plazas decidida.</p>
+      <div class="acciones"><a class="btn" href="/#precios">Reservar llamada</a><a class="btn btn-sec" href="/#test">Hacer el test gratis</a></div>
+    </aside>'''
+    escribir(SITIO / UNIDADES_RUTA.strip('/') / 'index.html', pagina(titulo, descripcion, UNIDADES_RUTA, cuerpo, cabeza_extra=extra))
+    return revisado
+
+
 # ---------------------------------------------------------------- Sitemap y robots
 
 def construir_sitemap(posts):
     ultima = max([p['actualizado'] for p in posts], default=HOY).isoformat()
-    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima), (f'{URL}{CALCULADORA_RUTA}', CALCULADORA_FECHA.isoformat())] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
+    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima), (f'{URL}{CALCULADORA_RUTA}', CALCULADORA_FECHA.isoformat()), (f'{URL}{UNIDADES_RUTA}', max([p['actualizado'] for p in posts if p['categoria'] == 'Unidades'], default=HOY).isoformat())] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
     filas = ''.join(f'\n  <url>\n    <loc>{e(u)}</loc>\n    <lastmod>{d}</lastmod>\n  </url>' for u, d in urls)
     escribir(SITIO / 'sitemap.xml', f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{filas}\n</urlset>\n')
     construir_llms(posts)
@@ -761,6 +809,7 @@ def construir_llms(posts):
 - Checklist gratuita para el examen (PDF): qué llevar el día de la cita, cómo es la prueba de aptitudes y plantilla para las plazas.
 - Test gratuito de siete preguntas sobre qué tipo de destino encaja con cada persona.
 - Calculadora gratuita de edad para entrar en Tropa y Marinería: {URL}{CALCULADORA_RUTA}
+- Índice de guías de las unidades a las que se puede pedir plaza como tropa (Legión, UME, Infantería de Marina, paracaidistas...): {URL}{UNIDADES_RUTA}
 
 Reservas y más información: {URL}/
 
@@ -783,6 +832,7 @@ if __name__ == '__main__':
     ajustar_portada(posts)
     construir_legal()
     construir_calculadora()
+    construir_unidades(posts)
     construir_sitemap(posts)
     for a in avisos:
         print(f'Aviso: {a}')
