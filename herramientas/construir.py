@@ -330,7 +330,8 @@ def pagina_post(post, todos):
     rel_html = ''
     if relacionados:
         rel_html = '<section class="relacionados"><h2>Sigue leyendo</h2><ul>' + ''.join(
-            f'<li><a href="/blog/{p["slug"]}/">{e(p["titulo"])}</a></li>' for p in relacionados[:3]) + '</ul></section>'
+            f'<li><a href="/blog/{p["slug"]}/">{e(p["titulo"])}</a></li>' for p in relacionados[:3]) + '</ul>' + (
+            '<p><a href="/unidades/">Ver todas las guías de unidades de tropa</a></p>' if post['categoria'] == 'Unidades' else '') + '</section>'
     fuentes = '<section class="fuentes"><h2>Fuentes</h2><ul>' + ''.join(
         f'<li><a href="{e(u)}" rel="noopener">{e(t)}</a></li>' for t, u in post['fuentes']) + '</ul></section>'
     ld = {'@context': 'https://schema.org', '@graph': [
@@ -360,7 +361,7 @@ def pagina_post(post, todos):
     contenido = f'''    <div class="progreso" aria-hidden="true"><span></span></div>
     <div class="art-rejilla">
     <article class="articulo">
-      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li><a href="/blog/">Blog</a></li><li>{e(post["categoria"])}</li></ol></nav>
+      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li><a href="/blog/">Blog</a></li><li>{('<a href="/unidades/">' + e(post["categoria"]) + '</a>') if post['categoria'] == 'Unidades' else e(post["categoria"])}</li></ol></nav>
       <h1>{e(post["titulo"])}</h1>
       <p class="art-meta"><span>{meta}</span><span>{minutos} min de lectura</span></p>
       <p class="art-entradilla">{e(post["descripcion"])}</p>
