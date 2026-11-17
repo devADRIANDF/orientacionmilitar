@@ -1,5 +1,14 @@
 [
  {
+  "slug": "reservista-voluntario-fuerzas-armadas",
+  "titulo": "Reservista voluntario 2026: qué es, requisitos y cómo entrar",
+  "descripcion": "Qué es un reservista voluntario, las 500 plazas de la convocatoria de 2026, la edad y los requisitos, la formación de 2027 y en qué se diferencia de ser soldado.",
+  "categoria": "Convocatorias",
+  "fecha": "2026-11-17",
+  "actualizado": "2026-11-17",
+  "palabras": 1195
+ },
+ {
   "slug": "promocion-interna-suboficial-tropa",
   "titulo": "Promoción interna a suboficial desde tropa: requisitos y pruebas",
   "descripcion": "Cómo pasar de soldado o marinero a suboficial por promoción interna: plazas de 2026, un año de servicios, estudios, inglés, pruebas y cómo se puntúa.",
@@ -105,7 +114,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-20",
   "actualizado": "2026-11-03",
-  "palabras": 1352
+  "palabras": 1365
  },
  {
   "slug": "como-entrar-en-el-ejercito",
@@ -114,7 +123,7 @@
   "categoria": "Carrera y salidas",
   "fecha": "2026-10-16",
   "actualizado": "2026-10-30",
-  "palabras": 1523
+  "palabras": 1539
  },
  {
   "slug": "requisitos-tropa-y-marineria",
