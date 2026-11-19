@@ -1,5 +1,14 @@
 [
  {
+  "slug": "extranjeros-ejercito-espanol",
+  "titulo": "Extranjeros en el Ejército español: países, plazas y unidades",
+  "descripcion": "Qué 18 países pueden entrar como soldado en España, cuántas plazas hay para extranjeros, en qué unidades del Ejército de Tierra y qué pasa con la nacionalidad.",
+  "categoria": "Plazas y destinos",
+  "fecha": "2026-11-19",
+  "actualizado": "2026-11-19",
+  "palabras": 1387
+ },
+ {
   "slug": "reservista-voluntario-fuerzas-armadas",
   "titulo": "Reservista voluntario 2026: qué es, requisitos y cómo entrar",
   "descripcion": "Qué es un reservista voluntario, las 500 plazas de la convocatoria de 2026, la edad y los requisitos, la formación de 2027 y en qué se diferencia de ser soldado.",
@@ -69,7 +78,7 @@
   "categoria": "Carrera y salidas",
   "fecha": "2026-11-03",
   "actualizado": "2026-11-03",
-  "palabras": 1494
+  "palabras": 1514
  },
  {
   "slug": "lista-seleccionados-tropa-y-marineria",
@@ -132,7 +141,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-13",
   "actualizado": "2026-10-13",
-  "palabras": 1217
+  "palabras": 1242
  },
  {
   "slug": "prueba-de-aptitudes-tropa-y-marineria",
