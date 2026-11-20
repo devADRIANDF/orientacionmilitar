@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculadora de IMC para el reconocimiento médico militar</title>
+<meta name="description" content="Pon tu peso y tu estatura y comprueba si tu IMC está entre 17 y 30, el margen del cuadro médico de exclusiones para entrar en Tropa y Marinería.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://orientacionmilitar.com/calculadora-imc-ejercito/">
+<meta name="theme-color" content="#E8EAE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131811" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Orientación Militar">
+<meta property="og:title" content="Calculadora de IMC para el reconocimiento médico militar">
+<meta property="og:description" content="Pon tu peso y tu estatura y comprueba si tu IMC está entre 17 y 30, el margen del cuadro médico de exclusiones para entrar en Tropa y Marinería.">
+<meta property="og:url" content="https://orientacionmilitar.com/calculadora-imc-ejercito/">
+<meta property="og:image" content="https://orientacionmilitar.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/estilo.css">
+<link rel="alternate" type="application/rss+xml" title="Blog de Orientación Militar" href="/blog/feed.xml">
+<style>
+.calc{margin-top:24px;padding:20px;border:1px solid var(--rule);border-radius:var(--radius);background:var(--paper-2);display:grid;gap:16px}
+.calc label{display:grid;gap:6px;font-weight:600}
+.calc input{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);padding:10px 12px;max-width:100%;min-height:44px}
+.calc small{font-weight:400;color:var(--ink-2)}
+.calc .btn{justify-self:start}
+.calc-res{padding:16px;border-left:4px solid var(--marker);background:var(--paper)}
+.calc-res p+p{margin-top:8px}
+.calc-res.si{border-left-color:var(--field)}
+.calc-res.no{border-left-color:var(--water)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Calculadora de IMC para el reconocimiento médico militar", "description": "Pon tu peso y tu estatura y comprueba si tu IMC está entre 17 y 30, el margen del cuadro médico de exclusiones para entrar en Tropa y Marinería.", "url": "https://orientacionmilitar.com/calculadora-imc-ejercito/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web", "inLanguage": "es-ES", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "@id": "https://orientacionmilitar.com/#org", "name": "Orientación Militar", "url": "https://orientacionmilitar.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://orientacionmilitar.com/"}, {"@type": "ListItem", "position": 2, "name": "Calculadora de IMC", "item": "https://orientacionmilitar.com/calculadora-imc-ejercito/"}]}]}</script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<div class="hoja">
+  <header class="cabecera">
+    <a class="marca" href="/">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 1.6v3.2M30.4 16h-3.2M16 30.4v-3.2M1.6 16h3.2" stroke="currentColor" stroke-width="1.3"/><path d="M16 6.2 19.4 16 16 14.3 12.6 16Z" fill="currentColor"/><path d="M16 25.8 12.6 16 16 17.7 19.4 16Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      <span>Orientación Militar</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="/#test">Test gratis</a>
+      <a href="/#como-funciona">Cómo funciona</a>
+      <a href="/#precios">Precios</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <a class="btn btn-sm" href="/#precios"><span>Reservar<span class="solo-ancho"> llamada</span></span></a>
+  </header>
+  <main id="contenido">
+    <div class="art-rejilla">
+    <article class="articulo">
+      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li>Calculadora de IMC</li></ol></nav>
+      <h1>Calculadora de IMC para el reconocimiento médico militar</h1>
+      <p class="art-meta"><span>Datos revisados el 20 de noviembre de 2026</span><span>Gratis y sin registro</span></p>
+      <p class="art-entradilla">El cuadro médico de exclusiones para entrar en los centros de formación militar pide un índice de masa corporal (IMC) que no pase de 30 ni sea inferior a 17. Pon tu peso y tu estatura y te decimos tu IMC y el margen de peso que te corresponde.</p>
+      <form class="calc" id="calc" novalidate>
+        <label>Tu peso en kilos
+          <input type="text" id="peso" inputmode="decimal" autocomplete="off" placeholder="Por ejemplo, 72,5" required>
+        </label>
+        <label>Tu estatura en centímetros
+          <input type="text" id="talla" inputmode="numeric" autocomplete="off" placeholder="Por ejemplo, 175" required>
+          <small>Medida de pie, en centímetros.</small>
+        </label>
+        <button class="btn" type="submit">Calcular</button>
+        <div class="calc-res" id="res" aria-live="polite" hidden></div>
+      </form>
+      <div class="art-cuerpo">
+        <h2 id="que-dice-la-norma">Qué dice la norma sobre el IMC</h2>
+        <p>El apartado A.2 del cuadro médico de exclusiones (Orden PCI/6/2019, de 11 de enero, la que cita la convocatoria de Tropa y Marinería de 2026) dice que el índice de masa corporal «no sobrepasará 30 ni será inferior a 17». Se calcula dividiendo el peso en kilos entre la estatura en metros al cuadrado.</p>
+        <p>La misma orden admite un IMC por encima de 30 cuando se deba claramente a un desarrollo muscular marcado y no a grasa, siempre que no haya otra patología ni factores de riesgo añadidos. No hay un límite de peso aparte del IMC, y desde la Orden PCM/444/2023 tampoco hay una estatura mínima general.</p>
+        <h2 id="resto">El IMC es solo una parte del reconocimiento</h2>
+        <p>En el reconocimiento también se miran la tensión, la vista, el oído, la analítica con detección de tóxicos y el resto de apartados del cuadro. Lo tienes todo en la guía del <a href="/blog/reconocimiento-medico-tropa-y-marineria/">reconocimiento médico de Tropa y Marinería</a>, y las demás condiciones en los <a href="/blog/requisitos-tropa-y-marineria/">requisitos</a>.</p>
+      </div>
+      <aside class="cta-art">
+        <h2>¿Cumples los requisitos? El siguiente paso es elegir bien tus plazas</h2>
+        <p>Media hora con un exmilitar para resolver tus dudas sobre destinos y llegar al examen con la lista decidida.</p>
+        <div class="acciones"><a class="btn" href="/#precios">Reservar llamada</a><a class="btn btn-sec" href="/#test">Hacer el test gratis</a></div>
+      </aside>
+      <section class="fuentes"><h2>Fuentes</h2><ul>
+        <li><a href="https://www.boe.es/boe/dias/2019/01/12/pdfs/BOE-A-2019-319.pdf" rel="noopener">Orden PCI/6/2019: cuadro médico de exclusiones, apartado A.2</a></li>
+        <li><a href="https://www.boe.es/boe/dias/2023/05/04/pdfs/BOE-A-2023-10705.pdf" rel="noopener">Orden PCM/444/2023: modificación del apartado de talla</a></li>
+        <li><a href="https://www.boe.es/boe/dias/2026/01/08/pdfs/BOE-A-2026-436.pdf" rel="noopener">BOE-A-2026-436: convocatoria de Tropa y Marinería de 2026</a></li>
+      </ul></section>
+      <p class="aviso-art">Esta calculadora es orientativa y no es un consejo médico: solo aplica el margen de IMC del cuadro médico de exclusiones vigente en la convocatoria de 2026. Quien decide si eres apto es el servicio médico del reconocimiento. Comprueba siempre qué cuadro cita la convocatoria de tu ciclo.</p>
+    </article>
+    </div>
+    <script>
+    (function () {
+      var f = document.getElementById('calc'), res = document.getElementById('res');
+      function num(id) { return parseFloat((document.getElementById(id).value || '').replace(',', '.')); }
+      function dec(x) { return x.toFixed(1).replace('.', ','); }
+      function pintar(clase, html) { res.className = 'calc-res ' + clase; res.innerHTML = html; res.hidden = false; }
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var peso = num('peso'), cm = num('talla');
+        if (!(peso > 20 && peso < 300) || !(cm > 100 && cm < 250)) { pintar('', '<p>Pon tu peso en kilos y tu estatura en centímetros.</p>'); return; }
+        var m = cm / 100, imc = peso / (m * m), min = 17 * m * m, max = 30 * m * m;
+        var rango = '<p>Con ' + cm + ' cm, el IMC queda entre 17 y 30 con un peso de unos <strong>' + Math.ceil(min) + ' a ' + Math.floor(max) + ' kilos</strong>.</p>';
+        if (imc < 17) {
+          pintar('no', '<p><strong>Tu IMC es ' + dec(imc) + ', por debajo de 17.</strong> El cuadro médico pide que no sea inferior a 17.</p>' + rango);
+        } else if (imc > 30) {
+          pintar('no', '<p><strong>Tu IMC es ' + dec(imc) + ', por encima de 30.</strong> El cuadro médico admite superarlo solo si se debe claramente a desarrollo muscular y no a grasa, sin otra patología ni factores de riesgo. Lo valora el servicio médico.</p>' + rango);
+        } else {
+          pintar('si', '<p><strong>Tu IMC es ' + dec(imc) + ', dentro del margen de 17 a 30.</strong></p>' + rango + '<p>El IMC es solo un apartado: repasa el resto en la guía del <a href="/blog/reconocimiento-medico-tropa-y-marineria/">reconocimiento médico</a>.</p>');
+        }
+      });
+    })();
+    </script>
+  </main>
+  <footer class="pie">
+    <p>Orientación Militar es un servicio privado e independiente. No tiene relación con el Ministerio de Defensa ni con las Fuerzas Armadas. La información oficial sobre convocatorias, requisitos y plazos está en el <a href="https://reclutamiento.defensa.gob.es/" rel="noopener">portal de reclutamiento de Defensa</a>.</p>
+    <p class="pie-contacto"><span>Contacto: <span class="sel" data-dato="email" hidden></span></span><a data-wa="Hola, tengo una duda sobre Orientación Militar: " hidden>WhatsApp <span data-dato="whatsapp_visible"></span></a></p>
+    <nav class="pie-legal" aria-label="Enlaces">
+      <a href="/blog/">Blog</a>
+      <a href="/calculadora-edad-ejercito/">Calculadora de edad</a>
+      <a href="/calculadora-imc-ejercito/">Calculadora de IMC</a>
+      <a href="/unidades/">Unidades</a>
+      <a href="/aviso-legal.html">Aviso legal</a>
+      <a href="/privacidad.html">Política de privacidad</a>
+      <a href="/cookies.html">Cookies</a>
+      <a href="/condiciones.html">Condiciones de contratación</a>
+    </nav>
+    <p>© 2026 Orientación Militar</p>
+  </footer>
+</div>
+<script src="/comun.js"></script>
+</body>
+</html>

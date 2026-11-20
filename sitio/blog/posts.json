@@ -1,5 +1,14 @@
 [
  {
+  "slug": "reconocimiento-medico-tropa-y-marineria",
+  "titulo": "Reconocimiento médico de Tropa y Marinería: qué miran y qué excluye",
+  "descripcion": "Cómo es el reconocimiento médico de Tropa y Marinería y qué dice el cuadro médico de exclusiones: IMC, tensión, vista, oído, drogas y estatura.",
+  "categoria": "Pruebas",
+  "fecha": "2026-11-20",
+  "actualizado": "2026-11-20",
+  "palabras": 1467
+ },
+ {
   "slug": "extranjeros-ejercito-espanol",
   "titulo": "Extranjeros en el Ejército español: países, plazas y unidades",
   "descripcion": "Qué 18 países pueden entrar como soldado en España, cuántas plazas hay para extranjeros, en qué unidades del Ejército de Tierra y qué pasa con la nacionalidad.",
@@ -87,7 +96,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-11-02",
   "actualizado": "2026-11-02",
-  "palabras": 1497
+  "palabras": 1512
  },
  {
   "slug": "que-es-el-cefot",
@@ -141,7 +150,7 @@
   "categoria": "Convocatorias",
   "fecha": "2026-10-13",
   "actualizado": "2026-10-13",
-  "palabras": 1242
+  "palabras": 1252
  },
  {
   "slug": "prueba-de-aptitudes-tropa-y-marineria",

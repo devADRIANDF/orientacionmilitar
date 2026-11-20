@@ -10,6 +10,7 @@ Qué hace (sin dependencias externas, solo Python 3):
   - Genera el blog a partir de contenido/blog/*.html: artículos, índice, posts.json y feed RSS.
   - Pinta las últimas guías en la portada.
   - Genera la calculadora de edad (/calculadora-edad-ejercito/).
+  - Genera la calculadora de IMC (/calculadora-imc-ejercito/).
   - Genera el índice de guías de unidades (/unidades/).
   - Genera sitemap.xml y robots.txt.
 Si encuentra un error (por ejemplo, un artículo sin fuentes), lo dice y termina con código 1.
@@ -85,6 +86,7 @@ def pie():
     <nav class="pie-legal" aria-label="Enlaces">
       <a href="/blog/">Blog</a>
       <a href="/calculadora-edad-ejercito/">Calculadora de edad</a>
+      <a href="/calculadora-imc-ejercito/">Calculadora de IMC</a>
       <a href="/unidades/">Unidades</a>
       <a href="/aviso-legal.html">Aviso legal</a>
       <a href="/privacidad.html">Política de privacidad</a>
@@ -738,6 +740,90 @@ def construir_calculadora():
     escribir(SITIO / CALCULADORA_RUTA.strip('/') / 'index.html', pagina(titulo, descripcion, CALCULADORA_RUTA, cuerpo, cabeza_extra=extra))
 
 
+# ---------------------------------------------------------------- Calculadora de IMC
+
+IMC_RUTA = '/calculadora-imc-ejercito/'
+IMC_FECHA = date(2026, 11, 20)  # Cámbiala al revisar el cuadro médico de exclusiones.
+
+IMC_SCRIPT = """    <script>
+    (function () {
+      var f = document.getElementById('calc'), res = document.getElementById('res');
+      function num(id) { return parseFloat((document.getElementById(id).value || '').replace(',', '.')); }
+      function dec(x) { return x.toFixed(1).replace('.', ','); }
+      function pintar(clase, html) { res.className = 'calc-res ' + clase; res.innerHTML = html; res.hidden = false; }
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var peso = num('peso'), cm = num('talla');
+        if (!(peso > 20 && peso < 300) || !(cm > 100 && cm < 250)) { pintar('', '<p>Pon tu peso en kilos y tu estatura en centímetros.</p>'); return; }
+        var m = cm / 100, imc = peso / (m * m), min = 17 * m * m, max = 30 * m * m;
+        var rango = '<p>Con ' + cm + ' cm, el IMC queda entre 17 y 30 con un peso de unos <strong>' + Math.ceil(min) + ' a ' + Math.floor(max) + ' kilos</strong>.</p>';
+        if (imc < 17) {
+          pintar('no', '<p><strong>Tu IMC es ' + dec(imc) + ', por debajo de 17.</strong> El cuadro médico pide que no sea inferior a 17.</p>' + rango);
+        } else if (imc > 30) {
+          pintar('no', '<p><strong>Tu IMC es ' + dec(imc) + ', por encima de 30.</strong> El cuadro médico admite superarlo solo si se debe claramente a desarrollo muscular y no a grasa, sin otra patología ni factores de riesgo. Lo valora el servicio médico.</p>' + rango);
+        } else {
+          pintar('si', '<p><strong>Tu IMC es ' + dec(imc) + ', dentro del margen de 17 a 30.</strong></p>' + rango + '<p>El IMC es solo un apartado: repasa el resto en la guía del <a href="/blog/reconocimiento-medico-tropa-y-marineria/">reconocimiento médico</a>.</p>');
+        }
+      });
+    })();
+    </script>"""
+
+
+def construir_calculadora_imc():
+    titulo = 'Calculadora de IMC para el reconocimiento médico militar'
+    descripcion = ('Pon tu peso y tu estatura y comprueba si tu IMC está entre 17 y 30, el margen del cuadro '
+                   'médico de exclusiones para entrar en Tropa y Marinería.')
+    url_pag = f'{URL}{IMC_RUTA}'
+    ld = {'@context': 'https://schema.org', '@graph': [
+        {'@type': 'WebApplication', 'name': titulo, 'description': descripcion, 'url': url_pag,
+         'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Web', 'inLanguage': 'es-ES',
+         'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'EUR'},
+         'publisher': {'@type': 'Organization', '@id': f'{URL}/#org', 'name': 'Orientación Militar', 'url': f'{URL}/'}},
+        {'@type': 'BreadcrumbList', 'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': f'{URL}/'},
+            {'@type': 'ListItem', 'position': 2, 'name': 'Calculadora de IMC', 'item': url_pag}]}]}
+    extra = CALCULADORA_ESTILO + f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+    cuerpo = f'''    <div class="art-rejilla">
+    <article class="articulo">
+      <nav class="migas" aria-label="Estás en"><ol><li><a href="/">Inicio</a></li><li>Calculadora de IMC</li></ol></nav>
+      <h1>{e(titulo)}</h1>
+      <p class="art-meta"><span>Datos revisados el {fecha_larga(IMC_FECHA)}</span><span>Gratis y sin registro</span></p>
+      <p class="art-entradilla">El cuadro médico de exclusiones para entrar en los centros de formación militar pide un índice de masa corporal (IMC) que no pase de 30 ni sea inferior a 17. Pon tu peso y tu estatura y te decimos tu IMC y el margen de peso que te corresponde.</p>
+      <form class="calc" id="calc" novalidate>
+        <label>Tu peso en kilos
+          <input type="text" id="peso" inputmode="decimal" autocomplete="off" placeholder="Por ejemplo, 72,5" required>
+        </label>
+        <label>Tu estatura en centímetros
+          <input type="text" id="talla" inputmode="numeric" autocomplete="off" placeholder="Por ejemplo, 175" required>
+          <small>Medida de pie, en centímetros.</small>
+        </label>
+        <button class="btn" type="submit">Calcular</button>
+        <div class="calc-res" id="res" aria-live="polite" hidden></div>
+      </form>
+      <div class="art-cuerpo">
+        <h2 id="que-dice-la-norma">Qué dice la norma sobre el IMC</h2>
+        <p>El apartado A.2 del cuadro médico de exclusiones (Orden PCI/6/2019, de 11 de enero, la que cita la convocatoria de Tropa y Marinería de 2026) dice que el índice de masa corporal «no sobrepasará 30 ni será inferior a 17». Se calcula dividiendo el peso en kilos entre la estatura en metros al cuadrado.</p>
+        <p>La misma orden admite un IMC por encima de 30 cuando se deba claramente a un desarrollo muscular marcado y no a grasa, siempre que no haya otra patología ni factores de riesgo añadidos. No hay un límite de peso aparte del IMC, y desde la Orden PCM/444/2023 tampoco hay una estatura mínima general.</p>
+        <h2 id="resto">El IMC es solo una parte del reconocimiento</h2>
+        <p>En el reconocimiento también se miran la tensión, la vista, el oído, la analítica con detección de tóxicos y el resto de apartados del cuadro. Lo tienes todo en la guía del <a href="/blog/reconocimiento-medico-tropa-y-marineria/">reconocimiento médico de Tropa y Marinería</a>, y las demás condiciones en los <a href="/blog/requisitos-tropa-y-marineria/">requisitos</a>.</p>
+      </div>
+      <aside class="cta-art">
+        <h2>¿Cumples los requisitos? El siguiente paso es elegir bien tus plazas</h2>
+        <p>Media hora con un exmilitar para resolver tus dudas sobre destinos y llegar al examen con la lista decidida.</p>
+        <div class="acciones"><a class="btn" href="/#precios">Reservar llamada</a><a class="btn btn-sec" href="/#test">Hacer el test gratis</a></div>
+      </aside>
+      <section class="fuentes"><h2>Fuentes</h2><ul>
+        <li><a href="https://www.boe.es/boe/dias/2019/01/12/pdfs/BOE-A-2019-319.pdf" rel="noopener">Orden PCI/6/2019: cuadro médico de exclusiones, apartado A.2</a></li>
+        <li><a href="https://www.boe.es/boe/dias/2023/05/04/pdfs/BOE-A-2023-10705.pdf" rel="noopener">Orden PCM/444/2023: modificación del apartado de talla</a></li>
+        <li><a href="https://www.boe.es/boe/dias/2026/01/08/pdfs/BOE-A-2026-436.pdf" rel="noopener">BOE-A-2026-436: convocatoria de Tropa y Marinería de 2026</a></li>
+      </ul></section>
+      <p class="aviso-art">Esta calculadora es orientativa y no es un consejo médico: solo aplica el margen de IMC del cuadro médico de exclusiones vigente en la convocatoria de 2026. Quien decide si eres apto es el servicio médico del reconocimiento. Comprueba siempre qué cuadro cita la convocatoria de tu ciclo.</p>
+    </article>
+    </div>
+''' + IMC_SCRIPT
+    escribir(SITIO / IMC_RUTA.strip('/') / 'index.html', pagina(titulo, descripcion, IMC_RUTA, cuerpo, cabeza_extra=extra))
+
+
 # ---------------------------------------------------------------- Unidades de tropa
 
 UNIDADES_RUTA = '/unidades/'
@@ -788,7 +874,7 @@ def construir_unidades(posts):
 
 def construir_sitemap(posts):
     ultima = max([p['actualizado'] for p in posts], default=HOY).isoformat()
-    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima), (f'{URL}{CALCULADORA_RUTA}', CALCULADORA_FECHA.isoformat()), (f'{URL}{UNIDADES_RUTA}', max([p['actualizado'] for p in posts if p['categoria'] == 'Unidades'], default=HOY).isoformat())] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
+    urls = [(f'{URL}/', ultima), (f'{URL}/blog/', ultima), (f'{URL}{CALCULADORA_RUTA}', CALCULADORA_FECHA.isoformat()), (f'{URL}{IMC_RUTA}', IMC_FECHA.isoformat()), (f'{URL}{UNIDADES_RUTA}', max([p['actualizado'] for p in posts if p['categoria'] == 'Unidades'], default=HOY).isoformat())] + [(f'{URL}/blog/{p["slug"]}/', p['actualizado'].isoformat()) for p in posts]
     filas = ''.join(f'\n  <url>\n    <loc>{e(u)}</loc>\n    <lastmod>{d}</lastmod>\n  </url>' for u, d in urls)
     escribir(SITIO / 'sitemap.xml', f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{filas}\n</urlset>\n')
     construir_llms(posts)
@@ -810,6 +896,7 @@ def construir_llms(posts):
 - Checklist gratuita para el examen (PDF): qué llevar el día de la cita, cómo es la prueba de aptitudes y plantilla para las plazas.
 - Test gratuito de siete preguntas sobre qué tipo de destino encaja con cada persona.
 - Calculadora gratuita de edad para entrar en Tropa y Marinería: {URL}{CALCULADORA_RUTA}
+- Calculadora gratuita de IMC según el cuadro médico de exclusiones militar (17 a 30): {URL}{IMC_RUTA}
 - Índice de guías de las unidades a las que se puede pedir plaza como tropa (Legión, UME, Infantería de Marina, paracaidistas...): {URL}{UNIDADES_RUTA}
 
 Reservas y más información: {URL}/
@@ -833,6 +920,7 @@ if __name__ == '__main__':
     ajustar_portada(posts)
     construir_legal()
     construir_calculadora()
+    construir_calculadora_imc()
     construir_unidades(posts)
     construir_sitemap(posts)
     for a in avisos:
