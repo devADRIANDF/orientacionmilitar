@@ -1,7 +1,7 @@
 # Métricas de Search Console
 
-Generado el 2026-11-19 con datos del 2026-08-20 al 2026-11-17 (sc-domain:orientacionmilitar.com).
-Totales: 16 clics y 1844 impresiones.
+Generado el 2026-11-23 con datos del 2026-08-24 al 2026-11-21 (sc-domain:orientacionmilitar.com).
+Totales: 30 clics y 2802 impresiones.
 
 Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.md.
 
@@ -9,199 +9,206 @@ Cómo usarlo: ver la sección «Usar las métricas» de herramientas/GUIA-BLOG.m
 
 | Consulta | Impr. | Clics | CTR % | Posición |
 |---|---|---|---|---|
-| requisitos tropa y marinería | 33 | 0 | 0 | 82.6 |
-| oposiciones ejercito | 22 | 0 | 0 | 65.2 |
-| ezapac | 14 | 0 | 0 | 15.6 |
-| requisitos para entrar en el ejercito | 12 | 0 | 0 | 79.7 |
-| proceso selección tropa y marinería | 11 | 0 | 0 | 60.5 |
-| donde esta la legion | 10 | 0 | 0 | 7.2 |
-| oposiciones al ejército | 10 | 0 | 0 | 67.7 |
-| alistarse a la legion | 7 | 0 | 0 | 71.3 |
-| la legion | 7 | 0 | 0 | 40 |
-| legión | 7 | 0 | 0 | 23 |
-| test de personalidad tropa y marinería | 7 | 0 | 0 | 74.4 |
-| legion | 6 | 0 | 0 | 43.3 |
+| ezapac | 50 | 0 | 0 | 10.3 |
+| requisitos tropa y marinería | 37 | 0 | 0 | 80.9 |
+| oposiciones ejercito | 30 | 2 | 6.7 | 59.9 |
+| requisitos para entrar en el ejercito | 19 | 0 | 0 | 78.9 |
+| oposiciones al ejército | 14 | 0 | 0 | 70.6 |
+| donde esta la legion | 13 | 0 | 0 | 7.2 |
+| proceso selección tropa y marinería | 12 | 0 | 0 | 60.9 |
+| test de personalidad tropa y marinería | 11 | 0 | 0 | 67.9 |
+| la legion | 9 | 0 | 0 | 38.1 |
+| alistarse a la legion | 8 | 0 | 0 | 69.1 |
+| legión | 8 | 0 | 0 | 28.6 |
+| base principe | 7 | 0 | 0 | 26.4 |
+| ingresar en el ejercito | 7 | 0 | 0 | 48.3 |
+| legion | 7 | 0 | 0 | 44.7 |
+| requisitos para ser soldado profesional | 7 | 0 | 0 | 65.1 |
+| brigada paracaidista española | 6 | 0 | 0 | 43.7 |
+| bripac | 6 | 0 | 0 | 18.8 |
+| donde esta la legion en españa | 6 | 0 | 0 | 30 |
+| ingreso ejercito | 6 | 0 | 0 | 65.3 |
+| ingreso ejercito español | 6 | 0 | 0 | 57.2 |
+| inscripciones para el ejercito | 6 | 0 | 0 | 69.8 |
+| que es la legion | 6 | 0 | 0 | 6.7 |
 | orientación militar | 5 | 2 | 40.0 | 3 |
 | orientacion militar | 5 | 1 | 20.0 | 10 |
+| plazas ejercito 2027 | 5 | 1 | 20.0 | 6.4 |
 | alistamiento en el ejercito español | 5 | 0 | 0 | 51.8 |
 | alistarse en la legion | 5 | 0 | 0 | 76.6 |
+| como alistarse en la legion | 5 | 0 | 0 | 55.4 |
+| entrar a la fuerza | 5 | 0 | 0 | 59.8 |
+| ideario paracaidista | 5 | 0 | 0 | 42.6 |
+| incorporacion al ejercito | 5 | 0 | 0 | 59.8 |
+| ingresar al ejercito | 5 | 0 | 0 | 57 |
 | ingreso en las fuerzas armadas | 5 | 0 | 0 | 59 |
-| inscripciones para el ejercito | 5 | 0 | 0 | 75.2 |
-| que es la legion | 5 | 0 | 0 | 7.8 |
+| oposiciones al ejercito | 5 | 0 | 0 | 53.8 |
+| plazas ejercito | 5 | 0 | 0 | 56 |
+| plazas guardia civil | 5 | 0 | 0 | 53.6 |
+| requisitos ejercito | 5 | 0 | 0 | 67.2 |
+| requisitos para el servicio militar | 5 | 0 | 0 | 60 |
 | requisitos para ingresar al ejercito | 5 | 0 | 0 | 80.6 |
-| requisitos para ser soldado profesional | 5 | 0 | 0 | 70 |
-| alistamiento militar | 4 | 0 | 0 | 49.5 |
-| alistarse ejercito | 4 | 0 | 0 | 96.2 |
-| alistarse en el ejercito español | 4 | 0 | 0 | 44.8 |
-| bripac | 4 | 0 | 0 | 25.2 |
-| como alistarse en la legion | 4 | 0 | 0 | 55.5 |
-| como ingresar al ejercito español | 4 | 0 | 0 | 53.8 |
-| cómo entrar a suboficial del ejército | 4 | 0 | 0 | 57 |
-| entrar a la fuerza | 4 | 0 | 0 | 59.8 |
-| ingresar al ejercito | 4 | 0 | 0 | 59 |
-| oposiciones para el ejercito | 4 | 0 | 0 | 65.8 |
-| plazas guardia civil | 4 | 0 | 0 | 52.8 |
-| requisitos para soldado profesional | 4 | 0 | 0 | 79.8 |
-| brigada paracaidista española | 3 | 0 | 0 | 39 |
-| bripac que es | 3 | 0 | 0 | 8.7 |
-| como entrar en la ume | 3 | 0 | 0 | 68 |
-| como ingresar al ejercito | 3 | 0 | 0 | 79 |
-| donde hay legion en españa | 3 | 0 | 0 | 7.3 |
-| ejército español requisitos | 3 | 0 | 0 | 87.7 |
-| entrar como oficial en el ejército español | 3 | 0 | 0 | 63.7 |
+| soldados plazas | 5 | 0 | 0 | 59.4 |
 
 ## Oportunidades: consultas donde salimos más allá de la posición 10
 
 | Consulta | Impr. | Posición |
 |---|---|---|
-| requisitos tropa y marinería | 33 | 82.6 |
-| oposiciones ejercito | 22 | 65.2 |
-| ezapac | 14 | 15.6 |
-| requisitos para entrar en el ejercito | 12 | 79.7 |
-| proceso selección tropa y marinería | 11 | 60.5 |
-| oposiciones al ejército | 10 | 67.7 |
-| alistarse a la legion | 7 | 71.3 |
-| la legion | 7 | 40 |
-| legión | 7 | 23 |
-| test de personalidad tropa y marinería | 7 | 74.4 |
-| legion | 6 | 43.3 |
+| ezapac | 50 | 10.3 |
+| requisitos tropa y marinería | 37 | 80.9 |
+| oposiciones ejercito | 30 | 59.9 |
+| requisitos para entrar en el ejercito | 19 | 78.9 |
+| oposiciones al ejército | 14 | 70.6 |
+| proceso selección tropa y marinería | 12 | 60.9 |
+| test de personalidad tropa y marinería | 11 | 67.9 |
+| la legion | 9 | 38.1 |
+| alistarse a la legion | 8 | 69.1 |
+| legión | 8 | 28.6 |
+| base principe | 7 | 26.4 |
+| ingresar en el ejercito | 7 | 48.3 |
+| legion | 7 | 44.7 |
+| requisitos para ser soldado profesional | 7 | 65.1 |
+| brigada paracaidista española | 6 | 43.7 |
+| bripac | 6 | 18.8 |
+| donde esta la legion en españa | 6 | 30 |
+| ingreso ejercito | 6 | 65.3 |
+| ingreso ejercito español | 6 | 57.2 |
+| inscripciones para el ejercito | 6 | 69.8 |
 | alistamiento en el ejercito español | 5 | 51.8 |
 | alistarse en la legion | 5 | 76.6 |
+| como alistarse en la legion | 5 | 55.4 |
+| entrar a la fuerza | 5 | 59.8 |
+| ideario paracaidista | 5 | 42.6 |
+| incorporacion al ejercito | 5 | 59.8 |
+| ingresar al ejercito | 5 | 57 |
 | ingreso en las fuerzas armadas | 5 | 59 |
-| inscripciones para el ejercito | 5 | 75.2 |
+| oposiciones al ejercito | 5 | 53.8 |
+| plazas ejercito | 5 | 56 |
+| plazas guardia civil | 5 | 53.6 |
+| requisitos ejercito | 5 | 67.2 |
+| requisitos para el servicio militar | 5 | 60 |
 | requisitos para ingresar al ejercito | 5 | 80.6 |
-| requisitos para ser soldado profesional | 5 | 70 |
+| soldados plazas | 5 | 59.4 |
 | alistamiento militar | 4 | 49.5 |
 | alistarse ejercito | 4 | 96.2 |
 | alistarse en el ejercito español | 4 | 44.8 |
-| bripac | 4 | 25.2 |
-| como alistarse en la legion | 4 | 55.5 |
-| como ingresar al ejercito español | 4 | 53.8 |
-| cómo entrar a suboficial del ejército | 4 | 57 |
-| entrar a la fuerza | 4 | 59.8 |
-| ingresar al ejercito | 4 | 59 |
-| oposiciones para el ejercito | 4 | 65.8 |
-| plazas guardia civil | 4 | 52.8 |
-| requisitos para soldado profesional | 4 | 79.8 |
-| brigada paracaidista española | 3 | 39 |
-| como entrar en la ume | 3 | 68 |
-| como ingresar al ejercito | 3 | 79 |
-| ejército español requisitos | 3 | 87.7 |
-| entrar como oficial en el ejército español | 3 | 63.7 |
-| estudiar en el ejercito | 3 | 67 |
-| estudiar una fp en el ejército | 3 | 45.3 |
-| incorporacion ejercito | 3 | 46 |
-| ingreso ejercito español | 3 | 64.7 |
-| ingreso en el ejercito español | 3 | 55.3 |
-| inscripcion militar | 3 | 56.3 |
+| caballeros legionarios paracaidistas | 4 | 37 |
+| como alistarse al ejercito español | 4 | 42.2 |
 
 ## Páginas
 
 | Página | Impr. | Clics | CTR % | Posición |
 |---|---|---|---|---|
-| /blog/como-entrar-en-el-ejercito/ | 320 | 1 | 0.3 | 44.6 |
-| /blog/calendario-tropa-y-marineria/ | 292 | 1 | 0.3 | 6.8 |
-| /blog/edad-maxima-ejercito/ | 234 | 0 | 0 | 8.1 |
-| /blog/la-legion-ejercito-como-entrar/ | 144 | 0 | 0 | 19.8 |
-| /blog/requisitos-tropa-y-marineria/ | 115 | 0 | 0 | 59.3 |
-| /blog/ezapac-zapadores-paracaidistas/ | 104 | 1 | 1.0 | 8.8 |
-| /blog/tatuajes-ejercito/ | 102 | 1 | 1.0 | 7.9 |
-| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 98 | 1 | 1.0 | 18.6 |
-| /blog/que-llevar-al-cefot/ | 92 | 1 | 1.1 | 5.9 |
-| /blog/como-elegir-plazas-tropa-y-marineria/ | 84 | 1 | 1.2 | 10.5 |
-| /blog/bripac-brigada-paracaidista/ | 81 | 1 | 1.2 | 15.5 |
-| /blog/compromiso-inicial-larga-duracion-ejercito/ | 77 | 4 | 5.2 | 6 |
-| /blog/cita-previa-tropa-y-marineria/ | 53 | 0 | 0 | 21.5 |
-| / | 21 | 4 | 19.0 | 5.7 |
-| /calculadora-edad-ejercito/ | 20 | 0 | 0 | 11.3 |
+| /blog/calendario-tropa-y-marineria/ | 464 | 4 | 0.9 | 6.5 |
+| /blog/como-entrar-en-el-ejercito/ | 436 | 6 | 1.4 | 42.9 |
+| /blog/edad-maxima-ejercito/ | 321 | 0 | 0 | 8.0 |
+| /blog/la-legion-ejercito-como-entrar/ | 220 | 1 | 0.5 | 18.7 |
+| /blog/ezapac-zapadores-paracaidistas/ | 209 | 2 | 1.0 | 9.1 |
+| /blog/bripac-brigada-paracaidista/ | 185 | 2 | 1.1 | 18.2 |
+| /blog/requisitos-tropa-y-marineria/ | 141 | 0 | 0 | 55.2 |
+| /blog/tatuajes-ejercito/ | 140 | 1 | 0.7 | 8.9 |
+| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 135 | 1 | 0.7 | 16.0 |
+| /blog/que-llevar-al-cefot/ | 124 | 1 | 0.8 | 6.5 |
+| /blog/como-elegir-plazas-tropa-y-marineria/ | 92 | 1 | 1.1 | 10.1 |
+| /blog/compromiso-inicial-larga-duracion-ejercito/ | 88 | 4 | 4.5 | 6 |
+| /blog/cita-previa-tropa-y-marineria/ | 62 | 0 | 0 | 20.6 |
+| /blog/extranjeros-ejercito-espanol/ | 49 | 1 | 2.0 | 4.4 |
+| /blog/promocion-interna-suboficial-tropa/ | 46 | 2 | 4.3 | 7.7 |
+| /calculadora-edad-ejercito/ | 27 | 0 | 0 | 10.7 |
+| /blog/reservista-voluntario-fuerzas-armadas/ | 25 | 0 | 0 | 12.7 |
+| / | 22 | 4 | 18.2 | 5.5 |
+| /blog/prueba-de-aptitudes-tropa-y-marineria/ | 18 | 0 | 0 | 51.4 |
 | /blog/ume-unidad-militar-de-emergencias/ | 14 | 0 | 0 | 29.5 |
-| /blog/prueba-de-aptitudes-tropa-y-marineria/ | 13 | 0 | 0 | 53.5 |
+| /blog/que-es-el-cefot/ | 13 | 0 | 0 | 5.2 |
+| /unidades/ | 7 | 0 | 0 | 5.9 |
+| /blog/ | 6 | 0 | 0 | 38.3 |
 | /blog/lista-seleccionados-tropa-y-marineria/ | 6 | 0 | 0 | 44 |
-| /blog/ | 5 | 0 | 0 | 43.4 |
-| /unidades/ | 4 | 0 | 0 | 6.5 |
-| /blog/promocion-interna-suboficial-tropa/ | 2 | 0 | 0 | 68.5 |
 
 ## Páginas que conviene reforzar (posición 4 a 30)
 
 | Página | Impr. | CTR % | Posición |
 |---|---|---|---|
-| /blog/calendario-tropa-y-marineria/ | 292 | 0.3 | 6.8 |
-| /blog/edad-maxima-ejercito/ | 234 | 0 | 8.1 |
-| /blog/la-legion-ejercito-como-entrar/ | 144 | 0 | 19.8 |
-| /blog/ezapac-zapadores-paracaidistas/ | 104 | 1.0 | 8.8 |
-| /blog/tatuajes-ejercito/ | 102 | 1.0 | 7.9 |
-| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 98 | 1.0 | 18.6 |
-| /blog/que-llevar-al-cefot/ | 92 | 1.1 | 5.9 |
-| /blog/como-elegir-plazas-tropa-y-marineria/ | 84 | 1.2 | 10.5 |
-| /blog/bripac-brigada-paracaidista/ | 81 | 1.2 | 15.5 |
-| /blog/compromiso-inicial-larga-duracion-ejercito/ | 77 | 5.2 | 6 |
-| /blog/cita-previa-tropa-y-marineria/ | 53 | 0 | 21.5 |
-| / | 21 | 19.0 | 5.7 |
-| /calculadora-edad-ejercito/ | 20 | 0 | 11.3 |
+| /blog/calendario-tropa-y-marineria/ | 464 | 0.9 | 6.5 |
+| /blog/edad-maxima-ejercito/ | 321 | 0 | 8.0 |
+| /blog/la-legion-ejercito-como-entrar/ | 220 | 0.5 | 18.7 |
+| /blog/ezapac-zapadores-paracaidistas/ | 209 | 1.0 | 9.1 |
+| /blog/bripac-brigada-paracaidista/ | 185 | 1.1 | 18.2 |
+| /blog/tatuajes-ejercito/ | 140 | 0.7 | 8.9 |
+| /blog/plazas-reservadas-militares-guardia-civil-policia/ | 135 | 0.7 | 16.0 |
+| /blog/que-llevar-al-cefot/ | 124 | 0.8 | 6.5 |
+| /blog/como-elegir-plazas-tropa-y-marineria/ | 92 | 1.1 | 10.1 |
+| /blog/compromiso-inicial-larga-duracion-ejercito/ | 88 | 4.5 | 6 |
+| /blog/cita-previa-tropa-y-marineria/ | 62 | 0 | 20.6 |
+| /blog/extranjeros-ejercito-espanol/ | 49 | 2.0 | 4.4 |
+| /blog/promocion-interna-suboficial-tropa/ | 46 | 4.3 | 7.7 |
+| /calculadora-edad-ejercito/ | 27 | 0 | 10.7 |
+| /blog/reservista-voluntario-fuerzas-armadas/ | 25 | 0 | 12.7 |
+| / | 22 | 18.2 | 5.5 |
 | /blog/ume-unidad-militar-de-emergencias/ | 14 | 0 | 29.5 |
-| /unidades/ | 4 | 0 | 6.5 |
+| /blog/que-es-el-cefot/ | 13 | 0 | 5.2 |
+| /unidades/ | 7 | 0 | 5.9 |
 
 ## Qué consulta lleva a qué página
 
 | Consulta | Página | Impr. | Posición |
 |---|---|---|---|
-| requisitos tropa y marinería | /blog/requisitos-tropa-y-marineria/ | 32 | 84.9 |
-| oposiciones ejercito | /blog/como-entrar-en-el-ejercito/ | 22 | 65.2 |
-| ezapac | /blog/ezapac-zapadores-paracaidistas/ | 14 | 15.6 |
-| requisitos para entrar en el ejercito | /blog/requisitos-tropa-y-marineria/ | 11 | 80.6 |
-| donde esta la legion | /blog/la-legion-ejercito-como-entrar/ | 10 | 7.2 |
-| oposiciones al ejército | /blog/como-entrar-en-el-ejercito/ | 10 | 67.7 |
+| ezapac | /blog/ezapac-zapadores-paracaidistas/ | 50 | 10.3 |
+| requisitos tropa y marinería | /blog/requisitos-tropa-y-marineria/ | 36 | 82.9 |
+| oposiciones ejercito | /blog/como-entrar-en-el-ejercito/ | 30 | 59.9 |
+| oposiciones al ejército | /blog/como-entrar-en-el-ejercito/ | 14 | 70.6 |
+| requisitos para entrar en el ejercito | /blog/requisitos-tropa-y-marineria/ | 14 | 77.4 |
+| donde esta la legion | /blog/la-legion-ejercito-como-entrar/ | 13 | 7.2 |
+| test de personalidad tropa y marinería | /blog/prueba-de-aptitudes-tropa-y-marineria/ | 11 | 67.9 |
+| requisitos para entrar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 10 | 88.7 |
+| la legion | /blog/la-legion-ejercito-como-entrar/ | 9 | 38.1 |
+| alistarse a la legion | /blog/la-legion-ejercito-como-entrar/ | 8 | 69.1 |
+| legión | /blog/la-legion-ejercito-como-entrar/ | 8 | 28.6 |
 | proceso selección tropa y marinería | /blog/como-elegir-plazas-tropa-y-marineria/ | 8 | 52.4 |
-| alistarse a la legion | /blog/la-legion-ejercito-como-entrar/ | 7 | 71.3 |
-| la legion | /blog/la-legion-ejercito-como-entrar/ | 7 | 40 |
-| legión | /blog/la-legion-ejercito-como-entrar/ | 7 | 23 |
-| test de personalidad tropa y marinería | /blog/prueba-de-aptitudes-tropa-y-marineria/ | 7 | 74.4 |
-| legion | /blog/la-legion-ejercito-como-entrar/ | 6 | 43.3 |
-| requisitos para entrar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 6 | 90 |
+| base principe | /blog/bripac-brigada-paracaidista/ | 7 | 26.4 |
+| ingresar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 7 | 48.3 |
+| legion | /blog/la-legion-ejercito-como-entrar/ | 7 | 44.7 |
+| requisitos tropa y marinería | /blog/como-entrar-en-el-ejercito/ | 7 | 85.6 |
+| brigada paracaidista española | /blog/bripac-brigada-paracaidista/ | 6 | 43.7 |
+| bripac | /blog/bripac-brigada-paracaidista/ | 6 | 18.8 |
+| donde esta la legion en españa | /blog/la-legion-ejercito-como-entrar/ | 6 | 30 |
+| ingreso ejercito | /blog/como-entrar-en-el-ejercito/ | 6 | 65.3 |
+| ingreso ejercito español | /blog/como-entrar-en-el-ejercito/ | 6 | 57.2 |
+| inscripciones para el ejercito | /blog/como-entrar-en-el-ejercito/ | 6 | 69.8 |
+| que es la legion | /blog/la-legion-ejercito-como-entrar/ | 6 | 6.7 |
 | orientación militar | / | 5 | 3 |
 | orientacion militar | / | 5 | 10 |
+| plazas ejercito 2027 | /blog/calendario-tropa-y-marineria/ | 5 | 6.4 |
 | alistarse en la legion | /blog/la-legion-ejercito-como-entrar/ | 5 | 76.6 |
+| como alistarse en la legion | /blog/la-legion-ejercito-como-entrar/ | 5 | 55.4 |
+| entrar a la fuerza | /blog/como-entrar-en-el-ejercito/ | 5 | 59.8 |
+| ideario paracaidista | /blog/bripac-brigada-paracaidista/ | 5 | 42.6 |
+| incorporacion al ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 59.8 |
+| ingresar al ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 57 |
 | ingreso en las fuerzas armadas | /blog/como-entrar-en-el-ejercito/ | 5 | 59 |
-| inscripciones para el ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 75.2 |
-| que es la legion | /blog/la-legion-ejercito-como-entrar/ | 5 | 7.8 |
+| oposiciones al ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 53.8 |
+| plazas ejercito | /blog/como-entrar-en-el-ejercito/ | 5 | 56 |
+| plazas guardia civil | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 5 | 53.6 |
 | requisitos para ingresar al ejercito | /blog/requisitos-tropa-y-marineria/ | 5 | 80.6 |
+| requisitos para ser soldado profesional | /blog/requisitos-tropa-y-marineria/ | 5 | 74.2 |
+| soldados plazas | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 5 | 59.4 |
 | alistamiento en el ejercito español | /blog/como-entrar-en-el-ejercito/ | 4 | 58.2 |
 | alistamiento en el ejercito español | /blog/requisitos-tropa-y-marineria/ | 4 | 52.5 |
 | alistamiento militar | /blog/como-entrar-en-el-ejercito/ | 4 | 49.5 |
 | alistarse ejercito | /blog/como-entrar-en-el-ejercito/ | 4 | 96.2 |
 | alistarse en el ejercito español | /blog/como-entrar-en-el-ejercito/ | 4 | 44.8 |
-| bripac | /blog/bripac-brigada-paracaidista/ | 4 | 25.2 |
-| como alistarse en la legion | /blog/la-legion-ejercito-como-entrar/ | 4 | 55.5 |
+| caballeros legionarios paracaidistas | /blog/bripac-brigada-paracaidista/ | 4 | 37 |
+| como alistarse al ejercito español | /blog/como-entrar-en-el-ejercito/ | 4 | 46.5 |
 | como ingresar al ejercito español | /blog/como-entrar-en-el-ejercito/ | 4 | 53.8 |
 | cómo entrar a suboficial del ejército | /blog/como-entrar-en-el-ejercito/ | 4 | 57 |
-| entrar a la fuerza | /blog/como-entrar-en-el-ejercito/ | 4 | 59.8 |
-| ingresar al ejercito | /blog/como-entrar-en-el-ejercito/ | 4 | 59 |
+| donde hay legion en españa | /blog/la-legion-ejercito-como-entrar/ | 4 | 7.2 |
+| ezapac españa | /blog/ezapac-zapadores-paracaidistas/ | 4 | 8 |
+| la brigada paracaidista | /blog/bripac-brigada-paracaidista/ | 4 | 50.2 |
+| la legion que es | /blog/la-legion-ejercito-como-entrar/ | 4 | 9.2 |
 | oposiciones para el ejercito | /blog/como-entrar-en-el-ejercito/ | 4 | 65.8 |
-| plazas guardia civil | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 4 | 52.8 |
-| requisitos para ser soldado profesional | /blog/requisitos-tropa-y-marineria/ | 4 | 76 |
+| qué es la legión | /blog/la-legion-ejercito-como-entrar/ | 4 | 44 |
+| reclutamiento militar | /blog/como-entrar-en-el-ejercito/ | 4 | 55.2 |
+| requisitos para el servicio militar | /blog/como-entrar-en-el-ejercito/ | 4 | 74.8 |
+| requisitos para el servicio militar | /blog/requisitos-tropa-y-marineria/ | 4 | 66 |
 | requisitos para soldado profesional | /blog/requisitos-tropa-y-marineria/ | 4 | 79.8 |
-| requisitos tropa y marinería | /blog/como-entrar-en-el-ejercito/ | 4 | 77.2 |
-| brigada paracaidista española | /blog/bripac-brigada-paracaidista/ | 3 | 39 |
-| bripac que es | /blog/bripac-brigada-paracaidista/ | 3 | 8.7 |
-| como ingresar al ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 79 |
-| donde hay legion en españa | /blog/la-legion-ejercito-como-entrar/ | 3 | 7.3 |
-| entrar como oficial en el ejército español | /blog/como-entrar-en-el-ejercito/ | 3 | 63.7 |
-| estudiar en el ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 67 |
-| estudiar una fp en el ejército | /blog/como-entrar-en-el-ejercito/ | 3 | 45.3 |
-| incorporacion ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 46 |
-| ingreso ejercito español | /blog/como-entrar-en-el-ejercito/ | 3 | 64.7 |
-| ingreso en el ejercito español | /blog/como-entrar-en-el-ejercito/ | 3 | 55.3 |
-| la legion que es | /blog/la-legion-ejercito-como-entrar/ | 3 | 9 |
-| la legión | /blog/la-legion-ejercito-como-entrar/ | 3 | 29.3 |
-| oposiciones al ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 60.3 |
-| plazas ejercito | /blog/como-entrar-en-el-ejercito/ | 3 | 46 |
-| plazas reservadas para militares | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 3 | 59 |
-| proceso selección tropa y marinería | /blog/lista-seleccionados-tropa-y-marineria/ | 3 | 82.3 |
-| prueba de aptitud tropa y marinería | /blog/prueba-de-aptitudes-tropa-y-marineria/ | 3 | 52 |
-| qué es la legión | /blog/la-legion-ejercito-como-entrar/ | 3 | 39 |
-| reclutamiento militar | /blog/como-entrar-en-el-ejercito/ | 3 | 61.3 |
-| requisitos para el servicio militar | /blog/requisitos-tropa-y-marineria/ | 3 | 66.3 |
-| requisitos para entrar al ejercito | /blog/requisitos-tropa-y-marineria/ | 3 | 86.7 |
-| soldados plazas | /blog/plazas-reservadas-militares-guardia-civil-policia/ | 3 | 65.7 |
-| alistarse al ejercito | /blog/como-entrar-en-el-ejercito/ | 2 | 47 |
-| alistarse ejercito español | /blog/como-entrar-en-el-ejercito/ | 2 | 48.5 |
+| tatuaje ejercito | /blog/tatuajes-ejercito/ | 4 | 21.8 |
+| brigada paracaidista | /blog/bripac-brigada-paracaidista/ | 3 | 40.7 |
