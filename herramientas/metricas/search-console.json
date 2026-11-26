@@ -1,19 +1,19 @@
 {
- "generado": "2026-11-23",
+ "generado": "2026-11-26",
  "propiedad": "sc-domain:orientacionmilitar.com",
- "desde": "2026-08-24",
- "hasta": "2026-11-21",
+ "desde": "2026-08-27",
+ "hasta": "2026-11-24",
  "totales": {
-  "clics": 30,
-  "impresiones": 2802
+  "clics": 42,
+  "impresiones": 3903
  },
  "consultas": [
   {
    "query": "oposiciones ejercito",
-   "clics": 2,
-   "impresiones": 30,
-   "ctr": 6.7,
-   "posicion": 59.9
+   "clics": 3,
+   "impresiones": 39,
+   "ctr": 7.7,
+   "posicion": 58.9
   },
   {
    "query": "orientación militar",
@@ -44,6 +44,20 @@
    "posicion": 6.4
   },
   {
+   "query": "2027",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
+   "query": "a españa",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 4
+  },
+  {
    "query": "a que edad puedo entrar al servicio militar",
    "clics": 0,
    "impresiones": 1,
@@ -65,6 +79,13 @@
    "posicion": 60
   },
   {
+   "query": "acceso a tropa y marineria",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 83
+  },
+  {
    "query": "acceso ejercito",
    "clics": 0,
    "impresiones": 1,
@@ -81,9 +102,9 @@
   {
    "query": "alistamiento militar",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 49.5
+   "posicion": 48
   },
   {
    "query": "alistarse a la legion",
@@ -102,16 +123,16 @@
   {
    "query": "alistarse al ejercito español",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 57
+   "posicion": 54.2
   },
   {
    "query": "alistarse ejercito",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 96.2
+   "posicion": 87
   },
   {
    "query": "alistarse ejercito español",
@@ -123,16 +144,16 @@
   {
    "query": "alistarse en el ejercito",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 52
+   "posicion": 51.3
   },
   {
    "query": "alistarse en el ejercito español",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 44.8
+   "posicion": 45.2
   },
   {
    "query": "alistarse en la legion",
@@ -158,23 +179,30 @@
   {
    "query": "ascender a oficial ejército",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 78
+   "posicion": 73
   },
   {
    "query": "ascender a suboficial por promoción interna",
    "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 48.5
+  },
+  {
+   "query": "barcelona",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 48
+   "posicion": 2
   },
   {
    "query": "base principe",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 26.4
+   "posicion": 19.1
   },
   {
    "query": "base principe bripac",
@@ -189,6 +217,13 @@
    "impresiones": 2,
    "ctr": 0,
    "posicion": 22
+  },
+  {
+   "query": "batallon de instruccion paracaidista",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 27.5
   },
   {
    "query": "blog tropa y marinería",
@@ -212,11 +247,18 @@
    "posicion": 11
   },
   {
-   "query": "brigada de paracaidistas",
+   "query": "brigada almogávares vi de paracaidistas",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 6
+   "posicion": 10
+  },
+  {
+   "query": "brigada de paracaidistas",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 39
   },
   {
    "query": "brigada paracaidista",
@@ -240,6 +282,13 @@
    "posicion": 43.7
   },
   {
+   "query": "brigada paracaidistas",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 41
+  },
+  {
    "query": "brioac",
    "clics": 0,
    "impresiones": 1,
@@ -249,9 +298,9 @@
   {
    "query": "bripac",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 12,
    "ctr": 0,
-   "posicion": 18.8
+   "posicion": 12.3
   },
   {
    "query": "bripac madrid",
@@ -270,16 +319,16 @@
   {
    "query": "bripac que es",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 8.7
+   "posicion": 6.5
   },
   {
    "query": "caballeros legionarios paracaidistas",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 37
+   "posicion": 38.2
   },
   {
    "query": "calendario militar 2027",
@@ -294,6 +343,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 41
+  },
+  {
+   "query": "carreras ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 22
   },
   {
    "query": "cefot",
@@ -382,7 +438,7 @@
   {
    "query": "como alistarse al ejercito español",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 6,
    "ctr": 0,
    "posicion": 42.2
   },
@@ -403,9 +459,9 @@
   {
    "query": "como alistarse en la legion",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 55.4
+   "posicion": 53.7
   },
   {
    "query": "como entrar al ejercito",
@@ -413,6 +469,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 38
+  },
+  {
+   "query": "como entrar al ejército español",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 23
   },
   {
    "query": "como entrar en la legion española",
@@ -445,9 +508,9 @@
   {
    "query": "como ingresar en la ume",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 62
+   "posicion": 63
   },
   {
    "query": "como se entra?",
@@ -473,7 +536,7 @@
   {
    "query": "convocatoria militar 2027",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
    "posicion": 11
   },
@@ -485,11 +548,18 @@
    "posicion": 7
   },
   {
-   "query": "convocatoria tropa y marinería 2027",
+   "query": "convocatoria reservistas voluntarios 2026",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 10
+   "posicion": 51
+  },
+  {
+   "query": "convocatoria tropa y marinería 2027",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 5.5
   },
   {
    "query": "convocatorias ejercito",
@@ -520,6 +590,13 @@
    "posicion": 40
   },
   {
+   "query": "convocatorias próximas",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 12
+  },
+  {
    "query": "convocatorias tropa y marineria",
    "clics": 0,
    "impresiones": 1,
@@ -527,11 +604,18 @@
    "posicion": 95
   },
   {
+   "query": "cuando salen las oposiciones",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "cuando son las convocatorias para el ejercito 2027",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 1
+   "posicion": 3.7
   },
   {
    "query": "cuando son las postulaciones para el servicio militar 2027",
@@ -541,6 +625,13 @@
    "posicion": 5
   },
   {
+   "query": "cuantos extranjeros hay en el ejercito español",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
+  },
+  {
    "query": "cuartel de la legion",
    "clics": 0,
    "impresiones": 3,
@@ -548,11 +639,18 @@
    "posicion": 48.3
   },
   {
+   "query": "cuándo es la siguiente convocatoria?",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "cómo entrar a suboficial del ejército",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 57
+   "posicion": 54.2
   },
   {
    "query": "cómo es el proceso de selección",
@@ -578,23 +676,23 @@
   {
    "query": "donde esta la legion",
    "clics": 0,
-   "impresiones": 13,
+   "impresiones": 16,
    "ctr": 0,
-   "posicion": 7.2
+   "posicion": 7.1
   },
   {
    "query": "donde esta la legion en españa",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 30
+   "posicion": 26.6
   },
   {
    "query": "donde estan los legionarios",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 11
+   "posicion": 9.5
   },
   {
    "query": "donde está la legion",
@@ -660,6 +758,13 @@
    "posicion": 49.5
   },
   {
+   "query": "ejercito plazas",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "ejército de españa para extranjeros",
    "clics": 0,
    "impresiones": 1,
@@ -679,6 +784,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 1
+  },
+  {
+   "query": "en el 2027",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
   },
   {
    "query": "en españa",
@@ -725,16 +837,16 @@
   {
    "query": "entrar como oficial en el ejército español",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 63.7
+   "posicion": 62.2
   },
   {
    "query": "escuadrón de zapadores paracaidistas",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 13,
    "ctr": 0,
-   "posicion": 12
+   "posicion": 11.1
   },
   {
    "query": "escuadrón de zapadores paracaidistas (ezapac)",
@@ -758,11 +870,25 @@
    "posicion": 45.3
   },
   {
+   "query": "estudios militares en españa",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 47
+  },
+  {
+   "query": "extranjeros en el ejercito español",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "ezapac",
    "clics": 0,
-   "impresiones": 50,
+   "impresiones": 94,
    "ctr": 0,
-   "posicion": 10.3
+   "posicion": 9.4
   },
   {
    "query": "ezapac alcantarilla",
@@ -774,16 +900,23 @@
   {
    "query": "ezapac ejercito del aire",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 10.3
+   "posicion": 10.4
   },
   {
    "query": "ezapac españa",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 8
+   "posicion": 8.2
+  },
+  {
+   "query": "ezapac que es",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
   },
   {
    "query": "ezpac",
@@ -807,18 +940,25 @@
    "posicion": 30.5
   },
   {
+   "query": "guardia civil militares",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 54
+  },
+  {
    "query": "ideario paracaidista",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 42.6
+   "posicion": 41
   },
   {
    "query": "incorporacion al ejercito",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 59.8
+   "posicion": 58.4
   },
   {
    "query": "incorporacion ejercito",
@@ -837,9 +977,9 @@
   {
    "query": "ingresar en el ejercito",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 48.3
+   "posicion": 47.9
   },
   {
    "query": "ingresar en el ejercito español",
@@ -851,16 +991,16 @@
   {
    "query": "ingresar en la ume",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 68
+   "posicion": 57.7
   },
   {
    "query": "ingreso al ejercito",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 56
+   "posicion": 54.8
   },
   {
    "query": "ingreso al ejército",
@@ -886,9 +1026,9 @@
   {
    "query": "ingreso en el ejercito",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 58
+   "posicion": 59
   },
   {
    "query": "ingreso en el ejercito español",
@@ -900,30 +1040,30 @@
   {
    "query": "ingreso en las fuerzas armadas",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 59
+   "posicion": 59.7
   },
   {
    "query": "ingreso fuerzas armadas",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 70.7
+   "posicion": 66.8
   },
   {
    "query": "inscripcion militar",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 52.2
+   "posicion": 42.2
   },
   {
    "query": "inscripciones para el ejercito",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 69.8
+   "posicion": 61.8
   },
   {
    "query": "intendencia militar",
@@ -935,9 +1075,9 @@
   {
    "query": "la brigada paracaidista",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 50.2
+   "posicion": 50.6
   },
   {
    "query": "la hoz y el martillo",
@@ -949,9 +1089,9 @@
   {
    "query": "la legion",
    "clics": 0,
-   "impresiones": 9,
+   "impresiones": 10,
    "ctr": 0,
-   "posicion": 38.1
+   "posicion": 35.3
   },
   {
    "query": "la legion donde esta",
@@ -970,16 +1110,16 @@
   {
    "query": "la legión",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 29.3
+   "posicion": 25.7
   },
   {
    "query": "legion",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 44.7
+   "posicion": 41.4
   },
   {
    "query": "legion almeria",
@@ -991,7 +1131,7 @@
   {
    "query": "legion que es",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
    "posicion": 11
   },
@@ -1005,9 +1145,9 @@
   {
    "query": "legión",
    "clics": 0,
-   "impresiones": 8,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 28.6
+   "posicion": 30.8
   },
   {
    "query": "ley de tropa y marineria",
@@ -1024,11 +1164,25 @@
    "posicion": 78
   },
   {
+   "query": "mido 1,50",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "militares paracaidistas",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
    "posicion": 49
+  },
+  {
+   "query": "ministerio de defensa reservista voluntario",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
   },
   {
    "query": "oposicion a militar",
@@ -1054,9 +1208,9 @@
   {
    "query": "oposiciones al ejército",
    "clics": 0,
-   "impresiones": 14,
+   "impresiones": 18,
    "ctr": 0,
-   "posicion": 70.6
+   "posicion": 68.5
   },
   {
    "query": "oposiciones fuerzas armadas",
@@ -1073,11 +1227,18 @@
    "posicion": 38.5
   },
   {
+   "query": "oposiciones oficiales ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 64
+  },
+  {
    "query": "oposiciones para el ejercito",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 65.8
+   "posicion": 66.4
   },
   {
    "query": "oposiciones tropa y marineria",
@@ -1089,30 +1250,44 @@
   {
    "query": "packs cefot",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 40
+   "posicion": 39
+  },
+  {
+   "query": "para extranjeros",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 6
   },
   {
    "query": "paracaidista",
    "clics": 0,
+   "impresiones": 4,
+   "ctr": 0,
+   "posicion": 52.2
+  },
+  {
+   "query": "paracaidista españa",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 45
+   "posicion": 30
   },
   {
    "query": "paracaidista militar",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 47
+   "posicion": 52
   },
   {
    "query": "paracaidistas",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 51
+   "posicion": 53.2
   },
   {
    "query": "paracaidistas del ejercito",
@@ -1120,6 +1295,27 @@
    "impresiones": 3,
    "ctr": 0,
    "posicion": 53
+  },
+  {
+   "query": "paracaidistas ejercito",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 40
+  },
+  {
+   "query": "paracaidistas ejercito español",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 42.7
+  },
+  {
+   "query": "paracaidistas españoles",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 29.5
   },
   {
    "query": "paracaidistas militares",
@@ -1134,6 +1330,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 23
+  },
+  {
+   "query": "permanencia fuerzas armadas",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
   },
   {
    "query": "plaza brigada paracaidista",
@@ -1152,23 +1355,23 @@
   {
    "query": "plazas del ejercito",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 49
+   "posicion": 52.3
   },
   {
    "query": "plazas ejercito",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 56
+   "posicion": 54.7
   },
   {
    "query": "plazas en el ejercito",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 85
+   "posicion": 80.7
   },
   {
    "query": "plazas guardia civil",
@@ -1229,9 +1432,9 @@
   {
    "query": "proceso selección tropa y marinería",
    "clics": 0,
-   "impresiones": 12,
+   "impresiones": 13,
    "ctr": 0,
-   "posicion": 60.9
+   "posicion": 61.7
   },
   {
    "query": "promocion interna suboficiales",
@@ -1241,11 +1444,25 @@
    "posicion": 35
   },
   {
-   "query": "proxima convocatoria tropa y marineria 2027",
+   "query": "proxima convocatoria ejercito 2027",
+   "clics": 0,
+   "impresiones": 4,
+   "ctr": 0,
+   "posicion": 5.8
+  },
+  {
+   "query": "proxima convocatoria tropa y marineria",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 11
+   "posicion": 3
+  },
+  {
+   "query": "proxima convocatoria tropa y marineria 2027",
+   "clics": 0,
+   "impresiones": 5,
+   "ctr": 0,
+   "posicion": 7.4
   },
   {
    "query": "prueba de aptitud tropa y marinería",
@@ -1253,6 +1470,20 @@
    "impresiones": 3,
    "ctr": 0,
    "posicion": 52
+  },
+  {
+   "query": "pruebas ejercito",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 69.3
+  },
+  {
+   "query": "puedes entrar al servicio militar con tatuajes",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 8
   },
   {
    "query": "puedo entrar a ala militar con tatuajes",
@@ -1267,6 +1498,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 8
+  },
+  {
+   "query": "puedo entrar al ejército con tatuajes",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 7
   },
   {
    "query": "puedo ir al servicio militar si tengo tatuajes",
@@ -1299,9 +1537,9 @@
   {
    "query": "que es la legion",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 11,
    "ctr": 0,
-   "posicion": 6.7
+   "posicion": 8.1
   },
   {
    "query": "que es la legión",
@@ -1367,6 +1605,13 @@
    "posicion": 55.2
   },
   {
+   "query": "reconocimiento médico tropa y marinería",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 42.7
+  },
+  {
    "query": "requisitos ejercito",
    "clics": 0,
    "impresiones": 5,
@@ -1376,16 +1621,16 @@
   {
    "query": "requisitos militar",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 94.5
+   "posicion": 81.7
   },
   {
    "query": "requisitos para el ejercito español",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 62
+   "posicion": 72
   },
   {
    "query": "requisitos para el servicio militar",
@@ -1397,9 +1642,9 @@
   {
    "query": "requisitos para entrar al ejercito",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 81.8
+   "posicion": 74.5
   },
   {
    "query": "requisitos para entrar al ejercito de españa",
@@ -1411,23 +1656,23 @@
   {
    "query": "requisitos para entrar al ejército",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 83
+   "posicion": 74
   },
   {
    "query": "requisitos para entrar en el ejercito",
    "clics": 0,
-   "impresiones": 19,
+   "impresiones": 25,
    "ctr": 0,
-   "posicion": 78.9
+   "posicion": 76.5
   },
   {
    "query": "requisitos para entrar en el ejército",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 60
+   "posicion": 58.2
   },
   {
    "query": "requisitos para entrar en la academia militar española",
@@ -1446,16 +1691,16 @@
   {
    "query": "requisitos para ingresar al ejercito",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 80.6
+   "posicion": 77
   },
   {
    "query": "requisitos para militar",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 93
+   "posicion": 68.9
   },
   {
    "query": "requisitos para ser militar",
@@ -1467,37 +1712,65 @@
   {
    "query": "requisitos para ser soldado profesional",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 65.1
+   "posicion": 65
   },
   {
    "query": "requisitos para soldado",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 78
+   "posicion": 62.6
   },
   {
    "query": "requisitos para soldado profesional",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 79.8
+   "posicion": 75.6
+  },
+  {
+   "query": "requisitos servicio militar",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
   },
   {
    "query": "requisitos tropa y marinería",
    "clics": 0,
-   "impresiones": 37,
+   "impresiones": 38,
    "ctr": 0,
-   "posicion": 80.9
+   "posicion": 80.4
+  },
+  {
+   "query": "requisitos ume",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 39
+  },
+  {
+   "query": "reservista",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 44
   },
   {
    "query": "reservista voluntario 2026",
    "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 4.7
+  },
+  {
+   "query": "reservista voluntario 2026 españa",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 4
+   "posicion": 8
   },
   {
    "query": "reservista voluntario cita",
@@ -1509,9 +1782,9 @@
   {
    "query": "reservistas voluntarios",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 3
+   "posicion": 2.5
   },
   {
    "query": "reservistas voluntarios fuerzas armadas",
@@ -1523,9 +1796,9 @@
   {
    "query": "se puede entrar al ejercito con tatuajes",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 7
+   "posicion": 7.3
   },
   {
    "query": "se puede entrar al ejército con tatuajes",
@@ -1570,6 +1843,34 @@
    "posicion": 12
   },
   {
+   "query": "servicio militar en españa para extranjeros",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 9
+  },
+  {
+   "query": "servicio militar voluntario",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 38
+  },
+  {
+   "query": "si",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
+  },
+  {
+   "query": "si dime todo",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "si por favor",
    "clics": 0,
    "impresiones": 1,
@@ -1582,6 +1883,13 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 11
+  },
+  {
+   "query": "soldado profesional",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 89
   },
   {
    "query": "soldados paracaidistas",
@@ -1626,6 +1934,13 @@
    "posicion": 9
   },
   {
+   "query": "tatuaggi?",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "tatuaje ejercito",
    "clics": 0,
    "impresiones": 4,
@@ -1649,9 +1964,23 @@
   {
    "query": "test de personalidad tropa y marinería",
    "clics": 0,
-   "impresiones": 11,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 67.9
+   "posicion": 66.5
+  },
+  {
+   "query": "test promoción interna militar",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 34
+  },
+  {
+   "query": "tropa y marineria 2026",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 57
   },
   {
    "query": "tropas paracaidistas",
@@ -1675,6 +2004,20 @@
    "posicion": 76
   },
   {
+   "query": "un militar puede tener tatuajes",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
+  },
+  {
+   "query": "what of spain",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 14
+  },
+  {
    "query": "y de aire",
    "clics": 0,
    "impresiones": 1,
@@ -1689,11 +2032,18 @@
    "posicion": 1
   },
   {
+   "query": "zapador paracaidista",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 10
+  },
+  {
    "query": "zapadores paracaidistas",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 35.7
+   "posicion": 27.5
   },
   {
    "query": "для иностранцев",
@@ -1705,116 +2055,130 @@
  ],
  "paginas": [
   {
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 10,
+   "impresiones": 679,
+   "ctr": 1.5,
+   "posicion": 6.1
+  },
+  {
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
-   "clics": 6,
-   "impresiones": 436,
-   "ctr": 1.4,
-   "posicion": 42.9
+   "clics": 7,
+   "impresiones": 567,
+   "ctr": 1.2,
+   "posicion": 42.5
   },
   {
    "page": "https://orientacionmilitar.com/",
    "clics": 4,
-   "impresiones": 22,
-   "ctr": 18.2,
-   "posicion": 5.5
-  },
-  {
-   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
-   "clics": 4,
-   "impresiones": 464,
-   "ctr": 0.9,
-   "posicion": 6.5
+   "impresiones": 25,
+   "ctr": 16.0,
+   "posicion": 5
   },
   {
    "page": "https://orientacionmilitar.com/blog/compromiso-inicial-larga-duracion-ejercito/",
    "clics": 4,
-   "impresiones": 88,
-   "ctr": 4.5,
-   "posicion": 6
-  },
-  {
-   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
-   "clics": 2,
-   "impresiones": 185,
-   "ctr": 1.1,
-   "posicion": 18.2
+   "impresiones": 93,
+   "ctr": 4.3,
+   "posicion": 5.8
   },
   {
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
-   "clics": 2,
-   "impresiones": 209,
-   "ctr": 1.0,
-   "posicion": 9.1
+   "clics": 3,
+   "impresiones": 334,
+   "ctr": 0.9,
+   "posicion": 8.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/promocion-interna-suboficial-tropa/",
-   "clics": 2,
-   "impresiones": 46,
+   "clics": 3,
+   "impresiones": 69,
    "ctr": 4.3,
    "posicion": 7.7
   },
   {
-   "page": "https://orientacionmilitar.com/blog/como-elegir-plazas-tropa-y-marineria/",
-   "clics": 1,
-   "impresiones": 92,
-   "ctr": 1.1,
-   "posicion": 10.1
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 2,
+   "impresiones": 282,
+   "ctr": 0.7,
+   "posicion": 19.0
   },
   {
    "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 2,
+   "impresiones": 169,
+   "ctr": 1.2,
+   "posicion": 4.6
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/como-elegir-plazas-tropa-y-marineria/",
    "clics": 1,
-   "impresiones": 49,
-   "ctr": 2.0,
-   "posicion": 4.4
+   "impresiones": 103,
+   "ctr": 1.0,
+   "posicion": 9.7
   },
   {
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 1,
-   "impresiones": 220,
-   "ctr": 0.5,
-   "posicion": 18.7
+   "impresiones": 256,
+   "ctr": 0.4,
+   "posicion": 17.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
    "clics": 1,
-   "impresiones": 135,
+   "impresiones": 152,
    "ctr": 0.7,
-   "posicion": 16.0
+   "posicion": 15.1
   },
   {
    "page": "https://orientacionmilitar.com/blog/que-llevar-al-cefot/",
    "clics": 1,
-   "impresiones": 124,
-   "ctr": 0.8,
-   "posicion": 6.5
+   "impresiones": 145,
+   "ctr": 0.7,
+   "posicion": 7.4
+  },
+  {
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 1,
+   "impresiones": 178,
+   "ctr": 0.6,
+   "posicion": 51.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
    "clics": 1,
-   "impresiones": 140,
-   "ctr": 0.7,
-   "posicion": 8.9
+   "impresiones": 180,
+   "ctr": 0.6,
+   "posicion": 8.1
+  },
+  {
+   "page": "https://orientacionmilitar.com/calculadora-imc-ejercito/",
+   "clics": 1,
+   "impresiones": 36,
+   "ctr": 2.8,
+   "posicion": 5.6
   },
   {
    "page": "https://orientacionmilitar.com/blog/",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 38.3
+   "posicion": 38.4
   },
   {
    "page": "https://orientacionmilitar.com/blog/cita-previa-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 62,
+   "impresiones": 66,
    "ctr": 0,
-   "posicion": 20.6
+   "posicion": 20.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/edad-maxima-ejercito/",
    "clics": 0,
-   "impresiones": 321,
+   "impresiones": 374,
    "ctr": 0,
-   "posicion": 8.0
+   "posicion": 7.8
   },
   {
    "page": "https://orientacionmilitar.com/blog/lista-seleccionados-tropa-y-marineria/",
@@ -1826,61 +2190,61 @@
   {
    "page": "https://orientacionmilitar.com/blog/prueba-de-aptitudes-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 18,
+   "impresiones": 28,
    "ctr": 0,
-   "posicion": 51.4
+   "posicion": 41.0
   },
   {
    "page": "https://orientacionmilitar.com/blog/que-es-el-cefot/",
    "clics": 0,
-   "impresiones": 13,
+   "impresiones": 25,
    "ctr": 0,
-   "posicion": 5.2
+   "posicion": 6.9
   },
   {
-   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "page": "https://orientacionmilitar.com/blog/reconocimiento-medico-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 141,
+   "impresiones": 49,
    "ctr": 0,
-   "posicion": 55.2
+   "posicion": 8.5
   },
   {
    "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
    "clics": 0,
-   "impresiones": 25,
+   "impresiones": 82,
    "ctr": 0,
-   "posicion": 12.7
+   "posicion": 9.9
   },
   {
    "page": "https://orientacionmilitar.com/blog/ume-unidad-militar-de-emergencias/",
    "clics": 0,
-   "impresiones": 14,
+   "impresiones": 19,
    "ctr": 0,
-   "posicion": 29.5
+   "posicion": 24.5
   },
   {
    "page": "https://orientacionmilitar.com/calculadora-edad-ejercito/",
    "clics": 0,
-   "impresiones": 27,
+   "impresiones": 38,
    "ctr": 0,
-   "posicion": 10.7
+   "posicion": 9.4
   },
   {
    "page": "https://orientacionmilitar.com/unidades/",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 10,
    "ctr": 0,
-   "posicion": 5.9
+   "posicion": 4.8
   }
  ],
  "consulta_pagina": [
   {
    "query": "oposiciones ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
-   "clics": 2,
-   "impresiones": 30,
-   "ctr": 6.7,
-   "posicion": 59.9
+   "clics": 3,
+   "impresiones": 39,
+   "ctr": 7.7,
+   "posicion": 58.9
   },
   {
    "query": "orientación militar",
@@ -1915,6 +2279,22 @@
    "posicion": 6.4
   },
   {
+   "query": "2027",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
+   "query": "a españa",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 4
+  },
+  {
    "query": "a que edad puedo entrar al servicio militar",
    "page": "https://orientacionmilitar.com/calculadora-edad-ejercito/",
    "clics": 0,
@@ -1937,6 +2317,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 60
+  },
+  {
+   "query": "acceso a tropa y marineria",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 83
   },
   {
    "query": "acceso ejercito",
@@ -1966,9 +2354,9 @@
    "query": "alistamiento militar",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 49.5
+   "posicion": 48
   },
   {
    "query": "alistarse a la legion",
@@ -1990,17 +2378,17 @@
    "query": "alistarse al ejercito español",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 57
+   "posicion": 54.2
   },
   {
    "query": "alistarse ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 96.2
+   "posicion": 87
   },
   {
    "query": "alistarse ejercito español",
@@ -2014,17 +2402,17 @@
    "query": "alistarse en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 52
+   "posicion": 51.3
   },
   {
    "query": "alistarse en el ejercito español",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 44.8
+   "posicion": 45.2
   },
   {
    "query": "alistarse en la legion",
@@ -2054,9 +2442,9 @@
    "query": "ascender a oficial ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 67
+   "posicion": 65
   },
   {
    "query": "ascender a oficial ejército",
@@ -2070,17 +2458,25 @@
    "query": "ascender a suboficial por promoción interna",
    "page": "https://orientacionmilitar.com/blog/promocion-interna-suboficial-tropa/",
    "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 48.5
+  },
+  {
+   "query": "barcelona",
+   "page": "https://orientacionmilitar.com/blog/como-elegir-plazas-tropa-y-marineria/",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 48
+   "posicion": 2
   },
   {
    "query": "base principe",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 26.4
+   "posicion": 19.1
   },
   {
    "query": "base principe bripac",
@@ -2097,6 +2493,14 @@
    "impresiones": 2,
    "ctr": 0,
    "posicion": 22
+  },
+  {
+   "query": "batallon de instruccion paracaidista",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 27.5
   },
   {
    "query": "blog tropa y marinería",
@@ -2123,12 +2527,20 @@
    "posicion": 11
   },
   {
-   "query": "brigada de paracaidistas",
+   "query": "brigada almogávares vi de paracaidistas",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 6
+   "posicion": 10
+  },
+  {
+   "query": "brigada de paracaidistas",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 39
   },
   {
    "query": "brigada paracaidista",
@@ -2155,6 +2567,14 @@
    "posicion": 43.7
   },
   {
+   "query": "brigada paracaidistas",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 41
+  },
+  {
    "query": "brioac",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
@@ -2166,9 +2586,9 @@
    "query": "bripac",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 12,
    "ctr": 0,
-   "posicion": 18.8
+   "posicion": 12.3
   },
   {
    "query": "bripac madrid",
@@ -2190,17 +2610,17 @@
    "query": "bripac que es",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 8.7
+   "posicion": 6.5
   },
   {
    "query": "caballeros legionarios paracaidistas",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 37
+   "posicion": 38.2
   },
   {
    "query": "calendario militar 2027",
@@ -2217,6 +2637,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 41
+  },
+  {
+   "query": "carreras ejercito",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 22
   },
   {
    "query": "cefot",
@@ -2318,17 +2746,17 @@
    "query": "como alistarse al ejercito español",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 46.5
+   "posicion": 45.8
   },
   {
    "query": "como alistarse al ejercito español",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 32.5
+   "posicion": 32.7
   },
   {
    "query": "como alistarse en el ejercito",
@@ -2350,9 +2778,17 @@
    "query": "como alistarse en la legion",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 54
+  },
+  {
+   "query": "como alistarse en la legion",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 63
+   "posicion": 48
   },
   {
    "query": "como alistarse en la legion",
@@ -2369,6 +2805,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 38
+  },
+  {
+   "query": "como entrar al ejército español",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 23
   },
   {
    "query": "como entrar en la legion española",
@@ -2414,9 +2858,9 @@
    "query": "como ingresar en la ume",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 62
+   "posicion": 63
   },
   {
    "query": "como se entra?",
@@ -2446,7 +2890,7 @@
    "query": "convocatoria militar 2027",
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
    "posicion": 11
   },
@@ -2459,12 +2903,20 @@
    "posicion": 7
   },
   {
-   "query": "convocatoria tropa y marinería 2027",
-   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "query": "convocatoria reservistas voluntarios 2026",
+   "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 10
+   "posicion": 51
+  },
+  {
+   "query": "convocatoria tropa y marinería 2027",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 5.5
   },
   {
    "query": "convocatorias ejercito",
@@ -2499,6 +2951,14 @@
    "posicion": 40
   },
   {
+   "query": "convocatorias próximas",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 12
+  },
+  {
    "query": "convocatorias tropa y marineria",
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
@@ -2507,12 +2967,20 @@
    "posicion": 95
   },
   {
+   "query": "cuando salen las oposiciones",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "cuando son las convocatorias para el ejercito 2027",
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 1
+   "posicion": 3.7
   },
   {
    "query": "cuando son las postulaciones para el servicio militar 2027",
@@ -2523,6 +2991,14 @@
    "posicion": 5
   },
   {
+   "query": "cuantos extranjeros hay en el ejercito español",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
+  },
+  {
    "query": "cuartel de la legion",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
@@ -2531,12 +3007,20 @@
    "posicion": 48.3
   },
   {
+   "query": "cuándo es la siguiente convocatoria?",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "cómo entrar a suboficial del ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 57
+   "posicion": 54.2
   },
   {
    "query": "cómo es el proceso de selección",
@@ -2566,25 +3050,25 @@
    "query": "donde esta la legion",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 13,
+   "impresiones": 16,
    "ctr": 0,
-   "posicion": 7.2
+   "posicion": 7.1
   },
   {
    "query": "donde esta la legion en españa",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 30
+   "posicion": 26.6
   },
   {
    "query": "donde estan los legionarios",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 11
+   "posicion": 9.5
   },
   {
    "query": "donde está la legion",
@@ -2659,6 +3143,14 @@
    "posicion": 49.5
   },
   {
+   "query": "ejercito plazas",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "ejército de españa para extranjeros",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
@@ -2689,6 +3181,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 1
+  },
+  {
+   "query": "en el 2027",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
   },
   {
    "query": "en españa",
@@ -2742,17 +3242,17 @@
    "query": "entrar como oficial en el ejército español",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 63.7
+   "posicion": 62.2
   },
   {
    "query": "escuadrón de zapadores paracaidistas",
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 13,
    "ctr": 0,
-   "posicion": 12
+   "posicion": 11.1
   },
   {
    "query": "escuadrón de zapadores paracaidistas (ezapac)",
@@ -2779,12 +3279,28 @@
    "posicion": 45.3
   },
   {
+   "query": "estudios militares en españa",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 47
+  },
+  {
+   "query": "extranjeros en el ejercito español",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "ezapac",
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
-   "impresiones": 50,
+   "impresiones": 94,
    "ctr": 0,
-   "posicion": 10.3
+   "posicion": 9.4
   },
   {
    "query": "ezapac alcantarilla",
@@ -2798,17 +3314,25 @@
    "query": "ezapac ejercito del aire",
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 10.3
+   "posicion": 10.4
   },
   {
    "query": "ezapac españa",
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 8
+   "posicion": 8.2
+  },
+  {
+   "query": "ezapac que es",
+   "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
   },
   {
    "query": "ezpac",
@@ -2835,20 +3359,28 @@
    "posicion": 30.5
   },
   {
+   "query": "guardia civil militares",
+   "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 54
+  },
+  {
    "query": "ideario paracaidista",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 42.6
+   "posicion": 41
   },
   {
    "query": "incorporacion al ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 59.8
+   "posicion": 58.4
   },
   {
    "query": "incorporacion ejercito",
@@ -2870,9 +3402,9 @@
    "query": "ingresar en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 48.3
+   "posicion": 47.9
   },
   {
    "query": "ingresar en el ejercito español",
@@ -2886,17 +3418,25 @@
    "query": "ingresar en la ume",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 69
+  },
+  {
+   "query": "ingresar en la ume",
+   "page": "https://orientacionmilitar.com/blog/ume-unidad-militar-de-emergencias/",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 68
+   "posicion": 35
   },
   {
    "query": "ingreso al ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 56
+   "posicion": 54.8
   },
   {
    "query": "ingreso al ejército",
@@ -2934,9 +3474,9 @@
    "query": "ingreso en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 58
+   "posicion": 59
   },
   {
    "query": "ingreso en el ejercito español",
@@ -2950,17 +3490,17 @@
    "query": "ingreso en las fuerzas armadas",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 59
+   "posicion": 59.7
   },
   {
    "query": "ingreso fuerzas armadas",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 70.7
+   "posicion": 66.8
   },
   {
    "query": "inscripcion militar",
@@ -2974,17 +3514,17 @@
    "query": "inscripcion militar",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 42.7
+   "posicion": 37.4
   },
   {
    "query": "inscripciones para el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 69.8
+   "posicion": 61.8
   },
   {
    "query": "intendencia militar",
@@ -2998,9 +3538,9 @@
    "query": "la brigada paracaidista",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 50.2
+   "posicion": 50.6
   },
   {
    "query": "la hoz y el martillo",
@@ -3014,9 +3554,9 @@
    "query": "la legion",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 9,
+   "impresiones": 10,
    "ctr": 0,
-   "posicion": 38.1
+   "posicion": 35.3
   },
   {
    "query": "la legion donde esta",
@@ -3038,17 +3578,17 @@
    "query": "la legión",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 7,
    "ctr": 0,
-   "posicion": 29.3
+   "posicion": 25.7
   },
   {
    "query": "legion",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 7,
+   "impresiones": 8,
    "ctr": 0,
-   "posicion": 44.7
+   "posicion": 41.4
   },
   {
    "query": "legion almeria",
@@ -3062,7 +3602,7 @@
    "query": "legion que es",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
    "posicion": 11
   },
@@ -3078,9 +3618,9 @@
    "query": "legión",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 8,
+   "impresiones": 9,
    "ctr": 0,
-   "posicion": 28.6
+   "posicion": 30.8
   },
   {
    "query": "ley de tropa y marineria",
@@ -3099,12 +3639,28 @@
    "posicion": 78
   },
   {
+   "query": "mido 1,50",
+   "page": "https://orientacionmilitar.com/calculadora-imc-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "militares paracaidistas",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
    "posicion": 49
+  },
+  {
+   "query": "ministerio de defensa reservista voluntario",
+   "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
   },
   {
    "query": "oposicion a militar",
@@ -3134,9 +3690,9 @@
    "query": "oposiciones al ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 14,
+   "impresiones": 18,
    "ctr": 0,
-   "posicion": 70.6
+   "posicion": 68.5
   },
   {
    "query": "oposiciones fuerzas armadas",
@@ -3155,12 +3711,20 @@
    "posicion": 38.5
   },
   {
+   "query": "oposiciones oficiales ejercito",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 64
+  },
+  {
    "query": "oposiciones para el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 4,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 65.8
+   "posicion": 66.4
   },
   {
    "query": "oposiciones tropa y marineria",
@@ -3174,33 +3738,49 @@
    "query": "packs cefot",
    "page": "https://orientacionmilitar.com/blog/que-llevar-al-cefot/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 40
+   "posicion": 39
+  },
+  {
+   "query": "para extranjeros",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 6
   },
   {
    "query": "paracaidista",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
+   "impresiones": 4,
+   "ctr": 0,
+   "posicion": 52.2
+  },
+  {
+   "query": "paracaidista españa",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 45
+   "posicion": 30
   },
   {
    "query": "paracaidista militar",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 47
+   "posicion": 52
   },
   {
    "query": "paracaidistas",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 51
+   "posicion": 53.2
   },
   {
    "query": "paracaidistas del ejercito",
@@ -3219,6 +3799,30 @@
    "posicion": 60
   },
   {
+   "query": "paracaidistas ejercito",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 40
+  },
+  {
+   "query": "paracaidistas ejercito español",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 42.7
+  },
+  {
+   "query": "paracaidistas españoles",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 29.5
+  },
+  {
    "query": "paracaidistas militares",
    "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
    "clics": 0,
@@ -3233,6 +3837,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 23
+  },
+  {
+   "query": "permanencia fuerzas armadas",
+   "page": "https://orientacionmilitar.com/blog/reconocimiento-medico-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
   },
   {
    "query": "plaza brigada paracaidista",
@@ -3254,25 +3866,25 @@
    "query": "plazas del ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 49
+   "posicion": 52.3
   },
   {
    "query": "plazas ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 56
+   "posicion": 54.7
   },
   {
    "query": "plazas en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 85
+   "posicion": 80.7
   },
   {
    "query": "plazas guardia civil",
@@ -3342,9 +3954,9 @@
    "query": "proceso selección tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 65
+   "posicion": 68
   },
   {
    "query": "proceso selección tropa y marinería",
@@ -3379,12 +3991,28 @@
    "posicion": 35
   },
   {
-   "query": "proxima convocatoria tropa y marineria 2027",
+   "query": "proxima convocatoria ejercito 2027",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 4,
+   "ctr": 0,
+   "posicion": 5.8
+  },
+  {
+   "query": "proxima convocatoria tropa y marineria",
    "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 11
+   "posicion": 3
+  },
+  {
+   "query": "proxima convocatoria tropa y marineria 2027",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 5,
+   "ctr": 0,
+   "posicion": 7.4
   },
   {
    "query": "prueba de aptitud tropa y marinería",
@@ -3393,6 +4021,22 @@
    "impresiones": 3,
    "ctr": 0,
    "posicion": 52
+  },
+  {
+   "query": "pruebas ejercito",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 69.3
+  },
+  {
+   "query": "puedes entrar al servicio militar con tatuajes",
+   "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 8
   },
   {
    "query": "puedo entrar a ala militar con tatuajes",
@@ -3409,6 +4053,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 8
+  },
+  {
+   "query": "puedo entrar al ejército con tatuajes",
+   "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 7
   },
   {
    "query": "puedo ir al servicio militar si tengo tatuajes",
@@ -3446,9 +4098,9 @@
    "query": "que es la legion",
    "page": "https://orientacionmilitar.com/blog/la-legion-ejercito-como-entrar/",
    "clics": 0,
-   "impresiones": 6,
+   "impresiones": 11,
    "ctr": 0,
-   "posicion": 6.7
+   "posicion": 8.1
   },
   {
    "query": "que es la legión",
@@ -3531,6 +4183,14 @@
    "posicion": 55.2
   },
   {
+   "query": "reconocimiento médico tropa y marinería",
+   "page": "https://orientacionmilitar.com/blog/reconocimiento-medico-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 42.7
+  },
+  {
    "query": "requisitos ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
@@ -3548,11 +4208,27 @@
   },
   {
    "query": "requisitos militar",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 66
+  },
+  {
+   "query": "requisitos militar",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 2,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 94.5
+   "posicion": 81.7
+  },
+  {
+   "query": "requisitos para el ejercito español",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 82
   },
   {
    "query": "requisitos para el ejercito español",
@@ -3582,17 +4258,17 @@
    "query": "requisitos para entrar al ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 4,
    "ctr": 0,
-   "posicion": 86
+   "posicion": 84.8
   },
   {
    "query": "requisitos para entrar al ejercito",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 86.7
+   "posicion": 76
   },
   {
    "query": "requisitos para entrar al ejercito de españa",
@@ -3614,49 +4290,49 @@
    "query": "requisitos para entrar al ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 89
+   "posicion": 85
   },
   {
    "query": "requisitos para entrar al ejército",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 77
+   "posicion": 66.5
   },
   {
    "query": "requisitos para entrar en el ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 10,
+   "impresiones": 13,
    "ctr": 0,
-   "posicion": 88.7
+   "posicion": 87.8
   },
   {
    "query": "requisitos para entrar en el ejercito",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 14,
+   "impresiones": 18,
    "ctr": 0,
-   "posicion": 77.4
+   "posicion": 73.6
   },
   {
    "query": "requisitos para entrar en el ejército",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
-   "clics": 0,
-   "impresiones": 1,
-   "ctr": 0,
-   "posicion": 87
-  },
-  {
-   "query": "requisitos para entrar en el ejército",
-   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
    "impresiones": 2,
    "ctr": 0,
-   "posicion": 46.5
+   "posicion": 85
+  },
+  {
+   "query": "requisitos para entrar en el ejército",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 48.7
   },
   {
    "query": "requisitos para entrar en la academia militar española",
@@ -3678,25 +4354,33 @@
    "query": "requisitos para ingresar al ejercito",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 98
+   "posicion": 93.5
   },
   {
    "query": "requisitos para ingresar al ejercito",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 80.6
+   "posicion": 77
   },
   {
    "query": "requisitos para militar",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 5,
    "ctr": 0,
-   "posicion": 93
+   "posicion": 90.2
+  },
+  {
+   "query": "requisitos para militar",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 4,
+   "ctr": 0,
+   "posicion": 51.8
   },
   {
    "query": "requisitos para ser militar",
@@ -3726,65 +4410,97 @@
    "query": "requisitos para ser soldado profesional",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 5,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 74.2
+   "posicion": 72.5
   },
   {
    "query": "requisitos para soldado",
-   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
-   "clics": 0,
-   "impresiones": 3,
-   "ctr": 0,
-   "posicion": 86
-  },
-  {
-   "query": "requisitos para soldado",
-   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
-   "clics": 0,
-   "impresiones": 3,
-   "ctr": 0,
-   "posicion": 71.3
-  },
-  {
-   "query": "requisitos para soldado profesional",
-   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
-   "clics": 0,
-   "impresiones": 2,
-   "ctr": 0,
-   "posicion": 92.5
-  },
-  {
-   "query": "requisitos para soldado profesional",
-   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
-   "clics": 0,
-   "impresiones": 4,
-   "ctr": 0,
-   "posicion": 79.8
-  },
-  {
-   "query": "requisitos tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
    "impresiones": 7,
    "ctr": 0,
-   "posicion": 85.6
+   "posicion": 79.4
+  },
+  {
+   "query": "requisitos para soldado",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 7,
+   "ctr": 0,
+   "posicion": 59.7
+  },
+  {
+   "query": "requisitos para soldado profesional",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 94.3
+  },
+  {
+   "query": "requisitos para soldado profesional",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 5,
+   "ctr": 0,
+   "posicion": 75.6
+  },
+  {
+   "query": "requisitos servicio militar",
+   "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
+  },
+  {
+   "query": "requisitos tropa y marinería",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 8,
+   "ctr": 0,
+   "posicion": 86.6
   },
   {
    "query": "requisitos tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/requisitos-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 36,
+   "impresiones": 37,
    "ctr": 0,
-   "posicion": 82.9
+   "posicion": 82.4
+  },
+  {
+   "query": "requisitos ume",
+   "page": "https://orientacionmilitar.com/blog/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 39
+  },
+  {
+   "query": "reservista",
+   "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 44
   },
   {
    "query": "reservista voluntario 2026",
    "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
    "clics": 0,
+   "impresiones": 3,
+   "ctr": 0,
+   "posicion": 4.7
+  },
+  {
+   "query": "reservista voluntario 2026 españa",
+   "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
+   "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 4
+   "posicion": 8
   },
   {
    "query": "reservista voluntario cita",
@@ -3798,9 +4514,9 @@
    "query": "reservistas voluntarios",
    "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 2,
    "ctr": 0,
-   "posicion": 3
+   "posicion": 2.5
   },
   {
    "query": "reservistas voluntarios fuerzas armadas",
@@ -3814,9 +4530,9 @@
    "query": "se puede entrar al ejercito con tatuajes",
    "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
    "clics": 0,
-   "impresiones": 1,
+   "impresiones": 3,
    "ctr": 0,
-   "posicion": 7
+   "posicion": 7.3
   },
   {
    "query": "se puede entrar al ejército con tatuajes",
@@ -3867,6 +4583,38 @@
    "posicion": 12
   },
   {
+   "query": "servicio militar en españa para extranjeros",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 9
+  },
+  {
+   "query": "servicio militar voluntario",
+   "page": "https://orientacionmilitar.com/blog/reservista-voluntario-fuerzas-armadas/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 38
+  },
+  {
+   "query": "si",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 1
+  },
+  {
+   "query": "si dime todo",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 3
+  },
+  {
    "query": "si por favor",
    "page": "https://orientacionmilitar.com/blog/plazas-reservadas-militares-guardia-civil-policia/",
    "clics": 0,
@@ -3881,6 +4629,14 @@
    "impresiones": 1,
    "ctr": 0,
    "posicion": 11
+  },
+  {
+   "query": "soldado profesional",
+   "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 89
   },
   {
    "query": "soldados paracaidistas",
@@ -3931,6 +4687,14 @@
    "posicion": 9
   },
   {
+   "query": "tatuaggi?",
+   "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 2
+  },
+  {
    "query": "tatuaje ejercito",
    "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
    "clics": 0,
@@ -3958,9 +4722,25 @@
    "query": "test de personalidad tropa y marinería",
    "page": "https://orientacionmilitar.com/blog/prueba-de-aptitudes-tropa-y-marineria/",
    "clics": 0,
-   "impresiones": 11,
+   "impresiones": 14,
    "ctr": 0,
-   "posicion": 67.9
+   "posicion": 66.5
+  },
+  {
+   "query": "test promoción interna militar",
+   "page": "https://orientacionmilitar.com/blog/promocion-interna-suboficial-tropa/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 34
+  },
+  {
+   "query": "tropa y marineria 2026",
+   "page": "https://orientacionmilitar.com/blog/calendario-tropa-y-marineria/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 57
   },
   {
    "query": "tropas paracaidistas",
@@ -3987,6 +4767,22 @@
    "posicion": 76
   },
   {
+   "query": "un militar puede tener tatuajes",
+   "page": "https://orientacionmilitar.com/blog/tatuajes-ejercito/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 11
+  },
+  {
+   "query": "what of spain",
+   "page": "https://orientacionmilitar.com/blog/extranjeros-ejercito-espanol/",
+   "clics": 0,
+   "impresiones": 1,
+   "ctr": 0,
+   "posicion": 14
+  },
+  {
    "query": "y de aire",
    "page": "https://orientacionmilitar.com/blog/como-entrar-en-el-ejercito/",
    "clics": 0,
@@ -4003,20 +4799,28 @@
    "posicion": 1
   },
   {
-   "query": "zapadores paracaidistas",
-   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "query": "zapador paracaidista",
+   "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
    "impresiones": 1,
    "ctr": 0,
-   "posicion": 77
+   "posicion": 10
+  },
+  {
+   "query": "zapadores paracaidistas",
+   "page": "https://orientacionmilitar.com/blog/bripac-brigada-paracaidista/",
+   "clics": 0,
+   "impresiones": 2,
+   "ctr": 0,
+   "posicion": 77.5
   },
   {
    "query": "zapadores paracaidistas",
    "page": "https://orientacionmilitar.com/blog/ezapac-zapadores-paracaidistas/",
    "clics": 0,
-   "impresiones": 3,
+   "impresiones": 6,
    "ctr": 0,
-   "posicion": 35.7
+   "posicion": 27.5
   },
   {
    "query": "для иностранцев",
@@ -4314,6 +5118,27 @@
    "impresiones": 268,
    "ctr": 0.7,
    "posicion": 12.6
+  },
+  {
+   "date": "2026-11-22",
+   "clics": 3,
+   "impresiones": 360,
+   "ctr": 0.8,
+   "posicion": 14.2
+  },
+  {
+   "date": "2026-11-23",
+   "clics": 6,
+   "impresiones": 369,
+   "ctr": 1.6,
+   "posicion": 9.8
+  },
+  {
+   "date": "2026-11-24",
+   "clics": 3,
+   "impresiones": 372,
+   "ctr": 0.8,
+   "posicion": 12.3
   }
  ]
 }
